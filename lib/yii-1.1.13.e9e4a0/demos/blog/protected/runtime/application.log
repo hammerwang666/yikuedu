@@ -1,0 +1,58 @@
+2013/04/23 15:44:58 [error] [exception.CDbException] could not find driver
+2013/04/23 15:44:58 [error] [exception.CDbException] exception 'CDbException' with message 'CDbConnection failed to open the DB connection.' in D:\apachePHP\KWebService\yii-1.1.13.e9e4a0\framework\db\CDbConnection.php:387
+Stack trace:
+#0 D:\apachePHP\KWebService\yii-1.1.13.e9e4a0\framework\db\CDbConnection.php(330): CDbConnection->open()
+#1 D:\apachePHP\KWebService\yii-1.1.13.e9e4a0\framework\db\CDbConnection.php(308): CDbConnection->setActive(true)
+#2 D:\apachePHP\KWebService\yii-1.1.13.e9e4a0\framework\base\CModule.php(387): CDbConnection->init()
+#3 D:\apachePHP\KWebService\yii-1.1.13.e9e4a0\framework\base\CApplication.php(438): CModule->getComponent('db')
+#4 D:\apachePHP\KWebService\yii-1.1.13.e9e4a0\framework\db\ar\CActiveRecord.php(623): CApplication->getDb()
+#5 D:\apachePHP\KWebService\yii-1.1.13.e9e4a0\framework\db\ar\CActiveRecord.php(2309): CActiveRecord->getDbConnection()
+#6 D:\apachePHP\KWebService\yii-1.1.13.e9e4a0\framework\db\ar\CActiveRecord.php(387): CActiveRecordMetaData->__construct(Object(Post))
+#7 D:\apachePHP\KWebService\yii-1.1.13.e9e4a0\framework\web\CActiveDataProvider.php(74): CActiveRecord::model('Post')
+#8 D:\apachePHP\KWebService\yii-1.1.13.e9e4a0\demos\blog\protected\controllers\PostController.php(132): CActiveDataProvider->__construct('Post', Array)
+#9 D:\apachePHP\KWebService\yii-1.1.13.e9e4a0\framework\web\actions\CInlineAction.php(49): PostController->actionIndex()
+#10 D:\apachePHP\KWebService\yii-1.1.13.e9e4a0\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#11 D:\apachePHP\KWebService\yii-1.1.13.e9e4a0\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#12 D:\apachePHP\KWebService\yii-1.1.13.e9e4a0\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#13 D:\apachePHP\KWebService\yii-1.1.13.e9e4a0\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#14 D:\apachePHP\KWebService\yii-1.1.13.e9e4a0\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#15 D:\apachePHP\KWebService\yii-1.1.13.e9e4a0\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#16 D:\apachePHP\KWebService\yii-1.1.13.e9e4a0\framework\web\CController.php(291): CFilterChain->run()
+#17 D:\apachePHP\KWebService\yii-1.1.13.e9e4a0\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#18 D:\apachePHP\KWebService\yii-1.1.13.e9e4a0\framework\web\CWebApplication.php(282): CController->run('')
+#19 D:\apachePHP\KWebService\yii-1.1.13.e9e4a0\framework\web\CWebApplication.php(141): CWebApplication->runController('')
+#20 D:\apachePHP\KWebService\yii-1.1.13.e9e4a0\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#21 D:\apachePHP\KWebService\yii-1.1.13.e9e4a0\demos\blog\index.php(11): CApplication->run()
+#22 {main}
+REQUEST_URI=/yii-1.1.13.e9e4a0/demos/blog/index.php
+HTTP_REFERER=http://localhost:1013/yii-1.1.13.e9e4a0/demos/blog/
+---
+2013/04/23 15:45:03 [error] [exception.CDbException] could not find driver
+2013/04/23 15:45:03 [error] [exception.CDbException] exception 'CDbException' with message 'CDbConnection failed to open the DB connection.' in D:\apachePHP\KWebService\yii-1.1.13.e9e4a0\framework\db\CDbConnection.php:387
+Stack trace:
+#0 D:\apachePHP\KWebService\yii-1.1.13.e9e4a0\framework\db\CDbConnection.php(330): CDbConnection->open()
+#1 D:\apachePHP\KWebService\yii-1.1.13.e9e4a0\framework\db\CDbConnection.php(308): CDbConnection->setActive(true)
+#2 D:\apachePHP\KWebService\yii-1.1.13.e9e4a0\framework\base\CModule.php(387): CDbConnection->init()
+#3 D:\apachePHP\KWebService\yii-1.1.13.e9e4a0\framework\base\CApplication.php(438): CModule->getComponent('db')
+#4 D:\apachePHP\KWebService\yii-1.1.13.e9e4a0\framework\db\ar\CActiveRecord.php(623): CApplication->getDb()
+#5 D:\apachePHP\KWebService\yii-1.1.13.e9e4a0\framework\db\ar\CActiveRecord.php(2309): CActiveRecord->getDbConnection()
+#6 D:\apachePHP\KWebService\yii-1.1.13.e9e4a0\framework\db\ar\CActiveRecord.php(387): CActiveRecordMetaData->__construct(Object(Post))
+#7 D:\apachePHP\KWebService\yii-1.1.13.e9e4a0\framework\web\CActiveDataProvider.php(74): CActiveRecord::model('Post')
+#8 D:\apachePHP\KWebService\yii-1.1.13.e9e4a0\demos\blog\protected\controllers\PostController.php(132): CActiveDataProvider->__construct('Post', Array)
+#9 D:\apachePHP\KWebService\yii-1.1.13.e9e4a0\framework\web\actions\CInlineAction.php(49): PostController->actionIndex()
+#10 D:\apachePHP\KWebService\yii-1.1.13.e9e4a0\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#11 D:\apachePHP\KWebService\yii-1.1.13.e9e4a0\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#12 D:\apachePHP\KWebService\yii-1.1.13.e9e4a0\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#13 D:\apachePHP\KWebService\yii-1.1.13.e9e4a0\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#14 D:\apachePHP\KWebService\yii-1.1.13.e9e4a0\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#15 D:\apachePHP\KWebService\yii-1.1.13.e9e4a0\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#16 D:\apachePHP\KWebService\yii-1.1.13.e9e4a0\framework\web\CController.php(291): CFilterChain->run()
+#17 D:\apachePHP\KWebService\yii-1.1.13.e9e4a0\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#18 D:\apachePHP\KWebService\yii-1.1.13.e9e4a0\framework\web\CWebApplication.php(282): CController->run('index')
+#19 D:\apachePHP\KWebService\yii-1.1.13.e9e4a0\framework\web\CWebApplication.php(141): CWebApplication->runController('post/index')
+#20 D:\apachePHP\KWebService\yii-1.1.13.e9e4a0\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#21 D:\apachePHP\KWebService\yii-1.1.13.e9e4a0\demos\blog\index.php(11): CApplication->run()
+#22 {main}
+REQUEST_URI=/yii-1.1.13.e9e4a0/demos/blog/index.php/post/index
+HTTP_REFERER=http://localhost:1013/yii-1.1.13.e9e4a0/demos/blog/index.php
+---

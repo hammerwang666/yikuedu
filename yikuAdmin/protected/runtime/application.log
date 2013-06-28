@@ -1,0 +1,309 @@
+2013/04/23 17:25:01 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "GII".' in D:\apachePHP\KWebService\yikuedu\lib\yii-1.1.13.e9e4a0\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\apachePHP\KWebService\yikuedu\lib\yii-1.1.13.e9e4a0\framework\web\CWebApplication.php(141): CWebApplication->runController('GII')
+#1 D:\apachePHP\KWebService\yikuedu\lib\yii-1.1.13.e9e4a0\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\apachePHP\KWebService\yikuedu\yikuAdmin\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/yikuedu/yikuadmin/index.php?r=GII
+---
+2013/04/23 17:25:08 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "GII".' in D:\apachePHP\KWebService\yikuedu\lib\yii-1.1.13.e9e4a0\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\apachePHP\KWebService\yikuedu\lib\yii-1.1.13.e9e4a0\framework\web\CWebApplication.php(141): CWebApplication->runController('GII')
+#1 D:\apachePHP\KWebService\yikuedu\lib\yii-1.1.13.e9e4a0\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\apachePHP\KWebService\yikuedu\yikuAdmin\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/yikuedu/yikuadmin/index.php?r=GII
+---
+2013/04/23 17:26:26 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'yikuedu.user' doesn't exist. The SQL statement executed was: SHOW FULL COLUMNS FROM `USER`.
+in D:\apachePHP\KWebService\yikuedu\yikuAdmin\index.php (13)
+2013/04/23 17:33:49 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "user/admin".' in D:\apachePHP\KWebService\yikuedu\lib\yii-1.1.13.e9e4a0\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\apachePHP\KWebService\yikuedu\lib\yii-1.1.13.e9e4a0\framework\web\CWebApplication.php(141): CWebApplication->runController('user/admin')
+#1 D:\apachePHP\KWebService\yikuedu\lib\yii-1.1.13.e9e4a0\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\apachePHP\KWebService\yikuedu\yikuAdmin\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/yikuedu/yikuadmin/index.php?r=user/admin
+---
+2013/04/23 19:52:00 [error] [exception.CException] exception 'CException' with message 'The column must be specified in the format of "Name:Type:Label", where "Type" and "Label" are optional.' in D:\apachePHP\KWebService\yikuedu\lib\yii-1.1.13.e9e4a0\framework\zii\widgets\grid\CGridView.php:387
+Stack trace:
+#0 D:\apachePHP\KWebService\yikuedu\lib\yii-1.1.13.e9e4a0\framework\zii\widgets\grid\CGridView.php(358): CGridView->createDataColumn('??????')
+#1 D:\apachePHP\KWebService\yikuedu\lib\yii-1.1.13.e9e4a0\framework\zii\widgets\grid\CGridView.php(334): CGridView->initColumns()
+#2 D:\apachePHP\KWebService\yikuedu\lib\yii-1.1.13.e9e4a0\framework\web\CBaseController.php(147): CGridView->init()
+#3 D:\apachePHP\KWebService\yikuedu\lib\yii-1.1.13.e9e4a0\framework\web\CBaseController.php(172): CBaseController->createWidget('zii.widgets.gri...', Array)
+#4 D:\apachePHP\KWebService\yikuedu\yikuAdmin\protected\views\tUSER\admin.php(54): CBaseController->widget('zii.widgets.gri...', Array)
+#5 D:\apachePHP\KWebService\yikuedu\lib\yii-1.1.13.e9e4a0\framework\web\CBaseController.php(126): require('D:\apachePHP\KW...')
+#6 D:\apachePHP\KWebService\yikuedu\lib\yii-1.1.13.e9e4a0\framework\web\CBaseController.php(95): CBaseController->renderInternal('D:\apachePHP\KW...', Array, true)
+#7 D:\apachePHP\KWebService\yikuedu\lib\yii-1.1.13.e9e4a0\framework\web\CController.php(869): CBaseController->renderFile('D:\apachePHP\KW...', Array, true)
+#8 D:\apachePHP\KWebService\yikuedu\lib\yii-1.1.13.e9e4a0\framework\web\CController.php(782): CController->renderPartial('admin', Array, true)
+#9 D:\apachePHP\KWebService\yikuedu\yikuAdmin\protected\controllers\TUSERController.php(143): CController->render('admin', Array)
+#10 D:\apachePHP\KWebService\yikuedu\lib\yii-1.1.13.e9e4a0\framework\web\actions\CInlineAction.php(49): TUSERController->actionAdmin()
+#11 D:\apachePHP\KWebService\yikuedu\lib\yii-1.1.13.e9e4a0\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#12 D:\apachePHP\KWebService\yikuedu\lib\yii-1.1.13.e9e4a0\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#13 D:\apachePHP\KWebService\yikuedu\lib\yii-1.1.13.e9e4a0\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#14 D:\apachePHP\KWebService\yikuedu\lib\yii-1.1.13.e9e4a0\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#15 D:\apachePHP\KWebService\yikuedu\lib\yii-1.1.13.e9e4a0\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#16 D:\apachePHP\KWebService\yikuedu\lib\yii-1.1.13.e9e4a0\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#17 D:\apachePHP\KWebService\yikuedu\lib\yii-1.1.13.e9e4a0\framework\web\CController.php(291): CFilterChain->run()
+#18 D:\apachePHP\KWebService\yikuedu\lib\yii-1.1.13.e9e4a0\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#19 D:\apachePHP\KWebService\yikuedu\lib\yii-1.1.13.e9e4a0\framework\web\CWebApplication.php(282): CController->run('admin')
+#20 D:\apachePHP\KWebService\yikuedu\lib\yii-1.1.13.e9e4a0\framework\web\CWebApplication.php(141): CWebApplication->runController('tuser/admin')
+#21 D:\apachePHP\KWebService\yikuedu\lib\yii-1.1.13.e9e4a0\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#22 D:\apachePHP\KWebService\yikuedu\yikuAdmin\index.php(13): CApplication->run()
+#23 {main}
+REQUEST_URI=/yikuedu/yikuadmin/index.php?r=tuser/admin
+---
+2013/04/23 21:54:50 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "admin"。' in D:\apachePHP\KWebService\yikuedu\lib\yii-1.1.13.e9e4a0\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\apachePHP\KWebService\yikuedu\lib\yii-1.1.13.e9e4a0\framework\web\CWebApplication.php(141): CWebApplication->runController('admin')
+#1 D:\apachePHP\KWebService\yikuedu\lib\yii-1.1.13.e9e4a0\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\apachePHP\KWebService\yikuedu\yikuAdmin\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/yikuedu/yikuadmin/index.php?r=admin
+HTTP_REFERER=http://localhost:1013/yikuedu/yikuadmin/index.php?r=site/index
+---
+2013/04/23 21:55:10 [error] [exception.CHttpException.404] exception 'CHttpException' with message '系统无法找到请求的 "admin" 动作.' in D:\apachePHP\KWebService\yikuedu\lib\yii-1.1.13.e9e4a0\framework\web\CController.php:483
+Stack trace:
+#0 D:\apachePHP\KWebService\yikuedu\lib\yii-1.1.13.e9e4a0\framework\web\CController.php(270): CController->missingAction('admin')
+#1 D:\apachePHP\KWebService\yikuedu\lib\yii-1.1.13.e9e4a0\framework\web\CWebApplication.php(282): CController->run('admin')
+#2 D:\apachePHP\KWebService\yikuedu\lib\yii-1.1.13.e9e4a0\framework\web\CWebApplication.php(141): CWebApplication->runController('site/admin')
+#3 D:\apachePHP\KWebService\yikuedu\lib\yii-1.1.13.e9e4a0\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#4 D:\apachePHP\KWebService\yikuedu\yikuAdmin\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/yikuedu/yikuadmin/index.php?r=site/admin
+HTTP_REFERER=http://localhost:1013/yikuedu/yikuadmin/index.php?r=site/index
+---
+2013/04/23 21:55:21 [error] [exception.CHttpException.404] exception 'CHttpException' with message '系统无法找到请求的 "admin" 动作.' in D:\apachePHP\KWebService\yikuedu\lib\yii-1.1.13.e9e4a0\framework\web\CController.php:483
+Stack trace:
+#0 D:\apachePHP\KWebService\yikuedu\lib\yii-1.1.13.e9e4a0\framework\web\CController.php(270): CController->missingAction('admin')
+#1 D:\apachePHP\KWebService\yikuedu\lib\yii-1.1.13.e9e4a0\framework\web\CWebApplication.php(282): CController->run('admin')
+#2 D:\apachePHP\KWebService\yikuedu\lib\yii-1.1.13.e9e4a0\framework\web\CWebApplication.php(141): CWebApplication->runController('site/admin')
+#3 D:\apachePHP\KWebService\yikuedu\lib\yii-1.1.13.e9e4a0\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#4 D:\apachePHP\KWebService\yikuedu\yikuAdmin\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/yikuedu/yikuadmin/index.php?r=site/admin
+HTTP_REFERER=http://localhost:1013/yikuedu/yikuadmin/index.php?r=site/index
+---
+2013/04/23 15:10:43 [error] [php] chmod() has been disabled for security reasons (E:\host\yikuedu\web\yikuedu\lib\yii-1.1.13.e9e4a0\framework\utils\CFileHelper.php:288)
+Stack trace:
+#0 E:\host\yikuedu\web\yikuedu\lib\yii-1.1.13.e9e4a0\framework\web\CAssetManager.php(251): copyDirectory()
+#1 E:\host\yikuedu\web\yikuedu\lib\yii-1.1.13.e9e4a0\framework\web\CClientScript.php(462): CAssetManager->publish()
+#2 E:\host\yikuedu\web\yikuedu\lib\yii-1.1.13.e9e4a0\framework\web\CClientScript.php(499): CClientScript->getCoreScriptUrl()
+#3 E:\host\yikuedu\web\yikuedu\lib\yii-1.1.13.e9e4a0\framework\web\CClientScript.php(315): CClientScript->getPackageBaseUrl()
+#4 E:\host\yikuedu\web\yikuedu\lib\yii-1.1.13.e9e4a0\framework\web\CClientScript.php(208): CClientScript->renderCoreScripts()
+#5 E:\host\yikuedu\web\yikuedu\lib\yii-1.1.13.e9e4a0\framework\web\CController.php(351): CClientScript->render()
+#6 E:\host\yikuedu\web\yikuedu\lib\yii-1.1.13.e9e4a0\framework\web\CController.php(788): SiteController->processOutput()
+#7 E:\host\yikuedu\web\yikuedu\yikuAdmin\protected\controllers\SiteController.php(98): SiteController->render()
+#8 E:\host\yikuedu\web\yikuedu\lib\yii-1.1.13.e9e4a0\framework\web\actions\CInlineAction.php(49): SiteController->actionLogin()
+#9 E:\host\yikuedu\web\yikuedu\lib\yii-1.1.13.e9e4a0\framework\web\CController.php(308): CInlineAction->runWithParams()
+#10 E:\host\yikuedu\web\yikuedu\lib\yii-1.1.13.e9e4a0\framework\web\CController.php(286): SiteController->runAction()
+#11 E:\host\yikuedu\web\yikuedu\lib\yii-1.1.13.e9e4a0\framework\web\CController.php(265): SiteController->runActionWithFilters()
+#12 E:\host\yikuedu\web\yikuedu\lib\yii-1.1.13.e9e4a0\framework\web\CWebApplication.php(282): SiteController->run()
+#13 E:\host\yikuedu\web\yikuedu\lib\yii-1.1.13.e9e4a0\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#14 E:\host\yikuedu\web\yikuedu\lib\yii-1.1.13.e9e4a0\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#15 E:\host\yikuedu\web\yikuedu\yikuAdmin\index.php(13): CWebApplication->run()
+REQUEST_URI=/yikuedu/yikuAdmin/index.php?r=site/login
+in E:\host\yikuedu\web\yikuedu\yikuAdmin\protected\controllers\SiteController.php (98)
+in E:\host\yikuedu\web\yikuedu\yikuAdmin\index.php (13)
+2013/04/23 15:11:01 [error] [php] chmod() has been disabled for security reasons (E:\host\yikuedu\web\yikuedu\lib\yii-1.1.13.e9e4a0\framework\utils\CFileHelper.php:288)
+Stack trace:
+#0 E:\host\yikuedu\web\yikuedu\lib\yii-1.1.13.e9e4a0\framework\web\CAssetManager.php(251): copyDirectory()
+#1 E:\host\yikuedu\web\yikuedu\lib\yii-1.1.13.e9e4a0\framework\zii\widgets\grid\CGridView.php(325): CAssetManager->publish()
+#2 E:\host\yikuedu\web\yikuedu\lib\yii-1.1.13.e9e4a0\framework\web\CBaseController.php(147): CGridView->init()
+#3 E:\host\yikuedu\web\yikuedu\lib\yii-1.1.13.e9e4a0\framework\web\CBaseController.php(172): TUSERController->createWidget()
+#4 E:\host\yikuedu\web\yikuedu\yikuAdmin\protected\views\tUSER\admin.php(81): TUSERController->widget()
+#5 E:\host\yikuedu\web\yikuedu\lib\yii-1.1.13.e9e4a0\framework\web\CBaseController.php(126): require()
+#6 E:\host\yikuedu\web\yikuedu\lib\yii-1.1.13.e9e4a0\framework\web\CBaseController.php(95): TUSERController->renderInternal()
+#7 E:\host\yikuedu\web\yikuedu\lib\yii-1.1.13.e9e4a0\framework\web\CController.php(869): TUSERController->renderFile()
+#8 E:\host\yikuedu\web\yikuedu\lib\yii-1.1.13.e9e4a0\framework\web\CController.php(782): TUSERController->renderPartial()
+#9 E:\host\yikuedu\web\yikuedu\yikuAdmin\protected\controllers\TUSERController.php(143): TUSERController->render()
+#10 E:\host\yikuedu\web\yikuedu\lib\yii-1.1.13.e9e4a0\framework\web\actions\CInlineAction.php(49): TUSERController->actionAdmin()
+#11 E:\host\yikuedu\web\yikuedu\lib\yii-1.1.13.e9e4a0\framework\web\CController.php(308): CInlineAction->runWithParams()
+#12 E:\host\yikuedu\web\yikuedu\lib\yii-1.1.13.e9e4a0\framework\web\filters\CFilterChain.php(133): TUSERController->runAction()
+#13 E:\host\yikuedu\web\yikuedu\lib\yii-1.1.13.e9e4a0\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#14 E:\host\yikuedu\web\yikuedu\lib\yii-1.1.13.e9e4a0\framework\web\CController.php(1145): CAccessControlFilter->filter()
+#15 E:\host\yikuedu\web\yikuedu\lib\yii-1.1.13.e9e4a0\framework\web\filters\CInlineFilter.php(58): TUSERController->filterAccessControl()
+#16 E:\host\yikuedu\web\yikuedu\lib\yii-1.1.13.e9e4a0\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#17 E:\host\yikuedu\web\yikuedu\lib\yii-1.1.13.e9e4a0\framework\web\CController.php(291): CFilterChain->run()
+#18 E:\host\yikuedu\web\yikuedu\lib\yii-1.1.13.e9e4a0\framework\web\CController.php(265): TUSERController->runActionWithFilters()
+#19 E:\host\yikuedu\web\yikuedu\lib\yii-1.1.13.e9e4a0\framework\web\CWebApplication.php(282): TUSERController->run()
+#20 E:\host\yikuedu\web\yikuedu\lib\yii-1.1.13.e9e4a0\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#21 E:\host\yikuedu\web\yikuedu\lib\yii-1.1.13.e9e4a0\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#22 E:\host\yikuedu\web\yikuedu\yikuAdmin\index.php(13): CWebApplication->run()
+REQUEST_URI=/yikuedu/yikuAdmin/index.php?r=tuser/admin
+in E:\host\yikuedu\web\yikuedu\yikuAdmin\protected\views\tUSER\admin.php (81)
+in E:\host\yikuedu\web\yikuedu\yikuAdmin\protected\controllers\TUSERController.php (143)
+in E:\host\yikuedu\web\yikuedu\yikuAdmin\index.php (13)
+2013/04/23 15:12:35 [error] [php] chmod() has been disabled for security reasons (E:\host\yikuedu\web\yikuedu\lib\yii-1.1.13.e9e4a0\framework\web\CAssetManager.php:226)
+Stack trace:
+#0 E:\host\yikuedu\web\yikuedu\lib\yii-1.1.13.e9e4a0\framework\web\widgets\pagers\CLinkPager.php(226): asset()
+#1 E:\host\yikuedu\web\yikuedu\lib\yii-1.1.13.e9e4a0\framework\web\widgets\pagers\CLinkPager.php(216): registerCssFile()
+#2 E:\host\yikuedu\web\yikuedu\lib\yii-1.1.13.e9e4a0\framework\web\widgets\pagers\CLinkPager.php(131): CLinkPager->registerClientScript()
+#3 E:\host\yikuedu\web\yikuedu\lib\yii-1.1.13.e9e4a0\framework\web\CBaseController.php(173): CLinkPager->run()
+#4 E:\host\yikuedu\web\yikuedu\lib\yii-1.1.13.e9e4a0\framework\zii\widgets\CBaseListView.php(268): CGridView->widget()
+#5 E:\host\yikuedu\web\yikuedu\lib\yii-1.1.13.e9e4a0\framework\zii\widgets\CBaseListView.php(160): CGridView->renderPager()
+#6 unknown(0): CGridView->renderSection()
+#7 E:\host\yikuedu\web\yikuedu\lib\yii-1.1.13.e9e4a0\framework\zii\widgets\CBaseListView.php(143): preg_replace_callback()
+#8 E:\host\yikuedu\web\yikuedu\lib\yii-1.1.13.e9e4a0\framework\zii\widgets\CBaseListView.php(128): CGridView->renderContent()
+#9 E:\host\yikuedu\web\yikuedu\lib\yii-1.1.13.e9e4a0\framework\web\CBaseController.php(173): CGridView->run()
+#10 E:\host\yikuedu\web\yikuedu\yikuAdmin\protected\views\tUSER\admin.php(81): TUSERController->widget()
+#11 E:\host\yikuedu\web\yikuedu\lib\yii-1.1.13.e9e4a0\framework\web\CBaseController.php(126): require()
+#12 E:\host\yikuedu\web\yikuedu\lib\yii-1.1.13.e9e4a0\framework\web\CBaseController.php(95): TUSERController->renderInternal()
+#13 E:\host\yikuedu\web\yikuedu\lib\yii-1.1.13.e9e4a0\framework\web\CController.php(869): TUSERController->renderFile()
+#14 E:\host\yikuedu\web\yikuedu\lib\yii-1.1.13.e9e4a0\framework\web\CController.php(782): TUSERController->renderPartial()
+#15 E:\host\yikuedu\web\yikuedu\yikuAdmin\protected\controllers\TUSERController.php(143): TUSERController->render()
+#16 E:\host\yikuedu\web\yikuedu\lib\yii-1.1.13.e9e4a0\framework\web\actions\CInlineAction.php(49): TUSERController->actionAdmin()
+#17 E:\host\yikuedu\web\yikuedu\lib\yii-1.1.13.e9e4a0\framework\web\CController.php(308): CInlineAction->runWithParams()
+#18 E:\host\yikuedu\web\yikuedu\lib\yii-1.1.13.e9e4a0\framework\web\filters\CFilterChain.php(133): TUSERController->runAction()
+#19 E:\host\yikuedu\web\yikuedu\lib\yii-1.1.13.e9e4a0\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#20 E:\host\yikuedu\web\yikuedu\lib\yii-1.1.13.e9e4a0\framework\web\CController.php(1145): CAccessControlFilter->filter()
+#21 E:\host\yikuedu\web\yikuedu\lib\yii-1.1.13.e9e4a0\framework\web\filters\CInlineFilter.php(58): TUSERController->filterAccessControl()
+#22 E:\host\yikuedu\web\yikuedu\lib\yii-1.1.13.e9e4a0\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#23 E:\host\yikuedu\web\yikuedu\lib\yii-1.1.13.e9e4a0\framework\web\CController.php(291): CFilterChain->run()
+#24 E:\host\yikuedu\web\yikuedu\lib\yii-1.1.13.e9e4a0\framework\web\CController.php(265): TUSERController->runActionWithFilters()
+#25 E:\host\yikuedu\web\yikuedu\lib\yii-1.1.13.e9e4a0\framework\web\CWebApplication.php(282): TUSERController->run()
+#26 E:\host\yikuedu\web\yikuedu\lib\yii-1.1.13.e9e4a0\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#27 E:\host\yikuedu\web\yikuedu\lib\yii-1.1.13.e9e4a0\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#28 E:\host\yikuedu\web\yikuedu\yikuAdmin\index.php(13): CWebApplication->run()
+REQUEST_URI=/yikuedu/yikuAdmin/index.php?r=tuser/admin
+in E:\host\yikuedu\web\yikuedu\yikuAdmin\protected\views\tUSER\admin.php (81)
+in E:\host\yikuedu\web\yikuedu\yikuAdmin\protected\controllers\TUSERController.php (143)
+in E:\host\yikuedu\web\yikuedu\yikuAdmin\index.php (13)
+2013/04/23 15:13:01 [error] [php] chmod() has been disabled for security reasons (E:\host\yikuedu\web\yikuedu\lib\yii-1.1.13.e9e4a0\framework\web\CAssetManager.php:233)
+Stack trace:
+#0 E:\host\yikuedu\web\yikuedu\lib\yii-1.1.13.e9e4a0\framework\web\widgets\pagers\CLinkPager.php(226): asset()
+#1 E:\host\yikuedu\web\yikuedu\lib\yii-1.1.13.e9e4a0\framework\web\widgets\pagers\CLinkPager.php(216): registerCssFile()
+#2 E:\host\yikuedu\web\yikuedu\lib\yii-1.1.13.e9e4a0\framework\web\widgets\pagers\CLinkPager.php(131): CLinkPager->registerClientScript()
+#3 E:\host\yikuedu\web\yikuedu\lib\yii-1.1.13.e9e4a0\framework\web\CBaseController.php(173): CLinkPager->run()
+#4 E:\host\yikuedu\web\yikuedu\lib\yii-1.1.13.e9e4a0\framework\zii\widgets\CBaseListView.php(268): CGridView->widget()
+#5 E:\host\yikuedu\web\yikuedu\lib\yii-1.1.13.e9e4a0\framework\zii\widgets\CBaseListView.php(160): CGridView->renderPager()
+#6 unknown(0): CGridView->renderSection()
+#7 E:\host\yikuedu\web\yikuedu\lib\yii-1.1.13.e9e4a0\framework\zii\widgets\CBaseListView.php(143): preg_replace_callback()
+#8 E:\host\yikuedu\web\yikuedu\lib\yii-1.1.13.e9e4a0\framework\zii\widgets\CBaseListView.php(128): CGridView->renderContent()
+#9 E:\host\yikuedu\web\yikuedu\lib\yii-1.1.13.e9e4a0\framework\web\CBaseController.php(173): CGridView->run()
+#10 E:\host\yikuedu\web\yikuedu\yikuAdmin\protected\views\tUSER\admin.php(81): TUSERController->widget()
+#11 E:\host\yikuedu\web\yikuedu\lib\yii-1.1.13.e9e4a0\framework\web\CBaseController.php(126): require()
+#12 E:\host\yikuedu\web\yikuedu\lib\yii-1.1.13.e9e4a0\framework\web\CBaseController.php(95): TUSERController->renderInternal()
+#13 E:\host\yikuedu\web\yikuedu\lib\yii-1.1.13.e9e4a0\framework\web\CController.php(869): TUSERController->renderFile()
+#14 E:\host\yikuedu\web\yikuedu\lib\yii-1.1.13.e9e4a0\framework\web\CController.php(782): TUSERController->renderPartial()
+#15 E:\host\yikuedu\web\yikuedu\yikuAdmin\protected\controllers\TUSERController.php(143): TUSERController->render()
+#16 E:\host\yikuedu\web\yikuedu\lib\yii-1.1.13.e9e4a0\framework\web\actions\CInlineAction.php(49): TUSERController->actionAdmin()
+#17 E:\host\yikuedu\web\yikuedu\lib\yii-1.1.13.e9e4a0\framework\web\CController.php(308): CInlineAction->runWithParams()
+#18 E:\host\yikuedu\web\yikuedu\lib\yii-1.1.13.e9e4a0\framework\web\filters\CFilterChain.php(133): TUSERController->runAction()
+#19 E:\host\yikuedu\web\yikuedu\lib\yii-1.1.13.e9e4a0\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#20 E:\host\yikuedu\web\yikuedu\lib\yii-1.1.13.e9e4a0\framework\web\CController.php(1145): CAccessControlFilter->filter()
+#21 E:\host\yikuedu\web\yikuedu\lib\yii-1.1.13.e9e4a0\framework\web\filters\CInlineFilter.php(58): TUSERController->filterAccessControl()
+#22 E:\host\yikuedu\web\yikuedu\lib\yii-1.1.13.e9e4a0\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#23 E:\host\yikuedu\web\yikuedu\lib\yii-1.1.13.e9e4a0\framework\web\CController.php(291): CFilterChain->run()
+#24 E:\host\yikuedu\web\yikuedu\lib\yii-1.1.13.e9e4a0\framework\web\CController.php(265): TUSERController->runActionWithFilters()
+#25 E:\host\yikuedu\web\yikuedu\lib\yii-1.1.13.e9e4a0\framework\web\CWebApplication.php(282): TUSERController->run()
+#26 E:\host\yikuedu\web\yikuedu\lib\yii-1.1.13.e9e4a0\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#27 E:\host\yikuedu\web\yikuedu\lib\yii-1.1.13.e9e4a0\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#28 E:\host\yikuedu\web\yikuedu\yikuAdmin\index.php(13): CWebApplication->run()
+REQUEST_URI=/yikuedu/yikuAdmin/index.php?r=tuser/admin
+in E:\host\yikuedu\web\yikuedu\yikuAdmin\protected\views\tUSER\admin.php (81)
+in E:\host\yikuedu\web\yikuedu\yikuAdmin\protected\controllers\TUSERController.php (143)
+in E:\host\yikuedu\web\yikuedu\yikuAdmin\index.php (13)
+2013/04/24 01:58:45 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The requested page does not exist.' in E:\host\yikuedu\web\yikuedu\yikuAdmin\protected\controllers\TUSERController.php:157
+Stack trace:
+#0 E:\host\yikuedu\web\yikuedu\yikuAdmin\protected\controllers\TUSERController.php(55): TUSERController->loadModel('10000')
+#1 [internal function]: TUSERController->actionView('10000')
+#2 E:\host\yikuedu\web\yikuedu\lib\yii-1.1.13.e9e4a0\framework\web\actions\CAction.php(108): ReflectionMethod->invokeArgs(Object(TUSERController), Array)
+#3 E:\host\yikuedu\web\yikuedu\lib\yii-1.1.13.e9e4a0\framework\web\actions\CInlineAction.php(47): CAction->runWithParamsInternal(Object(TUSERController), Object(ReflectionMethod), Array)
+#4 E:\host\yikuedu\web\yikuedu\lib\yii-1.1.13.e9e4a0\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#5 E:\host\yikuedu\web\yikuedu\lib\yii-1.1.13.e9e4a0\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#6 E:\host\yikuedu\web\yikuedu\lib\yii-1.1.13.e9e4a0\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#7 E:\host\yikuedu\web\yikuedu\lib\yii-1.1.13.e9e4a0\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#8 E:\host\yikuedu\web\yikuedu\lib\yii-1.1.13.e9e4a0\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#9 E:\host\yikuedu\web\yikuedu\lib\yii-1.1.13.e9e4a0\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#10 E:\host\yikuedu\web\yikuedu\lib\yii-1.1.13.e9e4a0\framework\web\CController.php(291): CFilterChain->run()
+#11 E:\host\yikuedu\web\yikuedu\lib\yii-1.1.13.e9e4a0\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 E:\host\yikuedu\web\yikuedu\lib\yii-1.1.13.e9e4a0\framework\web\CWebApplication.php(282): CController->run('view')
+#13 E:\host\yikuedu\web\yikuedu\lib\yii-1.1.13.e9e4a0\framework\web\CWebApplication.php(141): CWebApplication->runController('tuser/view')
+#14 E:\host\yikuedu\web\yikuedu\lib\yii-1.1.13.e9e4a0\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#15 E:\host\yikuedu\web\yikuedu\yikuAdmin\index.php(13): CApplication->run()
+#16 {main}
+REQUEST_URI=/yikuedu/yikuAdmin/index.php?r=tuser/view&id=10000
+HTTP_REFERER=http://www.yikuedu.com/yikuedu/yikuAdmin/index.php?r=tuser/admin
+---
+2013/04/24 01:58:47 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The requested page does not exist.' in E:\host\yikuedu\web\yikuedu\yikuAdmin\protected\controllers\TUSERController.php:157
+Stack trace:
+#0 E:\host\yikuedu\web\yikuedu\yikuAdmin\protected\controllers\TUSERController.php(55): TUSERController->loadModel('10000')
+#1 [internal function]: TUSERController->actionView('10000')
+#2 E:\host\yikuedu\web\yikuedu\lib\yii-1.1.13.e9e4a0\framework\web\actions\CAction.php(108): ReflectionMethod->invokeArgs(Object(TUSERController), Array)
+#3 E:\host\yikuedu\web\yikuedu\lib\yii-1.1.13.e9e4a0\framework\web\actions\CInlineAction.php(47): CAction->runWithParamsInternal(Object(TUSERController), Object(ReflectionMethod), Array)
+#4 E:\host\yikuedu\web\yikuedu\lib\yii-1.1.13.e9e4a0\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#5 E:\host\yikuedu\web\yikuedu\lib\yii-1.1.13.e9e4a0\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#6 E:\host\yikuedu\web\yikuedu\lib\yii-1.1.13.e9e4a0\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#7 E:\host\yikuedu\web\yikuedu\lib\yii-1.1.13.e9e4a0\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#8 E:\host\yikuedu\web\yikuedu\lib\yii-1.1.13.e9e4a0\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#9 E:\host\yikuedu\web\yikuedu\lib\yii-1.1.13.e9e4a0\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#10 E:\host\yikuedu\web\yikuedu\lib\yii-1.1.13.e9e4a0\framework\web\CController.php(291): CFilterChain->run()
+#11 E:\host\yikuedu\web\yikuedu\lib\yii-1.1.13.e9e4a0\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 E:\host\yikuedu\web\yikuedu\lib\yii-1.1.13.e9e4a0\framework\web\CWebApplication.php(282): CController->run('view')
+#13 E:\host\yikuedu\web\yikuedu\lib\yii-1.1.13.e9e4a0\framework\web\CWebApplication.php(141): CWebApplication->runController('tuser/view')
+#14 E:\host\yikuedu\web\yikuedu\lib\yii-1.1.13.e9e4a0\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#15 E:\host\yikuedu\web\yikuedu\yikuAdmin\index.php(13): CApplication->run()
+#16 {main}
+REQUEST_URI=/yikuedu/yikuAdmin/index.php?r=tuser/view&id=10000
+HTTP_REFERER=http://www.yikuedu.com/yikuedu/yikuAdmin/index.php?r=tuser/admin
+---
+2013/04/25 10:32:17 [error] [exception.CHttpException.400] exception 'CHttpException' with message '您的请求无效。' in E:\host\yikuedu\web\yikuedu\lib\yii-1.1.13.e9e4a0\framework\web\CController.php:1118
+Stack trace:
+#0 E:\host\yikuedu\web\yikuedu\lib\yii-1.1.13.e9e4a0\framework\web\filters\CInlineFilter.php(58): CController->filterPostOnly(Object(CFilterChain))
+#1 E:\host\yikuedu\web\yikuedu\lib\yii-1.1.13.e9e4a0\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#2 E:\host\yikuedu\web\yikuedu\lib\yii-1.1.13.e9e4a0\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#3 E:\host\yikuedu\web\yikuedu\lib\yii-1.1.13.e9e4a0\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#4 E:\host\yikuedu\web\yikuedu\lib\yii-1.1.13.e9e4a0\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#5 E:\host\yikuedu\web\yikuedu\lib\yii-1.1.13.e9e4a0\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#6 E:\host\yikuedu\web\yikuedu\lib\yii-1.1.13.e9e4a0\framework\web\CController.php(291): CFilterChain->run()
+#7 E:\host\yikuedu\web\yikuedu\lib\yii-1.1.13.e9e4a0\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 E:\host\yikuedu\web\yikuedu\lib\yii-1.1.13.e9e4a0\framework\web\CWebApplication.php(282): CController->run('delete')
+#9 E:\host\yikuedu\web\yikuedu\lib\yii-1.1.13.e9e4a0\framework\web\CWebApplication.php(141): CWebApplication->runController('tuser/delete')
+#10 E:\host\yikuedu\web\yikuedu\lib\yii-1.1.13.e9e4a0\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#11 E:\host\yikuedu\web\yikuedu\yikuAdmin\index.php(13): CApplication->run()
+#12 {main}
+REQUEST_URI=/yikuedu/yikuadmin/index.php?r=tuser/delete&id=10004
+---
+2013/04/25 10:32:32 [error] [exception.CHttpException.400] exception 'CHttpException' with message '您的请求无效。' in E:\host\yikuedu\web\yikuedu\lib\yii-1.1.13.e9e4a0\framework\web\CController.php:1118
+Stack trace:
+#0 E:\host\yikuedu\web\yikuedu\lib\yii-1.1.13.e9e4a0\framework\web\filters\CInlineFilter.php(58): CController->filterPostOnly(Object(CFilterChain))
+#1 E:\host\yikuedu\web\yikuedu\lib\yii-1.1.13.e9e4a0\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#2 E:\host\yikuedu\web\yikuedu\lib\yii-1.1.13.e9e4a0\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#3 E:\host\yikuedu\web\yikuedu\lib\yii-1.1.13.e9e4a0\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#4 E:\host\yikuedu\web\yikuedu\lib\yii-1.1.13.e9e4a0\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#5 E:\host\yikuedu\web\yikuedu\lib\yii-1.1.13.e9e4a0\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#6 E:\host\yikuedu\web\yikuedu\lib\yii-1.1.13.e9e4a0\framework\web\CController.php(291): CFilterChain->run()
+#7 E:\host\yikuedu\web\yikuedu\lib\yii-1.1.13.e9e4a0\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 E:\host\yikuedu\web\yikuedu\lib\yii-1.1.13.e9e4a0\framework\web\CWebApplication.php(282): CController->run('delete')
+#9 E:\host\yikuedu\web\yikuedu\lib\yii-1.1.13.e9e4a0\framework\web\CWebApplication.php(141): CWebApplication->runController('tuser/delete')
+#10 E:\host\yikuedu\web\yikuedu\lib\yii-1.1.13.e9e4a0\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#11 E:\host\yikuedu\web\yikuedu\yikuAdmin\index.php(13): CApplication->run()
+#12 {main}
+REQUEST_URI=/yikuedu/yikuadmin/index.php?r=tuser/delete&id=10005
+---
+2013/06/29 00:37:55 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'a0313102126.t_user' doesn't exist. The SQL statement executed was: SHOW FULL COLUMNS FROM `t_user`.
+in I:\apachePHP\KWebService\yikuedu\yikuAdmin\protected\controllers\TUSERController.php (136)
+in I:\apachePHP\KWebService\yikuedu\yikuAdmin\index.php (13)
+2013/06/29 00:37:55 [error] [exception.CDbException] exception 'CDbException' with message '数据库中无法找到 active record class "TUSER" 对应的 table "t_user".' in I:\apachePHP\KWebService\yikuedu\lib\yii-1.1.13.e9e4a0\framework\db\ar\CActiveRecord.php:2310
+Stack trace:
+#0 I:\apachePHP\KWebService\yikuedu\lib\yii-1.1.13.e9e4a0\framework\db\ar\CActiveRecord.php(387): CActiveRecordMetaData->__construct(Object(TUSER))
+#1 I:\apachePHP\KWebService\yikuedu\lib\yii-1.1.13.e9e4a0\framework\db\ar\CActiveRecord.php(402): CActiveRecord::model('TUSER')
+#2 I:\apachePHP\KWebService\yikuedu\lib\yii-1.1.13.e9e4a0\framework\db\ar\CActiveRecord.php(77): CActiveRecord->getMetaData()
+#3 I:\apachePHP\KWebService\yikuedu\yikuAdmin\protected\controllers\TUSERController.php(136): CActiveRecord->__construct('search')
+#4 I:\apachePHP\KWebService\yikuedu\lib\yii-1.1.13.e9e4a0\framework\web\actions\CInlineAction.php(49): TUSERController->actionAdmin()
+#5 I:\apachePHP\KWebService\yikuedu\lib\yii-1.1.13.e9e4a0\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#6 I:\apachePHP\KWebService\yikuedu\lib\yii-1.1.13.e9e4a0\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#7 I:\apachePHP\KWebService\yikuedu\lib\yii-1.1.13.e9e4a0\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#8 I:\apachePHP\KWebService\yikuedu\lib\yii-1.1.13.e9e4a0\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#9 I:\apachePHP\KWebService\yikuedu\lib\yii-1.1.13.e9e4a0\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#10 I:\apachePHP\KWebService\yikuedu\lib\yii-1.1.13.e9e4a0\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#11 I:\apachePHP\KWebService\yikuedu\lib\yii-1.1.13.e9e4a0\framework\web\CController.php(291): CFilterChain->run()
+#12 I:\apachePHP\KWebService\yikuedu\lib\yii-1.1.13.e9e4a0\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#13 I:\apachePHP\KWebService\yikuedu\lib\yii-1.1.13.e9e4a0\framework\web\CWebApplication.php(282): CController->run('admin')
+#14 I:\apachePHP\KWebService\yikuedu\lib\yii-1.1.13.e9e4a0\framework\web\CWebApplication.php(141): CWebApplication->runController('tuser/admin')
+#15 I:\apachePHP\KWebService\yikuedu\lib\yii-1.1.13.e9e4a0\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#16 I:\apachePHP\KWebService\yikuedu\yikuAdmin\index.php(13): CApplication->run()
+#17 {main}
+REQUEST_URI=/yikuedu/yikuadmin/index.php?r=tuser/admin
+HTTP_REFERER=http://127.0.0.1:1013/yikuedu/yikuadmin/index.php
+---
