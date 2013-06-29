@@ -2,12 +2,609 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="67cc20b5-494c-48b2-b142-43ca40115fff" name="Default" comment="">
+      <change type="DELETED" beforePath="D:\apachePHP\KWebService\yikuedu\lib\angular-1.0.6\angular-bootstrap-prettify.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\apachePHP\KWebService\yikuedu\lib\angular-1.0.6\angular-bootstrap-prettify.min.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\apachePHP\KWebService\yikuedu\lib\angular-1.0.6\angular-bootstrap.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\apachePHP\KWebService\yikuedu\lib\angular-1.0.6\angular-bootstrap.min.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\apachePHP\KWebService\yikuedu\lib\angular-1.0.6\angular-cookies.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\apachePHP\KWebService\yikuedu\lib\angular-1.0.6\angular-cookies.min.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\apachePHP\KWebService\yikuedu\lib\angular-1.0.6\angular-loader.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\apachePHP\KWebService\yikuedu\lib\angular-1.0.6\angular-loader.min.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\apachePHP\KWebService\yikuedu\lib\angular-1.0.6\angular-mocks.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\apachePHP\KWebService\yikuedu\lib\angular-1.0.6\angular-resource.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\apachePHP\KWebService\yikuedu\lib\angular-1.0.6\angular-resource.min.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\apachePHP\KWebService\yikuedu\lib\angular-1.0.6\angular-sanitize.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\apachePHP\KWebService\yikuedu\lib\angular-1.0.6\angular-sanitize.min.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\apachePHP\KWebService\yikuedu\lib\angular-1.0.6\angular-scenario.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\apachePHP\KWebService\yikuedu\lib\angular-1.0.6\angular.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\apachePHP\KWebService\yikuedu\lib\angular-1.0.6\angular.min.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\apachePHP\KWebService\yikuedu\lib\angular-1.0.6\docs\.htaccess" afterPath="" />
+      <change type="DELETED" beforePath="D:\apachePHP\KWebService\yikuedu\lib\angular-1.0.6\docs\appcache-offline.manifest" afterPath="" />
+      <change type="DELETED" beforePath="D:\apachePHP\KWebService\yikuedu\lib\angular-1.0.6\docs\appcache.manifest" afterPath="" />
+      <change type="DELETED" beforePath="D:\apachePHP\KWebService\yikuedu\lib\angular-1.0.6\docs\css\bootstrap.min.css" afterPath="" />
+      <change type="DELETED" beforePath="D:\apachePHP\KWebService\yikuedu\lib\angular-1.0.6\docs\css\doc_widgets.css" afterPath="" />
+      <change type="DELETED" beforePath="D:\apachePHP\KWebService\yikuedu\lib\angular-1.0.6\docs\css\docs.css" afterPath="" />
+      <change type="DELETED" beforePath="D:\apachePHP\KWebService\yikuedu\lib\angular-1.0.6\docs\css\font-awesome.css" afterPath="" />
+      <change type="DELETED" beforePath="D:\apachePHP\KWebService\yikuedu\lib\angular-1.0.6\docs\docs-keywords.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\apachePHP\KWebService\yikuedu\lib\angular-1.0.6\docs\docs-scenario.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\apachePHP\KWebService\yikuedu\lib\angular-1.0.6\docs\docs-scenario.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\apachePHP\KWebService\yikuedu\lib\angular-1.0.6\docs\favicon.ico" afterPath="" />
+      <change type="DELETED" beforePath="D:\apachePHP\KWebService\yikuedu\lib\angular-1.0.6\docs\font\fontawesome-webfont.eot" afterPath="" />
+      <change type="DELETED" beforePath="D:\apachePHP\KWebService\yikuedu\lib\angular-1.0.6\docs\font\fontawesome-webfont.svg" afterPath="" />
+      <change type="DELETED" beforePath="D:\apachePHP\KWebService\yikuedu\lib\angular-1.0.6\docs\font\fontawesome-webfont.svgz" afterPath="" />
+      <change type="DELETED" beforePath="D:\apachePHP\KWebService\yikuedu\lib\angular-1.0.6\docs\font\fontawesome-webfont.ttf" afterPath="" />
+      <change type="DELETED" beforePath="D:\apachePHP\KWebService\yikuedu\lib\angular-1.0.6\docs\font\fontawesome-webfont.woff" afterPath="" />
+      <change type="DELETED" beforePath="D:\apachePHP\KWebService\yikuedu\lib\angular-1.0.6\docs\img\AngularJS-small.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\apachePHP\KWebService\yikuedu\lib\angular-1.0.6\docs\img\One_Way_Data_Binding.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\apachePHP\KWebService\yikuedu\lib\angular-1.0.6\docs\img\Two_Way_Data_Binding.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\apachePHP\KWebService\yikuedu\lib\angular-1.0.6\docs\img\angular_parts.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\apachePHP\KWebService\yikuedu\lib\angular-1.0.6\docs\img\bullet.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\apachePHP\KWebService\yikuedu\lib\angular-1.0.6\docs\img\form_data_flow.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\apachePHP\KWebService\yikuedu\lib\angular-1.0.6\docs\img\glyphicons-halflings-white.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\apachePHP\KWebService\yikuedu\lib\angular-1.0.6\docs\img\glyphicons-halflings.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\apachePHP\KWebService\yikuedu\lib\angular-1.0.6\docs\img\guide\about_model_final.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\apachePHP\KWebService\yikuedu\lib\angular-1.0.6\docs\img\guide\about_view_final.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\apachePHP\KWebService\yikuedu\lib\angular-1.0.6\docs\img\guide\concepts-controller.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\apachePHP\KWebService\yikuedu\lib\angular-1.0.6\docs\img\guide\concepts-directive.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\apachePHP\KWebService\yikuedu\lib\angular-1.0.6\docs\img\guide\concepts-model.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\apachePHP\KWebService\yikuedu\lib\angular-1.0.6\docs\img\guide\concepts-module-injector.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\apachePHP\KWebService\yikuedu\lib\angular-1.0.6\docs\img\guide\concepts-runtime.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\apachePHP\KWebService\yikuedu\lib\angular-1.0.6\docs\img\guide\concepts-scope.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\apachePHP\KWebService\yikuedu\lib\angular-1.0.6\docs\img\guide\concepts-startup.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\apachePHP\KWebService\yikuedu\lib\angular-1.0.6\docs\img\guide\concepts-view.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\apachePHP\KWebService\yikuedu\lib\angular-1.0.6\docs\img\guide\di_sequence_final.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\apachePHP\KWebService\yikuedu\lib\angular-1.0.6\docs\img\guide\dom_scope_final.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\apachePHP\KWebService\yikuedu\lib\angular-1.0.6\docs\img\guide\hashbang_vs_regular_url.jpg" afterPath="" />
+      <change type="DELETED" beforePath="D:\apachePHP\KWebService\yikuedu\lib\angular-1.0.6\docs\img\guide\scenario_runner.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\apachePHP\KWebService\yikuedu\lib\angular-1.0.6\docs\img\guide\simple_scope_final.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\apachePHP\KWebService\yikuedu\lib\angular-1.0.6\docs\img\helloworld.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\apachePHP\KWebService\yikuedu\lib\angular-1.0.6\docs\img\helloworld_2way.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\apachePHP\KWebService\yikuedu\lib\angular-1.0.6\docs\img\tutorial\catalog_screen.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\apachePHP\KWebService\yikuedu\lib\angular-1.0.6\docs\img\tutorial\tutorial_00.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\apachePHP\KWebService\yikuedu\lib\angular-1.0.6\docs\img\tutorial\tutorial_00_final.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\apachePHP\KWebService\yikuedu\lib\angular-1.0.6\docs\img\tutorial\tutorial_02.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\apachePHP\KWebService\yikuedu\lib\angular-1.0.6\docs\img\tutorial\tutorial_03.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\apachePHP\KWebService\yikuedu\lib\angular-1.0.6\docs\img\tutorial\tutorial_04.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\apachePHP\KWebService\yikuedu\lib\angular-1.0.6\docs\img\tutorial\tutorial_07_final.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\apachePHP\KWebService\yikuedu\lib\angular-1.0.6\docs\img\tutorial\tutorial_08-09_final.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\apachePHP\KWebService\yikuedu\lib\angular-1.0.6\docs\img\tutorial\tutorial_10-11_final.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\apachePHP\KWebService\yikuedu\lib\angular-1.0.6\docs\img\tutorial\xhr_service_final.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\apachePHP\KWebService\yikuedu\lib\angular-1.0.6\docs\index-debug.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\apachePHP\KWebService\yikuedu\lib\angular-1.0.6\docs\index-jq-debug.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\apachePHP\KWebService\yikuedu\lib\angular-1.0.6\docs\index-jq-nocache.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\apachePHP\KWebService\yikuedu\lib\angular-1.0.6\docs\index-jq.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\apachePHP\KWebService\yikuedu\lib\angular-1.0.6\docs\index-nocache.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\apachePHP\KWebService\yikuedu\lib\angular-1.0.6\docs\index.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\apachePHP\KWebService\yikuedu\lib\angular-1.0.6\docs\js\docs.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\apachePHP\KWebService\yikuedu\lib\angular-1.0.6\docs\js\jquery.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\apachePHP\KWebService\yikuedu\lib\angular-1.0.6\docs\js\jquery.min.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\apachePHP\KWebService\yikuedu\lib\angular-1.0.6\docs\offline.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\apachePHP\KWebService\yikuedu\lib\angular-1.0.6\docs\partials\api\AUTO.$injector.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\apachePHP\KWebService\yikuedu\lib\angular-1.0.6\docs\partials\api\AUTO.$provide.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\apachePHP\KWebService\yikuedu\lib\angular-1.0.6\docs\partials\api\AUTO.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\apachePHP\KWebService\yikuedu\lib\angular-1.0.6\docs\partials\api\angular.IModule.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\apachePHP\KWebService\yikuedu\lib\angular-1.0.6\docs\partials\api\angular.bind.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\apachePHP\KWebService\yikuedu\lib\angular-1.0.6\docs\partials\api\angular.bootstrap.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\apachePHP\KWebService\yikuedu\lib\angular-1.0.6\docs\partials\api\angular.copy.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\apachePHP\KWebService\yikuedu\lib\angular-1.0.6\docs\partials\api\angular.element.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\apachePHP\KWebService\yikuedu\lib\angular-1.0.6\docs\partials\api\angular.equals.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\apachePHP\KWebService\yikuedu\lib\angular-1.0.6\docs\partials\api\angular.extend.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\apachePHP\KWebService\yikuedu\lib\angular-1.0.6\docs\partials\api\angular.forEach.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\apachePHP\KWebService\yikuedu\lib\angular-1.0.6\docs\partials\api\angular.fromJson.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\apachePHP\KWebService\yikuedu\lib\angular-1.0.6\docs\partials\api\angular.identity.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\apachePHP\KWebService\yikuedu\lib\angular-1.0.6\docs\partials\api\angular.injector.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\apachePHP\KWebService\yikuedu\lib\angular-1.0.6\docs\partials\api\angular.isArray.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\apachePHP\KWebService\yikuedu\lib\angular-1.0.6\docs\partials\api\angular.isDate.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\apachePHP\KWebService\yikuedu\lib\angular-1.0.6\docs\partials\api\angular.isDefined.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\apachePHP\KWebService\yikuedu\lib\angular-1.0.6\docs\partials\api\angular.isElement.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\apachePHP\KWebService\yikuedu\lib\angular-1.0.6\docs\partials\api\angular.isFunction.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\apachePHP\KWebService\yikuedu\lib\angular-1.0.6\docs\partials\api\angular.isNumber.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\apachePHP\KWebService\yikuedu\lib\angular-1.0.6\docs\partials\api\angular.isObject.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\apachePHP\KWebService\yikuedu\lib\angular-1.0.6\docs\partials\api\angular.isString.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\apachePHP\KWebService\yikuedu\lib\angular-1.0.6\docs\partials\api\angular.isUndefined.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\apachePHP\KWebService\yikuedu\lib\angular-1.0.6\docs\partials\api\angular.lowercase.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\apachePHP\KWebService\yikuedu\lib\angular-1.0.6\docs\partials\api\angular.mock.TzDate.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\apachePHP\KWebService\yikuedu\lib\angular-1.0.6\docs\partials\api\angular.mock.dump.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\apachePHP\KWebService\yikuedu\lib\angular-1.0.6\docs\partials\api\angular.mock.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\apachePHP\KWebService\yikuedu\lib\angular-1.0.6\docs\partials\api\angular.mock.inject.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\apachePHP\KWebService\yikuedu\lib\angular-1.0.6\docs\partials\api\angular.mock.module.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\apachePHP\KWebService\yikuedu\lib\angular-1.0.6\docs\partials\api\angular.module.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\apachePHP\KWebService\yikuedu\lib\angular-1.0.6\docs\partials\api\angular.noop.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\apachePHP\KWebService\yikuedu\lib\angular-1.0.6\docs\partials\api\angular.toJson.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\apachePHP\KWebService\yikuedu\lib\angular-1.0.6\docs\partials\api\angular.uppercase.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\apachePHP\KWebService\yikuedu\lib\angular-1.0.6\docs\partials\api\angular.version.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\apachePHP\KWebService\yikuedu\lib\angular-1.0.6\docs\partials\api\index.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\apachePHP\KWebService\yikuedu\lib\angular-1.0.6\docs\partials\api\ng.$anchorScroll.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\apachePHP\KWebService\yikuedu\lib\angular-1.0.6\docs\partials\api\ng.$cacheFactory.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\apachePHP\KWebService\yikuedu\lib\angular-1.0.6\docs\partials\api\ng.$compile.directive.Attributes.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\apachePHP\KWebService\yikuedu\lib\angular-1.0.6\docs\partials\api\ng.$compile.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\apachePHP\KWebService\yikuedu\lib\angular-1.0.6\docs\partials\api\ng.$compileProvider.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\apachePHP\KWebService\yikuedu\lib\angular-1.0.6\docs\partials\api\ng.$controller.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\apachePHP\KWebService\yikuedu\lib\angular-1.0.6\docs\partials\api\ng.$controllerProvider.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\apachePHP\KWebService\yikuedu\lib\angular-1.0.6\docs\partials\api\ng.$document.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\apachePHP\KWebService\yikuedu\lib\angular-1.0.6\docs\partials\api\ng.$exceptionHandler.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\apachePHP\KWebService\yikuedu\lib\angular-1.0.6\docs\partials\api\ng.$filter.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\apachePHP\KWebService\yikuedu\lib\angular-1.0.6\docs\partials\api\ng.$filterProvider.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\apachePHP\KWebService\yikuedu\lib\angular-1.0.6\docs\partials\api\ng.$http.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\apachePHP\KWebService\yikuedu\lib\angular-1.0.6\docs\partials\api\ng.$httpBackend.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\apachePHP\KWebService\yikuedu\lib\angular-1.0.6\docs\partials\api\ng.$interpolate.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\apachePHP\KWebService\yikuedu\lib\angular-1.0.6\docs\partials\api\ng.$interpolateProvider.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\apachePHP\KWebService\yikuedu\lib\angular-1.0.6\docs\partials\api\ng.$locale.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\apachePHP\KWebService\yikuedu\lib\angular-1.0.6\docs\partials\api\ng.$location.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\apachePHP\KWebService\yikuedu\lib\angular-1.0.6\docs\partials\api\ng.$locationProvider.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\apachePHP\KWebService\yikuedu\lib\angular-1.0.6\docs\partials\api\ng.$log.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\apachePHP\KWebService\yikuedu\lib\angular-1.0.6\docs\partials\api\ng.$parse.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\apachePHP\KWebService\yikuedu\lib\angular-1.0.6\docs\partials\api\ng.$q.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\apachePHP\KWebService\yikuedu\lib\angular-1.0.6\docs\partials\api\ng.$rootElement.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\apachePHP\KWebService\yikuedu\lib\angular-1.0.6\docs\partials\api\ng.$rootScope.Scope.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\apachePHP\KWebService\yikuedu\lib\angular-1.0.6\docs\partials\api\ng.$rootScope.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\apachePHP\KWebService\yikuedu\lib\angular-1.0.6\docs\partials\api\ng.$rootScopeProvider.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\apachePHP\KWebService\yikuedu\lib\angular-1.0.6\docs\partials\api\ng.$route.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\apachePHP\KWebService\yikuedu\lib\angular-1.0.6\docs\partials\api\ng.$routeParams.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\apachePHP\KWebService\yikuedu\lib\angular-1.0.6\docs\partials\api\ng.$routeProvider.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\apachePHP\KWebService\yikuedu\lib\angular-1.0.6\docs\partials\api\ng.$templateCache.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\apachePHP\KWebService\yikuedu\lib\angular-1.0.6\docs\partials\api\ng.$timeout.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\apachePHP\KWebService\yikuedu\lib\angular-1.0.6\docs\partials\api\ng.$window.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\apachePHP\KWebService\yikuedu\lib\angular-1.0.6\docs\partials\api\ng.directive_a.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\apachePHP\KWebService\yikuedu\lib\angular-1.0.6\docs\partials\api\ng.directive_form.FormController.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\apachePHP\KWebService\yikuedu\lib\angular-1.0.6\docs\partials\api\ng.directive_form.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\apachePHP\KWebService\yikuedu\lib\angular-1.0.6\docs\partials\api\ng.directive_input.checkbox.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\apachePHP\KWebService\yikuedu\lib\angular-1.0.6\docs\partials\api\ng.directive_input.email.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\apachePHP\KWebService\yikuedu\lib\angular-1.0.6\docs\partials\api\ng.directive_input.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\apachePHP\KWebService\yikuedu\lib\angular-1.0.6\docs\partials\api\ng.directive_input.number.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\apachePHP\KWebService\yikuedu\lib\angular-1.0.6\docs\partials\api\ng.directive_input.radio.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\apachePHP\KWebService\yikuedu\lib\angular-1.0.6\docs\partials\api\ng.directive_input.text.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\apachePHP\KWebService\yikuedu\lib\angular-1.0.6\docs\partials\api\ng.directive_input.url.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\apachePHP\KWebService\yikuedu\lib\angular-1.0.6\docs\partials\api\ng.directive_ngApp.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\apachePHP\KWebService\yikuedu\lib\angular-1.0.6\docs\partials\api\ng.directive_ngBind.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\apachePHP\KWebService\yikuedu\lib\angular-1.0.6\docs\partials\api\ng.directive_ngBindHtmlUnsafe.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\apachePHP\KWebService\yikuedu\lib\angular-1.0.6\docs\partials\api\ng.directive_ngBindTemplate.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\apachePHP\KWebService\yikuedu\lib\angular-1.0.6\docs\partials\api\ng.directive_ngChange.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\apachePHP\KWebService\yikuedu\lib\angular-1.0.6\docs\partials\api\ng.directive_ngChecked.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\apachePHP\KWebService\yikuedu\lib\angular-1.0.6\docs\partials\api\ng.directive_ngClass.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\apachePHP\KWebService\yikuedu\lib\angular-1.0.6\docs\partials\api\ng.directive_ngClassEven.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\apachePHP\KWebService\yikuedu\lib\angular-1.0.6\docs\partials\api\ng.directive_ngClassOdd.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\apachePHP\KWebService\yikuedu\lib\angular-1.0.6\docs\partials\api\ng.directive_ngClick.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\apachePHP\KWebService\yikuedu\lib\angular-1.0.6\docs\partials\api\ng.directive_ngCloak.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\apachePHP\KWebService\yikuedu\lib\angular-1.0.6\docs\partials\api\ng.directive_ngController.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\apachePHP\KWebService\yikuedu\lib\angular-1.0.6\docs\partials\api\ng.directive_ngCsp.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\apachePHP\KWebService\yikuedu\lib\angular-1.0.6\docs\partials\api\ng.directive_ngDblclick.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\apachePHP\KWebService\yikuedu\lib\angular-1.0.6\docs\partials\api\ng.directive_ngDisabled.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\apachePHP\KWebService\yikuedu\lib\angular-1.0.6\docs\partials\api\ng.directive_ngForm.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\apachePHP\KWebService\yikuedu\lib\angular-1.0.6\docs\partials\api\ng.directive_ngHide.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\apachePHP\KWebService\yikuedu\lib\angular-1.0.6\docs\partials\api\ng.directive_ngHref.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\apachePHP\KWebService\yikuedu\lib\angular-1.0.6\docs\partials\api\ng.directive_ngInclude.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\apachePHP\KWebService\yikuedu\lib\angular-1.0.6\docs\partials\api\ng.directive_ngInit.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\apachePHP\KWebService\yikuedu\lib\angular-1.0.6\docs\partials\api\ng.directive_ngList.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\apachePHP\KWebService\yikuedu\lib\angular-1.0.6\docs\partials\api\ng.directive_ngModel.NgModelController.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\apachePHP\KWebService\yikuedu\lib\angular-1.0.6\docs\partials\api\ng.directive_ngModel.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\apachePHP\KWebService\yikuedu\lib\angular-1.0.6\docs\partials\api\ng.directive_ngMousedown.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\apachePHP\KWebService\yikuedu\lib\angular-1.0.6\docs\partials\api\ng.directive_ngMouseenter.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\apachePHP\KWebService\yikuedu\lib\angular-1.0.6\docs\partials\api\ng.directive_ngMouseleave.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\apachePHP\KWebService\yikuedu\lib\angular-1.0.6\docs\partials\api\ng.directive_ngMousemove.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\apachePHP\KWebService\yikuedu\lib\angular-1.0.6\docs\partials\api\ng.directive_ngMouseover.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\apachePHP\KWebService\yikuedu\lib\angular-1.0.6\docs\partials\api\ng.directive_ngMouseup.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\apachePHP\KWebService\yikuedu\lib\angular-1.0.6\docs\partials\api\ng.directive_ngMultiple.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\apachePHP\KWebService\yikuedu\lib\angular-1.0.6\docs\partials\api\ng.directive_ngNonBindable.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\apachePHP\KWebService\yikuedu\lib\angular-1.0.6\docs\partials\api\ng.directive_ngPluralize.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\apachePHP\KWebService\yikuedu\lib\angular-1.0.6\docs\partials\api\ng.directive_ngReadonly.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\apachePHP\KWebService\yikuedu\lib\angular-1.0.6\docs\partials\api\ng.directive_ngRepeat.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\apachePHP\KWebService\yikuedu\lib\angular-1.0.6\docs\partials\api\ng.directive_ngSelected.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\apachePHP\KWebService\yikuedu\lib\angular-1.0.6\docs\partials\api\ng.directive_ngShow.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\apachePHP\KWebService\yikuedu\lib\angular-1.0.6\docs\partials\api\ng.directive_ngSrc.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\apachePHP\KWebService\yikuedu\lib\angular-1.0.6\docs\partials\api\ng.directive_ngStyle.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\apachePHP\KWebService\yikuedu\lib\angular-1.0.6\docs\partials\api\ng.directive_ngSubmit.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\apachePHP\KWebService\yikuedu\lib\angular-1.0.6\docs\partials\api\ng.directive_ngSwitch.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\apachePHP\KWebService\yikuedu\lib\angular-1.0.6\docs\partials\api\ng.directive_ngTransclude.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\apachePHP\KWebService\yikuedu\lib\angular-1.0.6\docs\partials\api\ng.directive_ngView.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\apachePHP\KWebService\yikuedu\lib\angular-1.0.6\docs\partials\api\ng.directive_script.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\apachePHP\KWebService\yikuedu\lib\angular-1.0.6\docs\partials\api\ng.directive_select.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\apachePHP\KWebService\yikuedu\lib\angular-1.0.6\docs\partials\api\ng.directive_textarea.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\apachePHP\KWebService\yikuedu\lib\angular-1.0.6\docs\partials\api\ng.filter_currency.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\apachePHP\KWebService\yikuedu\lib\angular-1.0.6\docs\partials\api\ng.filter_date.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\apachePHP\KWebService\yikuedu\lib\angular-1.0.6\docs\partials\api\ng.filter_filter.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\apachePHP\KWebService\yikuedu\lib\angular-1.0.6\docs\partials\api\ng.filter_json.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\apachePHP\KWebService\yikuedu\lib\angular-1.0.6\docs\partials\api\ng.filter_limitTo.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\apachePHP\KWebService\yikuedu\lib\angular-1.0.6\docs\partials\api\ng.filter_lowercase.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\apachePHP\KWebService\yikuedu\lib\angular-1.0.6\docs\partials\api\ng.filter_number.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\apachePHP\KWebService\yikuedu\lib\angular-1.0.6\docs\partials\api\ng.filter_orderBy.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\apachePHP\KWebService\yikuedu\lib\angular-1.0.6\docs\partials\api\ng.filter_uppercase.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\apachePHP\KWebService\yikuedu\lib\angular-1.0.6\docs\partials\api\ng.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\apachePHP\KWebService\yikuedu\lib\angular-1.0.6\docs\partials\api\ngCookies.$cookieStore.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\apachePHP\KWebService\yikuedu\lib\angular-1.0.6\docs\partials\api\ngCookies.$cookies.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\apachePHP\KWebService\yikuedu\lib\angular-1.0.6\docs\partials\api\ngCookies.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\apachePHP\KWebService\yikuedu\lib\angular-1.0.6\docs\partials\api\ngMock.$exceptionHandler.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\apachePHP\KWebService\yikuedu\lib\angular-1.0.6\docs\partials\api\ngMock.$exceptionHandlerProvider.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\apachePHP\KWebService\yikuedu\lib\angular-1.0.6\docs\partials\api\ngMock.$httpBackend.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\apachePHP\KWebService\yikuedu\lib\angular-1.0.6\docs\partials\api\ngMock.$log.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\apachePHP\KWebService\yikuedu\lib\angular-1.0.6\docs\partials\api\ngMock.$timeout.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\apachePHP\KWebService\yikuedu\lib\angular-1.0.6\docs\partials\api\ngMock.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\apachePHP\KWebService\yikuedu\lib\angular-1.0.6\docs\partials\api\ngMockE2E.$httpBackend.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\apachePHP\KWebService\yikuedu\lib\angular-1.0.6\docs\partials\api\ngMockE2E.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\apachePHP\KWebService\yikuedu\lib\angular-1.0.6\docs\partials\api\ngResource.$resource.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\apachePHP\KWebService\yikuedu\lib\angular-1.0.6\docs\partials\api\ngResource.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\apachePHP\KWebService\yikuedu\lib\angular-1.0.6\docs\partials\api\ngSanitize.$sanitize.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\apachePHP\KWebService\yikuedu\lib\angular-1.0.6\docs\partials\api\ngSanitize.directive_ngBindHtml.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\apachePHP\KWebService\yikuedu\lib\angular-1.0.6\docs\partials\api\ngSanitize.filter_linky.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\apachePHP\KWebService\yikuedu\lib\angular-1.0.6\docs\partials\api\ngSanitize.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\apachePHP\KWebService\yikuedu\lib\angular-1.0.6\docs\partials\cookbook\advancedform.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\apachePHP\KWebService\yikuedu\lib\angular-1.0.6\docs\partials\cookbook\buzz.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\apachePHP\KWebService\yikuedu\lib\angular-1.0.6\docs\partials\cookbook\deeplinking.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\apachePHP\KWebService\yikuedu\lib\angular-1.0.6\docs\partials\cookbook\form.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\apachePHP\KWebService\yikuedu\lib\angular-1.0.6\docs\partials\cookbook\helloworld.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\apachePHP\KWebService\yikuedu\lib\angular-1.0.6\docs\partials\cookbook\index.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\apachePHP\KWebService\yikuedu\lib\angular-1.0.6\docs\partials\cookbook\mvc.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\apachePHP\KWebService\yikuedu\lib\angular-1.0.6\docs\partials\guide\bootstrap.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\apachePHP\KWebService\yikuedu\lib\angular-1.0.6\docs\partials\guide\compiler.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\apachePHP\KWebService\yikuedu\lib\angular-1.0.6\docs\partials\guide\concepts.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\apachePHP\KWebService\yikuedu\lib\angular-1.0.6\docs\partials\guide\dev_guide.e2e-testing.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\apachePHP\KWebService\yikuedu\lib\angular-1.0.6\docs\partials\guide\dev_guide.mvc.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\apachePHP\KWebService\yikuedu\lib\angular-1.0.6\docs\partials\guide\dev_guide.mvc.understanding_controller.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\apachePHP\KWebService\yikuedu\lib\angular-1.0.6\docs\partials\guide\dev_guide.mvc.understanding_model.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\apachePHP\KWebService\yikuedu\lib\angular-1.0.6\docs\partials\guide\dev_guide.mvc.understanding_view.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\apachePHP\KWebService\yikuedu\lib\angular-1.0.6\docs\partials\guide\dev_guide.services.$location.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\apachePHP\KWebService\yikuedu\lib\angular-1.0.6\docs\partials\guide\dev_guide.services.creating_services.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\apachePHP\KWebService\yikuedu\lib\angular-1.0.6\docs\partials\guide\dev_guide.services.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\apachePHP\KWebService\yikuedu\lib\angular-1.0.6\docs\partials\guide\dev_guide.services.injecting_controllers.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\apachePHP\KWebService\yikuedu\lib\angular-1.0.6\docs\partials\guide\dev_guide.services.managing_dependencies.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\apachePHP\KWebService\yikuedu\lib\angular-1.0.6\docs\partials\guide\dev_guide.services.testing_services.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\apachePHP\KWebService\yikuedu\lib\angular-1.0.6\docs\partials\guide\dev_guide.services.understanding_services.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\apachePHP\KWebService\yikuedu\lib\angular-1.0.6\docs\partials\guide\dev_guide.templates.css-styling.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\apachePHP\KWebService\yikuedu\lib\angular-1.0.6\docs\partials\guide\dev_guide.templates.databinding.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\apachePHP\KWebService\yikuedu\lib\angular-1.0.6\docs\partials\guide\dev_guide.templates.filters.creating_filters.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\apachePHP\KWebService\yikuedu\lib\angular-1.0.6\docs\partials\guide\dev_guide.templates.filters.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\apachePHP\KWebService\yikuedu\lib\angular-1.0.6\docs\partials\guide\dev_guide.templates.filters.using_filters.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\apachePHP\KWebService\yikuedu\lib\angular-1.0.6\docs\partials\guide\dev_guide.templates.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\apachePHP\KWebService\yikuedu\lib\angular-1.0.6\docs\partials\guide\dev_guide.unit-testing.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\apachePHP\KWebService\yikuedu\lib\angular-1.0.6\docs\partials\guide\di.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\apachePHP\KWebService\yikuedu\lib\angular-1.0.6\docs\partials\guide\directive.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\apachePHP\KWebService\yikuedu\lib\angular-1.0.6\docs\partials\guide\expression.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\apachePHP\KWebService\yikuedu\lib\angular-1.0.6\docs\partials\guide\forms.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\apachePHP\KWebService\yikuedu\lib\angular-1.0.6\docs\partials\guide\i18n.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\apachePHP\KWebService\yikuedu\lib\angular-1.0.6\docs\partials\guide\ie.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\apachePHP\KWebService\yikuedu\lib\angular-1.0.6\docs\partials\guide\index.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\apachePHP\KWebService\yikuedu\lib\angular-1.0.6\docs\partials\guide\introduction.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\apachePHP\KWebService\yikuedu\lib\angular-1.0.6\docs\partials\guide\module.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\apachePHP\KWebService\yikuedu\lib\angular-1.0.6\docs\partials\guide\overview.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\apachePHP\KWebService\yikuedu\lib\angular-1.0.6\docs\partials\guide\scope.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\apachePHP\KWebService\yikuedu\lib\angular-1.0.6\docs\partials\guide\type.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\apachePHP\KWebService\yikuedu\lib\angular-1.0.6\docs\partials\misc\contribute.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\apachePHP\KWebService\yikuedu\lib\angular-1.0.6\docs\partials\misc\downloading.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\apachePHP\KWebService\yikuedu\lib\angular-1.0.6\docs\partials\misc\faq.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\apachePHP\KWebService\yikuedu\lib\angular-1.0.6\docs\partials\misc\started.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\apachePHP\KWebService\yikuedu\lib\angular-1.0.6\docs\partials\tutorial\index.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\apachePHP\KWebService\yikuedu\lib\angular-1.0.6\docs\partials\tutorial\step_00.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\apachePHP\KWebService\yikuedu\lib\angular-1.0.6\docs\partials\tutorial\step_01.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\apachePHP\KWebService\yikuedu\lib\angular-1.0.6\docs\partials\tutorial\step_02.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\apachePHP\KWebService\yikuedu\lib\angular-1.0.6\docs\partials\tutorial\step_03.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\apachePHP\KWebService\yikuedu\lib\angular-1.0.6\docs\partials\tutorial\step_04.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\apachePHP\KWebService\yikuedu\lib\angular-1.0.6\docs\partials\tutorial\step_05.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\apachePHP\KWebService\yikuedu\lib\angular-1.0.6\docs\partials\tutorial\step_06.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\apachePHP\KWebService\yikuedu\lib\angular-1.0.6\docs\partials\tutorial\step_07.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\apachePHP\KWebService\yikuedu\lib\angular-1.0.6\docs\partials\tutorial\step_08.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\apachePHP\KWebService\yikuedu\lib\angular-1.0.6\docs\partials\tutorial\step_09.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\apachePHP\KWebService\yikuedu\lib\angular-1.0.6\docs\partials\tutorial\step_10.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\apachePHP\KWebService\yikuedu\lib\angular-1.0.6\docs\partials\tutorial\step_11.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\apachePHP\KWebService\yikuedu\lib\angular-1.0.6\docs\partials\tutorial\the_end.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\apachePHP\KWebService\yikuedu\lib\angular-1.0.6\docs\robots.txt" afterPath="" />
+      <change type="DELETED" beforePath="D:\apachePHP\KWebService\yikuedu\lib\angular-1.0.6\docs\sitemap.xml" afterPath="" />
+      <change type="DELETED" beforePath="D:\apachePHP\KWebService\yikuedu\lib\angular-1.0.6\i18n\angular-locale_af-na.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\apachePHP\KWebService\yikuedu\lib\angular-1.0.6\i18n\angular-locale_af-za.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\apachePHP\KWebService\yikuedu\lib\angular-1.0.6\i18n\angular-locale_af.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\apachePHP\KWebService\yikuedu\lib\angular-1.0.6\i18n\angular-locale_am-et.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\apachePHP\KWebService\yikuedu\lib\angular-1.0.6\i18n\angular-locale_am.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\apachePHP\KWebService\yikuedu\lib\angular-1.0.6\i18n\angular-locale_ar-001.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\apachePHP\KWebService\yikuedu\lib\angular-1.0.6\i18n\angular-locale_ar-ae.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\apachePHP\KWebService\yikuedu\lib\angular-1.0.6\i18n\angular-locale_ar-bh.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\apachePHP\KWebService\yikuedu\lib\angular-1.0.6\i18n\angular-locale_ar-dz.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\apachePHP\KWebService\yikuedu\lib\angular-1.0.6\i18n\angular-locale_ar-eg.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\apachePHP\KWebService\yikuedu\lib\angular-1.0.6\i18n\angular-locale_ar-iq.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\apachePHP\KWebService\yikuedu\lib\angular-1.0.6\i18n\angular-locale_ar-jo.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\apachePHP\KWebService\yikuedu\lib\angular-1.0.6\i18n\angular-locale_ar-kw.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\apachePHP\KWebService\yikuedu\lib\angular-1.0.6\i18n\angular-locale_ar-lb.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\apachePHP\KWebService\yikuedu\lib\angular-1.0.6\i18n\angular-locale_ar-ly.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\apachePHP\KWebService\yikuedu\lib\angular-1.0.6\i18n\angular-locale_ar-ma.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\apachePHP\KWebService\yikuedu\lib\angular-1.0.6\i18n\angular-locale_ar-om.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\apachePHP\KWebService\yikuedu\lib\angular-1.0.6\i18n\angular-locale_ar-qa.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\apachePHP\KWebService\yikuedu\lib\angular-1.0.6\i18n\angular-locale_ar-sa.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\apachePHP\KWebService\yikuedu\lib\angular-1.0.6\i18n\angular-locale_ar-sd.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\apachePHP\KWebService\yikuedu\lib\angular-1.0.6\i18n\angular-locale_ar-sy.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\apachePHP\KWebService\yikuedu\lib\angular-1.0.6\i18n\angular-locale_ar-tn.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\apachePHP\KWebService\yikuedu\lib\angular-1.0.6\i18n\angular-locale_ar-ye.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\apachePHP\KWebService\yikuedu\lib\angular-1.0.6\i18n\angular-locale_ar.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\apachePHP\KWebService\yikuedu\lib\angular-1.0.6\i18n\angular-locale_bg-bg.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\apachePHP\KWebService\yikuedu\lib\angular-1.0.6\i18n\angular-locale_bg.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\apachePHP\KWebService\yikuedu\lib\angular-1.0.6\i18n\angular-locale_bn-bd.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\apachePHP\KWebService\yikuedu\lib\angular-1.0.6\i18n\angular-locale_bn-in.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\apachePHP\KWebService\yikuedu\lib\angular-1.0.6\i18n\angular-locale_bn.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\apachePHP\KWebService\yikuedu\lib\angular-1.0.6\i18n\angular-locale_ca-ad.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\apachePHP\KWebService\yikuedu\lib\angular-1.0.6\i18n\angular-locale_ca-es.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\apachePHP\KWebService\yikuedu\lib\angular-1.0.6\i18n\angular-locale_ca.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\apachePHP\KWebService\yikuedu\lib\angular-1.0.6\i18n\angular-locale_chr.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\apachePHP\KWebService\yikuedu\lib\angular-1.0.6\i18n\angular-locale_cs-cz.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\apachePHP\KWebService\yikuedu\lib\angular-1.0.6\i18n\angular-locale_cs.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\apachePHP\KWebService\yikuedu\lib\angular-1.0.6\i18n\angular-locale_cy.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\apachePHP\KWebService\yikuedu\lib\angular-1.0.6\i18n\angular-locale_da-dk.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\apachePHP\KWebService\yikuedu\lib\angular-1.0.6\i18n\angular-locale_da.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\apachePHP\KWebService\yikuedu\lib\angular-1.0.6\i18n\angular-locale_de-at.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\apachePHP\KWebService\yikuedu\lib\angular-1.0.6\i18n\angular-locale_de-be.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\apachePHP\KWebService\yikuedu\lib\angular-1.0.6\i18n\angular-locale_de-ch.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\apachePHP\KWebService\yikuedu\lib\angular-1.0.6\i18n\angular-locale_de-de.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\apachePHP\KWebService\yikuedu\lib\angular-1.0.6\i18n\angular-locale_de-li.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\apachePHP\KWebService\yikuedu\lib\angular-1.0.6\i18n\angular-locale_de-lu.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\apachePHP\KWebService\yikuedu\lib\angular-1.0.6\i18n\angular-locale_de.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\apachePHP\KWebService\yikuedu\lib\angular-1.0.6\i18n\angular-locale_el-cy.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\apachePHP\KWebService\yikuedu\lib\angular-1.0.6\i18n\angular-locale_el-gr.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\apachePHP\KWebService\yikuedu\lib\angular-1.0.6\i18n\angular-locale_el-polyton.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\apachePHP\KWebService\yikuedu\lib\angular-1.0.6\i18n\angular-locale_el.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\apachePHP\KWebService\yikuedu\lib\angular-1.0.6\i18n\angular-locale_en-as.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\apachePHP\KWebService\yikuedu\lib\angular-1.0.6\i18n\angular-locale_en-au.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\apachePHP\KWebService\yikuedu\lib\angular-1.0.6\i18n\angular-locale_en-bb.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\apachePHP\KWebService\yikuedu\lib\angular-1.0.6\i18n\angular-locale_en-be.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\apachePHP\KWebService\yikuedu\lib\angular-1.0.6\i18n\angular-locale_en-bm.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\apachePHP\KWebService\yikuedu\lib\angular-1.0.6\i18n\angular-locale_en-bw.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\apachePHP\KWebService\yikuedu\lib\angular-1.0.6\i18n\angular-locale_en-bz.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\apachePHP\KWebService\yikuedu\lib\angular-1.0.6\i18n\angular-locale_en-ca.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\apachePHP\KWebService\yikuedu\lib\angular-1.0.6\i18n\angular-locale_en-dsrt-us.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\apachePHP\KWebService\yikuedu\lib\angular-1.0.6\i18n\angular-locale_en-dsrt.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\apachePHP\KWebService\yikuedu\lib\angular-1.0.6\i18n\angular-locale_en-fm.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\apachePHP\KWebService\yikuedu\lib\angular-1.0.6\i18n\angular-locale_en-gb.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\apachePHP\KWebService\yikuedu\lib\angular-1.0.6\i18n\angular-locale_en-gu.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\apachePHP\KWebService\yikuedu\lib\angular-1.0.6\i18n\angular-locale_en-gy.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\apachePHP\KWebService\yikuedu\lib\angular-1.0.6\i18n\angular-locale_en-hk.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\apachePHP\KWebService\yikuedu\lib\angular-1.0.6\i18n\angular-locale_en-ie.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\apachePHP\KWebService\yikuedu\lib\angular-1.0.6\i18n\angular-locale_en-in.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\apachePHP\KWebService\yikuedu\lib\angular-1.0.6\i18n\angular-locale_en-iso.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\apachePHP\KWebService\yikuedu\lib\angular-1.0.6\i18n\angular-locale_en-jm.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\apachePHP\KWebService\yikuedu\lib\angular-1.0.6\i18n\angular-locale_en-mh.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\apachePHP\KWebService\yikuedu\lib\angular-1.0.6\i18n\angular-locale_en-mp.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\apachePHP\KWebService\yikuedu\lib\angular-1.0.6\i18n\angular-locale_en-mt.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\apachePHP\KWebService\yikuedu\lib\angular-1.0.6\i18n\angular-locale_en-mu.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\apachePHP\KWebService\yikuedu\lib\angular-1.0.6\i18n\angular-locale_en-na.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\apachePHP\KWebService\yikuedu\lib\angular-1.0.6\i18n\angular-locale_en-nz.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\apachePHP\KWebService\yikuedu\lib\angular-1.0.6\i18n\angular-locale_en-ph.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\apachePHP\KWebService\yikuedu\lib\angular-1.0.6\i18n\angular-locale_en-pk.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\apachePHP\KWebService\yikuedu\lib\angular-1.0.6\i18n\angular-locale_en-pr.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\apachePHP\KWebService\yikuedu\lib\angular-1.0.6\i18n\angular-locale_en-pw.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\apachePHP\KWebService\yikuedu\lib\angular-1.0.6\i18n\angular-locale_en-sg.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\apachePHP\KWebService\yikuedu\lib\angular-1.0.6\i18n\angular-locale_en-tc.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\apachePHP\KWebService\yikuedu\lib\angular-1.0.6\i18n\angular-locale_en-tt.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\apachePHP\KWebService\yikuedu\lib\angular-1.0.6\i18n\angular-locale_en-um.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\apachePHP\KWebService\yikuedu\lib\angular-1.0.6\i18n\angular-locale_en-us.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\apachePHP\KWebService\yikuedu\lib\angular-1.0.6\i18n\angular-locale_en-vg.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\apachePHP\KWebService\yikuedu\lib\angular-1.0.6\i18n\angular-locale_en-vi.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\apachePHP\KWebService\yikuedu\lib\angular-1.0.6\i18n\angular-locale_en-za.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\apachePHP\KWebService\yikuedu\lib\angular-1.0.6\i18n\angular-locale_en-zw.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\apachePHP\KWebService\yikuedu\lib\angular-1.0.6\i18n\angular-locale_en-zz.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\apachePHP\KWebService\yikuedu\lib\angular-1.0.6\i18n\angular-locale_en.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\apachePHP\KWebService\yikuedu\lib\angular-1.0.6\i18n\angular-locale_es-419.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\apachePHP\KWebService\yikuedu\lib\angular-1.0.6\i18n\angular-locale_es-ar.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\apachePHP\KWebService\yikuedu\lib\angular-1.0.6\i18n\angular-locale_es-bo.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\apachePHP\KWebService\yikuedu\lib\angular-1.0.6\i18n\angular-locale_es-cl.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\apachePHP\KWebService\yikuedu\lib\angular-1.0.6\i18n\angular-locale_es-co.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\apachePHP\KWebService\yikuedu\lib\angular-1.0.6\i18n\angular-locale_es-cr.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\apachePHP\KWebService\yikuedu\lib\angular-1.0.6\i18n\angular-locale_es-do.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\apachePHP\KWebService\yikuedu\lib\angular-1.0.6\i18n\angular-locale_es-ea.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\apachePHP\KWebService\yikuedu\lib\angular-1.0.6\i18n\angular-locale_es-ec.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\apachePHP\KWebService\yikuedu\lib\angular-1.0.6\i18n\angular-locale_es-es.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\apachePHP\KWebService\yikuedu\lib\angular-1.0.6\i18n\angular-locale_es-gq.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\apachePHP\KWebService\yikuedu\lib\angular-1.0.6\i18n\angular-locale_es-gt.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\apachePHP\KWebService\yikuedu\lib\angular-1.0.6\i18n\angular-locale_es-hn.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\apachePHP\KWebService\yikuedu\lib\angular-1.0.6\i18n\angular-locale_es-ic.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\apachePHP\KWebService\yikuedu\lib\angular-1.0.6\i18n\angular-locale_es-mx.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\apachePHP\KWebService\yikuedu\lib\angular-1.0.6\i18n\angular-locale_es-ni.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\apachePHP\KWebService\yikuedu\lib\angular-1.0.6\i18n\angular-locale_es-pa.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\apachePHP\KWebService\yikuedu\lib\angular-1.0.6\i18n\angular-locale_es-pe.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\apachePHP\KWebService\yikuedu\lib\angular-1.0.6\i18n\angular-locale_es-pr.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\apachePHP\KWebService\yikuedu\lib\angular-1.0.6\i18n\angular-locale_es-py.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\apachePHP\KWebService\yikuedu\lib\angular-1.0.6\i18n\angular-locale_es-sv.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\apachePHP\KWebService\yikuedu\lib\angular-1.0.6\i18n\angular-locale_es-us.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\apachePHP\KWebService\yikuedu\lib\angular-1.0.6\i18n\angular-locale_es-uy.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\apachePHP\KWebService\yikuedu\lib\angular-1.0.6\i18n\angular-locale_es-ve.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\apachePHP\KWebService\yikuedu\lib\angular-1.0.6\i18n\angular-locale_es.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\apachePHP\KWebService\yikuedu\lib\angular-1.0.6\i18n\angular-locale_et-ee.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\apachePHP\KWebService\yikuedu\lib\angular-1.0.6\i18n\angular-locale_et.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\apachePHP\KWebService\yikuedu\lib\angular-1.0.6\i18n\angular-locale_eu-es.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\apachePHP\KWebService\yikuedu\lib\angular-1.0.6\i18n\angular-locale_eu.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\apachePHP\KWebService\yikuedu\lib\angular-1.0.6\i18n\angular-locale_fa-af.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\apachePHP\KWebService\yikuedu\lib\angular-1.0.6\i18n\angular-locale_fa-ir.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\apachePHP\KWebService\yikuedu\lib\angular-1.0.6\i18n\angular-locale_fa.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\apachePHP\KWebService\yikuedu\lib\angular-1.0.6\i18n\angular-locale_fi-fi.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\apachePHP\KWebService\yikuedu\lib\angular-1.0.6\i18n\angular-locale_fi.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\apachePHP\KWebService\yikuedu\lib\angular-1.0.6\i18n\angular-locale_fil-ph.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\apachePHP\KWebService\yikuedu\lib\angular-1.0.6\i18n\angular-locale_fil.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\apachePHP\KWebService\yikuedu\lib\angular-1.0.6\i18n\angular-locale_fr-be.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\apachePHP\KWebService\yikuedu\lib\angular-1.0.6\i18n\angular-locale_fr-bf.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\apachePHP\KWebService\yikuedu\lib\angular-1.0.6\i18n\angular-locale_fr-bi.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\apachePHP\KWebService\yikuedu\lib\angular-1.0.6\i18n\angular-locale_fr-bj.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\apachePHP\KWebService\yikuedu\lib\angular-1.0.6\i18n\angular-locale_fr-bl.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\apachePHP\KWebService\yikuedu\lib\angular-1.0.6\i18n\angular-locale_fr-ca.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\apachePHP\KWebService\yikuedu\lib\angular-1.0.6\i18n\angular-locale_fr-cd.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\apachePHP\KWebService\yikuedu\lib\angular-1.0.6\i18n\angular-locale_fr-cf.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\apachePHP\KWebService\yikuedu\lib\angular-1.0.6\i18n\angular-locale_fr-cg.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\apachePHP\KWebService\yikuedu\lib\angular-1.0.6\i18n\angular-locale_fr-ch.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\apachePHP\KWebService\yikuedu\lib\angular-1.0.6\i18n\angular-locale_fr-ci.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\apachePHP\KWebService\yikuedu\lib\angular-1.0.6\i18n\angular-locale_fr-cm.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\apachePHP\KWebService\yikuedu\lib\angular-1.0.6\i18n\angular-locale_fr-dj.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\apachePHP\KWebService\yikuedu\lib\angular-1.0.6\i18n\angular-locale_fr-fr.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\apachePHP\KWebService\yikuedu\lib\angular-1.0.6\i18n\angular-locale_fr-ga.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\apachePHP\KWebService\yikuedu\lib\angular-1.0.6\i18n\angular-locale_fr-gf.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\apachePHP\KWebService\yikuedu\lib\angular-1.0.6\i18n\angular-locale_fr-gn.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\apachePHP\KWebService\yikuedu\lib\angular-1.0.6\i18n\angular-locale_fr-gp.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\apachePHP\KWebService\yikuedu\lib\angular-1.0.6\i18n\angular-locale_fr-gq.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\apachePHP\KWebService\yikuedu\lib\angular-1.0.6\i18n\angular-locale_fr-km.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\apachePHP\KWebService\yikuedu\lib\angular-1.0.6\i18n\angular-locale_fr-lu.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\apachePHP\KWebService\yikuedu\lib\angular-1.0.6\i18n\angular-locale_fr-mc.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\apachePHP\KWebService\yikuedu\lib\angular-1.0.6\i18n\angular-locale_fr-mf.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\apachePHP\KWebService\yikuedu\lib\angular-1.0.6\i18n\angular-locale_fr-mg.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\apachePHP\KWebService\yikuedu\lib\angular-1.0.6\i18n\angular-locale_fr-ml.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\apachePHP\KWebService\yikuedu\lib\angular-1.0.6\i18n\angular-locale_fr-mq.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\apachePHP\KWebService\yikuedu\lib\angular-1.0.6\i18n\angular-locale_fr-ne.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\apachePHP\KWebService\yikuedu\lib\angular-1.0.6\i18n\angular-locale_fr-re.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\apachePHP\KWebService\yikuedu\lib\angular-1.0.6\i18n\angular-locale_fr-rw.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\apachePHP\KWebService\yikuedu\lib\angular-1.0.6\i18n\angular-locale_fr-sn.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\apachePHP\KWebService\yikuedu\lib\angular-1.0.6\i18n\angular-locale_fr-td.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\apachePHP\KWebService\yikuedu\lib\angular-1.0.6\i18n\angular-locale_fr-tg.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\apachePHP\KWebService\yikuedu\lib\angular-1.0.6\i18n\angular-locale_fr-yt.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\apachePHP\KWebService\yikuedu\lib\angular-1.0.6\i18n\angular-locale_fr.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\apachePHP\KWebService\yikuedu\lib\angular-1.0.6\i18n\angular-locale_gl-es.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\apachePHP\KWebService\yikuedu\lib\angular-1.0.6\i18n\angular-locale_gl.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\apachePHP\KWebService\yikuedu\lib\angular-1.0.6\i18n\angular-locale_gsw-ch.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\apachePHP\KWebService\yikuedu\lib\angular-1.0.6\i18n\angular-locale_gsw.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\apachePHP\KWebService\yikuedu\lib\angular-1.0.6\i18n\angular-locale_gu-in.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\apachePHP\KWebService\yikuedu\lib\angular-1.0.6\i18n\angular-locale_gu.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\apachePHP\KWebService\yikuedu\lib\angular-1.0.6\i18n\angular-locale_haw.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\apachePHP\KWebService\yikuedu\lib\angular-1.0.6\i18n\angular-locale_he-il.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\apachePHP\KWebService\yikuedu\lib\angular-1.0.6\i18n\angular-locale_he.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\apachePHP\KWebService\yikuedu\lib\angular-1.0.6\i18n\angular-locale_hi-in.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\apachePHP\KWebService\yikuedu\lib\angular-1.0.6\i18n\angular-locale_hi.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\apachePHP\KWebService\yikuedu\lib\angular-1.0.6\i18n\angular-locale_hr-hr.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\apachePHP\KWebService\yikuedu\lib\angular-1.0.6\i18n\angular-locale_hr.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\apachePHP\KWebService\yikuedu\lib\angular-1.0.6\i18n\angular-locale_hu-hu.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\apachePHP\KWebService\yikuedu\lib\angular-1.0.6\i18n\angular-locale_hu.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\apachePHP\KWebService\yikuedu\lib\angular-1.0.6\i18n\angular-locale_id-id.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\apachePHP\KWebService\yikuedu\lib\angular-1.0.6\i18n\angular-locale_id.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\apachePHP\KWebService\yikuedu\lib\angular-1.0.6\i18n\angular-locale_in.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\apachePHP\KWebService\yikuedu\lib\angular-1.0.6\i18n\angular-locale_is-is.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\apachePHP\KWebService\yikuedu\lib\angular-1.0.6\i18n\angular-locale_is.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\apachePHP\KWebService\yikuedu\lib\angular-1.0.6\i18n\angular-locale_it-ch.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\apachePHP\KWebService\yikuedu\lib\angular-1.0.6\i18n\angular-locale_it-it.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\apachePHP\KWebService\yikuedu\lib\angular-1.0.6\i18n\angular-locale_it-sm.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\apachePHP\KWebService\yikuedu\lib\angular-1.0.6\i18n\angular-locale_it.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\apachePHP\KWebService\yikuedu\lib\angular-1.0.6\i18n\angular-locale_iw.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\apachePHP\KWebService\yikuedu\lib\angular-1.0.6\i18n\angular-locale_ja-jp.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\apachePHP\KWebService\yikuedu\lib\angular-1.0.6\i18n\angular-locale_ja.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\apachePHP\KWebService\yikuedu\lib\angular-1.0.6\i18n\angular-locale_kn-in.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\apachePHP\KWebService\yikuedu\lib\angular-1.0.6\i18n\angular-locale_kn.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\apachePHP\KWebService\yikuedu\lib\angular-1.0.6\i18n\angular-locale_ko-kr.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\apachePHP\KWebService\yikuedu\lib\angular-1.0.6\i18n\angular-locale_ko.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\apachePHP\KWebService\yikuedu\lib\angular-1.0.6\i18n\angular-locale_ln-cd.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\apachePHP\KWebService\yikuedu\lib\angular-1.0.6\i18n\angular-locale_ln-cg.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\apachePHP\KWebService\yikuedu\lib\angular-1.0.6\i18n\angular-locale_ln.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\apachePHP\KWebService\yikuedu\lib\angular-1.0.6\i18n\angular-locale_lt-lt.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\apachePHP\KWebService\yikuedu\lib\angular-1.0.6\i18n\angular-locale_lt.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\apachePHP\KWebService\yikuedu\lib\angular-1.0.6\i18n\angular-locale_lv-lv.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\apachePHP\KWebService\yikuedu\lib\angular-1.0.6\i18n\angular-locale_lv.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\apachePHP\KWebService\yikuedu\lib\angular-1.0.6\i18n\angular-locale_ml-in.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\apachePHP\KWebService\yikuedu\lib\angular-1.0.6\i18n\angular-locale_ml.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\apachePHP\KWebService\yikuedu\lib\angular-1.0.6\i18n\angular-locale_mo.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\apachePHP\KWebService\yikuedu\lib\angular-1.0.6\i18n\angular-locale_mr-in.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\apachePHP\KWebService\yikuedu\lib\angular-1.0.6\i18n\angular-locale_mr.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\apachePHP\KWebService\yikuedu\lib\angular-1.0.6\i18n\angular-locale_ms-bn.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\apachePHP\KWebService\yikuedu\lib\angular-1.0.6\i18n\angular-locale_ms-my.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\apachePHP\KWebService\yikuedu\lib\angular-1.0.6\i18n\angular-locale_ms.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\apachePHP\KWebService\yikuedu\lib\angular-1.0.6\i18n\angular-locale_mt-mt.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\apachePHP\KWebService\yikuedu\lib\angular-1.0.6\i18n\angular-locale_mt.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\apachePHP\KWebService\yikuedu\lib\angular-1.0.6\i18n\angular-locale_nl-aw.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\apachePHP\KWebService\yikuedu\lib\angular-1.0.6\i18n\angular-locale_nl-be.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\apachePHP\KWebService\yikuedu\lib\angular-1.0.6\i18n\angular-locale_nl-cw.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\apachePHP\KWebService\yikuedu\lib\angular-1.0.6\i18n\angular-locale_nl-nl.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\apachePHP\KWebService\yikuedu\lib\angular-1.0.6\i18n\angular-locale_nl-sx.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\apachePHP\KWebService\yikuedu\lib\angular-1.0.6\i18n\angular-locale_nl.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\apachePHP\KWebService\yikuedu\lib\angular-1.0.6\i18n\angular-locale_no.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\apachePHP\KWebService\yikuedu\lib\angular-1.0.6\i18n\angular-locale_or-in.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\apachePHP\KWebService\yikuedu\lib\angular-1.0.6\i18n\angular-locale_or.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\apachePHP\KWebService\yikuedu\lib\angular-1.0.6\i18n\angular-locale_pl-pl.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\apachePHP\KWebService\yikuedu\lib\angular-1.0.6\i18n\angular-locale_pl.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\apachePHP\KWebService\yikuedu\lib\angular-1.0.6\i18n\angular-locale_pt-ao.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\apachePHP\KWebService\yikuedu\lib\angular-1.0.6\i18n\angular-locale_pt-br.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\apachePHP\KWebService\yikuedu\lib\angular-1.0.6\i18n\angular-locale_pt-gw.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\apachePHP\KWebService\yikuedu\lib\angular-1.0.6\i18n\angular-locale_pt-mz.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\apachePHP\KWebService\yikuedu\lib\angular-1.0.6\i18n\angular-locale_pt-pt.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\apachePHP\KWebService\yikuedu\lib\angular-1.0.6\i18n\angular-locale_pt-st.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\apachePHP\KWebService\yikuedu\lib\angular-1.0.6\i18n\angular-locale_pt.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\apachePHP\KWebService\yikuedu\lib\angular-1.0.6\i18n\angular-locale_ro-md.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\apachePHP\KWebService\yikuedu\lib\angular-1.0.6\i18n\angular-locale_ro-ro.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\apachePHP\KWebService\yikuedu\lib\angular-1.0.6\i18n\angular-locale_ro.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\apachePHP\KWebService\yikuedu\lib\angular-1.0.6\i18n\angular-locale_ru-md.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\apachePHP\KWebService\yikuedu\lib\angular-1.0.6\i18n\angular-locale_ru-ru.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\apachePHP\KWebService\yikuedu\lib\angular-1.0.6\i18n\angular-locale_ru-ua.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\apachePHP\KWebService\yikuedu\lib\angular-1.0.6\i18n\angular-locale_ru.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\apachePHP\KWebService\yikuedu\lib\angular-1.0.6\i18n\angular-locale_sk-sk.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\apachePHP\KWebService\yikuedu\lib\angular-1.0.6\i18n\angular-locale_sk.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\apachePHP\KWebService\yikuedu\lib\angular-1.0.6\i18n\angular-locale_sl-si.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\apachePHP\KWebService\yikuedu\lib\angular-1.0.6\i18n\angular-locale_sl.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\apachePHP\KWebService\yikuedu\lib\angular-1.0.6\i18n\angular-locale_sq-al.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\apachePHP\KWebService\yikuedu\lib\angular-1.0.6\i18n\angular-locale_sq.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\apachePHP\KWebService\yikuedu\lib\angular-1.0.6\i18n\angular-locale_sr-cyrl-ba.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\apachePHP\KWebService\yikuedu\lib\angular-1.0.6\i18n\angular-locale_sr-cyrl-me.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\apachePHP\KWebService\yikuedu\lib\angular-1.0.6\i18n\angular-locale_sr-cyrl-rs.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\apachePHP\KWebService\yikuedu\lib\angular-1.0.6\i18n\angular-locale_sr-cyrl.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\apachePHP\KWebService\yikuedu\lib\angular-1.0.6\i18n\angular-locale_sr-latn-ba.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\apachePHP\KWebService\yikuedu\lib\angular-1.0.6\i18n\angular-locale_sr-latn-me.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\apachePHP\KWebService\yikuedu\lib\angular-1.0.6\i18n\angular-locale_sr-latn-rs.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\apachePHP\KWebService\yikuedu\lib\angular-1.0.6\i18n\angular-locale_sr-latn.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\apachePHP\KWebService\yikuedu\lib\angular-1.0.6\i18n\angular-locale_sr-rs.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\apachePHP\KWebService\yikuedu\lib\angular-1.0.6\i18n\angular-locale_sr.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\apachePHP\KWebService\yikuedu\lib\angular-1.0.6\i18n\angular-locale_sv-fi.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\apachePHP\KWebService\yikuedu\lib\angular-1.0.6\i18n\angular-locale_sv-se.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\apachePHP\KWebService\yikuedu\lib\angular-1.0.6\i18n\angular-locale_sv.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\apachePHP\KWebService\yikuedu\lib\angular-1.0.6\i18n\angular-locale_sw-ke.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\apachePHP\KWebService\yikuedu\lib\angular-1.0.6\i18n\angular-locale_sw-tz.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\apachePHP\KWebService\yikuedu\lib\angular-1.0.6\i18n\angular-locale_sw.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\apachePHP\KWebService\yikuedu\lib\angular-1.0.6\i18n\angular-locale_ta-in.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\apachePHP\KWebService\yikuedu\lib\angular-1.0.6\i18n\angular-locale_ta-lk.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\apachePHP\KWebService\yikuedu\lib\angular-1.0.6\i18n\angular-locale_ta.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\apachePHP\KWebService\yikuedu\lib\angular-1.0.6\i18n\angular-locale_te-in.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\apachePHP\KWebService\yikuedu\lib\angular-1.0.6\i18n\angular-locale_te.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\apachePHP\KWebService\yikuedu\lib\angular-1.0.6\i18n\angular-locale_th-th.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\apachePHP\KWebService\yikuedu\lib\angular-1.0.6\i18n\angular-locale_th.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\apachePHP\KWebService\yikuedu\lib\angular-1.0.6\i18n\angular-locale_tl-ph.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\apachePHP\KWebService\yikuedu\lib\angular-1.0.6\i18n\angular-locale_tl.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\apachePHP\KWebService\yikuedu\lib\angular-1.0.6\i18n\angular-locale_tr-tr.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\apachePHP\KWebService\yikuedu\lib\angular-1.0.6\i18n\angular-locale_tr.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\apachePHP\KWebService\yikuedu\lib\angular-1.0.6\i18n\angular-locale_uk-ua.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\apachePHP\KWebService\yikuedu\lib\angular-1.0.6\i18n\angular-locale_uk.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\apachePHP\KWebService\yikuedu\lib\angular-1.0.6\i18n\angular-locale_ur-in.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\apachePHP\KWebService\yikuedu\lib\angular-1.0.6\i18n\angular-locale_ur-pk.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\apachePHP\KWebService\yikuedu\lib\angular-1.0.6\i18n\angular-locale_ur.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\apachePHP\KWebService\yikuedu\lib\angular-1.0.6\i18n\angular-locale_vi-vn.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\apachePHP\KWebService\yikuedu\lib\angular-1.0.6\i18n\angular-locale_vi.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\apachePHP\KWebService\yikuedu\lib\angular-1.0.6\i18n\angular-locale_zh-cn.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\apachePHP\KWebService\yikuedu\lib\angular-1.0.6\i18n\angular-locale_zh-hans-cn.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\apachePHP\KWebService\yikuedu\lib\angular-1.0.6\i18n\angular-locale_zh-hans-hk.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\apachePHP\KWebService\yikuedu\lib\angular-1.0.6\i18n\angular-locale_zh-hans-mo.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\apachePHP\KWebService\yikuedu\lib\angular-1.0.6\i18n\angular-locale_zh-hans-sg.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\apachePHP\KWebService\yikuedu\lib\angular-1.0.6\i18n\angular-locale_zh-hans.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\apachePHP\KWebService\yikuedu\lib\angular-1.0.6\i18n\angular-locale_zh-hant-hk.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\apachePHP\KWebService\yikuedu\lib\angular-1.0.6\i18n\angular-locale_zh-hant-mo.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\apachePHP\KWebService\yikuedu\lib\angular-1.0.6\i18n\angular-locale_zh-hant-tw.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\apachePHP\KWebService\yikuedu\lib\angular-1.0.6\i18n\angular-locale_zh-hant.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\apachePHP\KWebService\yikuedu\lib\angular-1.0.6\i18n\angular-locale_zh-hk.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\apachePHP\KWebService\yikuedu\lib\angular-1.0.6\i18n\angular-locale_zh-tw.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\apachePHP\KWebService\yikuedu\lib\angular-1.0.6\i18n\angular-locale_zh.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\apachePHP\KWebService\yikuedu\lib\angular-1.0.6\i18n\angular-locale_zu-za.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\apachePHP\KWebService\yikuedu\lib\angular-1.0.6\i18n\angular-locale_zu.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\apachePHP\KWebService\yikuedu\lib\angular-1.0.6\version.json" afterPath="" />
+      <change type="DELETED" beforePath="D:\apachePHP\KWebService\yikuedu\lib\angular-1.0.6\version.txt" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/yii-1.1.13.e9e4a0/framework/zii/widgets/grid/CButtonColumn.php" afterPath="$PROJECT_DIR$/lib/yii-1.1.13.e9e4a0/framework/zii/widgets/grid/CButtonColumn.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/yikuAdmin/protected/models/TUSER.php" afterPath="$PROJECT_DIR$/yikuAdmin/protected/models/TUSER.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/yikuAdmin/protected/controllers/TUSERController.php" afterPath="$PROJECT_DIR$/yikuAdmin/protected/controllers/TUSERController.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/yikuAdmin/protected/views/tUSER/_form.php" afterPath="$PROJECT_DIR$/yikuAdmin/protected/views/tUSER/_form.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/yikuAdmin/protected/views/tUSER/_search.php" afterPath="$PROJECT_DIR$/yikuAdmin/protected/views/tUSER/_search.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/yikuAdmin/protected/views/tUSER/_view.php" afterPath="$PROJECT_DIR$/yikuAdmin/protected/views/tUSER/_view.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/yii-1.1.13.e9e4a0/framework/cli/views/shell/crud/admin.php" afterPath="$PROJECT_DIR$/lib/yii-1.1.13.e9e4a0/framework/cli/views/shell/crud/admin.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/yii-1.1.13.e9e4a0/framework/gii/generators/crud/templates/default/admin.php" afterPath="$PROJECT_DIR$/lib/yii-1.1.13.e9e4a0/framework/gii/generators/crud/templates/default/admin.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/yikuAdmin/protected/views/tUSER/admin.php" afterPath="$PROJECT_DIR$/yikuAdmin/protected/views/tUSER/admin.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/yikuAdmin/protected/runtime/application.log" afterPath="$PROJECT_DIR$/yikuAdmin/protected/runtime/application.log" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/yikuAdmin/protected/views/layouts/column2.php" afterPath="$PROJECT_DIR$/yikuAdmin/protected/views/layouts/column2.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/yikuAdmin/protected/views/tUSER/create.php" afterPath="$PROJECT_DIR$/yikuAdmin/protected/views/tUSER/create.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/yikuAdmin/protected/views/tUSER/index.php" afterPath="$PROJECT_DIR$/yikuAdmin/protected/views/tUSER/index.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/yikuAdmin/css/screen.css" afterPath="$PROJECT_DIR$/yikuAdmin/css/screen.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/yikuAdmin/protected/views/tUSER/update.php" afterPath="$PROJECT_DIR$/yikuAdmin/protected/views/tUSER/update.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/yii-1.1.13.e9e4a0/framework/gii/generators/crud/templates/default/view.php" afterPath="$PROJECT_DIR$/lib/yii-1.1.13.e9e4a0/framework/gii/generators/crud/templates/default/view.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/yikuAdmin/protected/views/tUSER/view.php" afterPath="$PROJECT_DIR$/yikuAdmin/protected/views/tUSER/view.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/yii-1.1.13.e9e4a0/framework/messages/zh_cn/zii.php" afterPath="$PROJECT_DIR$/lib/yii-1.1.13.e9e4a0/framework/messages/zh_cn/zii.php" />
     </list>
     <ignored path="yikuedu.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="67cc20b5-494c-48b2-b142-43ca40115fff" time="1372438901746" ignored="false" />
-    <file path="/a.dummy" changelist="67cc20b5-494c-48b2-b142-43ca40115fff" time="1372437386401" ignored="false" />
+    <file path="/Dummy.txt" changelist="67cc20b5-494c-48b2-b142-43ca40115fff" time="1372491473224" ignored="false" />
+    <file path="/a.dummy" changelist="67cc20b5-494c-48b2-b142-43ca40115fff" time="1372494400439" ignored="false" />
+    <file path="/admin.php" changelist="67cc20b5-494c-48b2-b142-43ca40115fff" time="1372492238292" ignored="false" />
+    <file path="/create.php" changelist="67cc20b5-494c-48b2-b142-43ca40115fff" time="1372493488026" ignored="false" />
+    <file path="/_form.php" changelist="67cc20b5-494c-48b2-b142-43ca40115fff" time="1372493760700" ignored="false" />
+    <file path="/view.php" changelist="67cc20b5-494c-48b2-b142-43ca40115fff" time="1372494426683" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -27,37 +624,73 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="console.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/yikuAdmin/protected/config/console.php">
+      <file leaf-file-name="zii.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/lib/yii-1.1.13.e9e4a0/framework/messages/zh_cn/zii.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="14" column="74" selection-start="431" selection-end="431" vertical-scroll-proportion="-10.0625">
+            <state line="32" column="17" selection-start="1760" selection-end="1760" vertical-scroll-proportion="-13.65625">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="login.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/yikuAdmin/protected/views/site/login.php">
+      <file leaf-file-name="admin.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/yikuAdmin/protected/views/tUSER/admin.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="37" column="98" selection-start="1011" selection-end="1011" vertical-scroll-proportion="-26.59375">
+            <state line="85" column="19" selection-start="1186" selection-end="1686" vertical-scroll-proportion="-10.4375">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="main.php" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/yikuAdmin/protected/config/main.php">
+      <file leaf-file-name="view.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/yikuAdmin/protected/views/tUSER/view.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="67" column="0" selection-start="1736" selection-end="1736" vertical-scroll-proportion="0.39140812">
+            <state line="13" column="123" selection-start="433" selection-end="433" vertical-scroll-proportion="-4.25">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="create.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/yikuAdmin/protected/views/tUSER/create.php">
+      <file leaf-file-name="_view.php" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/yikuAdmin/protected/views/tUSER/_view.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="11" column="41" selection-start="235" selection-end="235" vertical-scroll-proportion="-4.78125">
+            <state line="19" column="0" selection-start="523" selection-end="523" vertical-scroll-proportion="0.69036335">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="view.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/lib/yii-1.1.13.e9e4a0/framework/gii/generators/crud/templates/default/view.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="23" column="200" selection-start="1006" selection-end="1006" vertical-scroll-proportion="-4.5625">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="_search.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/yikuAdmin/protected/views/tUSER/_search.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="44" column="0" selection-start="1279" selection-end="1279" vertical-scroll-proportion="8.96875">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="_form.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/yikuAdmin/protected/views/tUSER/_form.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="14" column="0" selection-start="326" selection-end="326" vertical-scroll-proportion="-0.71875">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CButtonColumn.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/lib/yii-1.1.13.e9e4a0/framework/zii/widgets/grid/CButtonColumn.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="205" column="52" selection-start="8329" selection-end="8329" vertical-scroll-proportion="-4.375">
               <folding />
             </state>
           </provider>
@@ -81,7 +714,22 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/page/admin.html" />
+        <option value="$PROJECT_DIR$/yikuAdmin/protected/models/TUSER.php" />
+        <option value="$PROJECT_DIR$/yikuAdmin/protected/views/tUSER/index.php" />
+        <option value="$PROJECT_DIR$/lib/yii-1.1.13.e9e4a0/framework/cli/views/shell/crud/admin.php" />
+        <option value="$PROJECT_DIR$/lib/yii-1.1.13.e9e4a0/framework/gii/generators/crud/templates/default/admin.php" />
+        <option value="$PROJECT_DIR$/yikuAdmin/css/screen.css" />
+        <option value="$PROJECT_DIR$/yikuAdmin/protected/views/tUSER/update.php" />
+        <option value="$PROJECT_DIR$/yikuAdmin/protected/views/layouts/column2.php" />
+        <option value="$PROJECT_DIR$/yikuAdmin/protected/views/tUSER/admin.php" />
+        <option value="$PROJECT_DIR$/yikuAdmin/protected/views/tUSER/create.php" />
+        <option value="$PROJECT_DIR$/yikuAdmin/protected/views/tUSER/_form.php" />
+        <option value="$PROJECT_DIR$/lib/yii-1.1.13.e9e4a0/framework/messages/zh_cn/zii.php" />
+        <option value="$PROJECT_DIR$/lib/yii-1.1.13.e9e4a0/framework/gii/generators/crud/templates/default/view.php" />
+        <option value="$PROJECT_DIR$/lib/yii-1.1.13.e9e4a0/framework/zii/widgets/grid/CButtonColumn.php" />
+        <option value="$PROJECT_DIR$/yikuAdmin/protected/views/tUSER/view.php" />
+        <option value="$PROJECT_DIR$/yikuAdmin/protected/views/tUSER/_search.php" />
+        <option value="$PROJECT_DIR$/yikuAdmin/protected/views/tUSER/_view.php" />
       </list>
     </option>
   </component>
@@ -117,22 +765,22 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scope">
-        <subPane subId="Project Files">
-          <PATH>
-            <PATH_ELEMENT USER_OBJECT="Root">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-          </PATH>
-        </subPane>
-      </pane>
       <pane id="ProjectPane">
         <subPane>
           <PATH>
             <PATH_ELEMENT>
               <option name="myItemId" value="yikuedu" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="yikuedu" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="yikuedu" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
           <PATH>
@@ -164,6 +812,102 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="protected" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="yikuedu" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="yikuedu" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="yikuAdmin" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="protected" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="tUSER" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="yikuedu" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="yikuedu" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="yikuAdmin" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="protected" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="yikuedu" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="yikuedu" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="yikuAdmin" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="protected" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="layouts" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="yikuedu" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="yikuedu" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="yikuAdmin" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="protected" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="models" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -198,6 +942,24 @@
               <option name="myItemId" value="yikuedu" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="yikuAdmin" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="css" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+      <pane id="Scope">
+        <subPane subId="Project Files">
+          <PATH>
+            <PATH_ELEMENT USER_OBJECT="Root">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
@@ -216,20 +978,23 @@
     <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth0" value="138" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder0" value="0" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth2" value="144" />
-    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth3" value="926" />
-    <property name="DefaultHtmlFileTemplate" value="Html" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth3" value="926" />
+    <property name="DefaultHtmlFileTemplate" value="Html" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth3" value="926" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth2" value="144" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth1" value="143" />
-    <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder2" value="2" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder3" value="3" />
-    <property name="options.splitter.details.proportions" value="0.2" />
     <property name="options.searchVisible" value="true" />
+    <property name="options.splitter.details.proportions" value="0.2" />
   </component>
   <component name="RunManager">
     <configuration default="true" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
       <TestRunner />
+      <method />
+    </configuration>
+    <configuration default="true" type="PhpLocalRunConfigurationType" factoryName="PHP Console">
       <method />
     </configuration>
     <configuration default="true" type="JavascriptDebugSession" factoryName="Local" singleton="true">
@@ -289,21 +1054,21 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1456" height="876" extended-state="7" />
+    <frame x="-8" y="-8" width="1456" height="876" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32867134" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3282123" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25753227" sideWeight="0.66993004" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.26149425" sideWeight="0.67178774" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.33006993" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32960895" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Data Sources" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -377,44 +1142,114 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/yikuAdmin/protected/components/UserIdentity.php">
+    <entry file="file://$PROJECT_DIR$/yikuAdmin/css/print.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="22" column="13" selection-start="640" selection-end="640" vertical-scroll-proportion="0.3602015">
+        <state line="15" column="29" selection-start="614" selection-end="614" vertical-scroll-proportion="0.82733816">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/yikuAdmin/index.php">
+    <entry file="file://$PROJECT_DIR$/yikuAdmin/css/main.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="51" selection-start="101" selection-end="101" vertical-scroll-proportion="0.16428572">
+        <state line="13" column="16" selection-start="178" selection-end="178" vertical-scroll-proportion="-0.10154525">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/yikuAdmin/protected/config/console.php">
+    <entry file="file://$PROJECT_DIR$/yikuAdmin/protected/views/layouts/main.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="74" selection-start="431" selection-end="431" vertical-scroll-proportion="-10.0625">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/yikuAdmin/protected/views/layouts/column1.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/yikuAdmin/protected/views/tUSER/create.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="41" selection-start="235" selection-end="235" vertical-scroll-proportion="-4.78125">
+        <state line="2" column="8" selection-start="47" selection-end="47" vertical-scroll-proportion="2.65625">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/yikuAdmin/protected/views/site/login.php">
+    <entry file="file://$PROJECT_DIR$/yikuAdmin/protected/views/layouts/column2.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="37" column="98" selection-start="1011" selection-end="1011" vertical-scroll-proportion="-26.59375">
+        <state line="11" column="24" selection-start="304" selection-end="304" vertical-scroll-proportion="0.38567072">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/yikuAdmin/protected/config/main.php">
+    <entry file="file://$PROJECT_DIR$/yikuAdmin/protected/models/TUSER.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="67" column="0" selection-start="1736" selection-end="1736" vertical-scroll-proportion="0.39140812">
+        <state line="120" column="23" selection-start="3538" selection-end="3538" vertical-scroll-proportion="0.8584759">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/yikuAdmin/protected/views/tUSER/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="14" column="8" selection-start="255" selection-end="255" vertical-scroll-proportion="0.49085367">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/yii-1.1.13.e9e4a0/framework/messages/zh_cn/zii.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="32" column="17" selection-start="1760" selection-end="1760" vertical-scroll-proportion="-13.65625">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/yikuAdmin/protected/views/tUSER/admin.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="85" column="19" selection-start="1186" selection-end="1686" vertical-scroll-proportion="-10.4375">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/yii-1.1.13.e9e4a0/framework/gii/generators/crud/templates/default/view.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="23" column="200" selection-start="1006" selection-end="1006" vertical-scroll-proportion="-4.5625">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/yii-1.1.13.e9e4a0/framework/zii/widgets/grid/CButtonColumn.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="205" column="52" selection-start="8329" selection-end="8329" vertical-scroll-proportion="-4.375">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/yikuAdmin/protected/views/tUSER/view.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="13" column="123" selection-start="433" selection-end="433" vertical-scroll-proportion="-4.25">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/yikuAdmin/protected/views/tUSER/_form.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="14" column="0" selection-start="326" selection-end="326" vertical-scroll-proportion="-0.71875">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/yikuAdmin/protected/views/tUSER/_search.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="44" column="0" selection-start="1279" selection-end="1279" vertical-scroll-proportion="8.96875">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/yikuAdmin/protected/views/tUSER/_view.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="19" column="0" selection-start="523" selection-end="523" vertical-scroll-proportion="0.69036335">
           <folding />
         </state>
       </provider>

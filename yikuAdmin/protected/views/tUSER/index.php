@@ -1,5 +1,5 @@
 <?php
-/* @var $this TUSERController */
+/* @var $this TUserController */
 /* @var $dataProvider CActiveDataProvider */
 
 $this->breadcrumbs=array(

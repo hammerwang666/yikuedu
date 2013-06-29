@@ -307,3 +307,641 @@ Stack trace:
 REQUEST_URI=/yikuedu/yikuadmin/index.php?r=tuser/admin
 HTTP_REFERER=http://127.0.0.1:1013/yikuedu/yikuadmin/index.php
 ---
+2013/06/29 15:39:33 [error] [exception.CHttpException.404] exception 'CHttpException' with message '系统无法找到请求的 "admin" 动作.' in D:\apachePHP\KWebService\yikuedu\lib\yii-1.1.13.e9e4a0\framework\web\CController.php:483
+Stack trace:
+#0 D:\apachePHP\KWebService\yikuedu\lib\yii-1.1.13.e9e4a0\framework\web\CController.php(270): CController->missingAction('admin')
+#1 D:\apachePHP\KWebService\yikuedu\lib\yii-1.1.13.e9e4a0\framework\web\CWebApplication.php(282): CController->run('admin')
+#2 D:\apachePHP\KWebService\yikuedu\lib\yii-1.1.13.e9e4a0\framework\web\CWebApplication.php(141): CWebApplication->runController('tuser/admin')
+#3 D:\apachePHP\KWebService\yikuedu\lib\yii-1.1.13.e9e4a0\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#4 D:\apachePHP\KWebService\yikuedu\yikuAdmin\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/yikuedu/yikuAdmin/index.php?r=tuser/admin
+HTTP_REFERER=http://127.0.0.1:1013/yikuedu/yikuAdmin/index.php
+---
+2013/06/29 16:00:47 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[HY000]: General error: 1030 Got error 28 from storage engine. The SQL statement executed was: SHOW FULL COLUMNS FROM `t_user`.
+in D:\apachePHP\KWebService\yikuedu\yikuAdmin\protected\controllers\TUSERController.php (65)
+in D:\apachePHP\KWebService\yikuedu\yikuAdmin\index.php (13)
+2013/06/29 16:00:47 [error] [exception.CDbException] exception 'CDbException' with message '数据库中无法找到 active record class "TUser" 对应的 table "t_user".' in D:\apachePHP\KWebService\yikuedu\lib\yii-1.1.13.e9e4a0\framework\db\ar\CActiveRecord.php:2310
+Stack trace:
+#0 D:\apachePHP\KWebService\yikuedu\lib\yii-1.1.13.e9e4a0\framework\db\ar\CActiveRecord.php(387): CActiveRecordMetaData->__construct(Object(TUser))
+#1 D:\apachePHP\KWebService\yikuedu\lib\yii-1.1.13.e9e4a0\framework\db\ar\CActiveRecord.php(402): CActiveRecord::model('TUser')
+#2 D:\apachePHP\KWebService\yikuedu\lib\yii-1.1.13.e9e4a0\framework\db\ar\CActiveRecord.php(77): CActiveRecord->getMetaData()
+#3 D:\apachePHP\KWebService\yikuedu\yikuAdmin\protected\controllers\TUSERController.php(65): CActiveRecord->__construct()
+#4 D:\apachePHP\KWebService\yikuedu\lib\yii-1.1.13.e9e4a0\framework\web\actions\CInlineAction.php(49): TUserController->actionCreate()
+#5 D:\apachePHP\KWebService\yikuedu\lib\yii-1.1.13.e9e4a0\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#6 D:\apachePHP\KWebService\yikuedu\lib\yii-1.1.13.e9e4a0\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#7 D:\apachePHP\KWebService\yikuedu\lib\yii-1.1.13.e9e4a0\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#8 D:\apachePHP\KWebService\yikuedu\lib\yii-1.1.13.e9e4a0\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#9 D:\apachePHP\KWebService\yikuedu\lib\yii-1.1.13.e9e4a0\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#10 D:\apachePHP\KWebService\yikuedu\lib\yii-1.1.13.e9e4a0\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#11 D:\apachePHP\KWebService\yikuedu\lib\yii-1.1.13.e9e4a0\framework\web\CController.php(291): CFilterChain->run()
+#12 D:\apachePHP\KWebService\yikuedu\lib\yii-1.1.13.e9e4a0\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#13 D:\apachePHP\KWebService\yikuedu\lib\yii-1.1.13.e9e4a0\framework\web\CWebApplication.php(282): CController->run('create')
+#14 D:\apachePHP\KWebService\yikuedu\lib\yii-1.1.13.e9e4a0\framework\web\CWebApplication.php(141): CWebApplication->runController('tuser/create')
+#15 D:\apachePHP\KWebService\yikuedu\lib\yii-1.1.13.e9e4a0\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#16 D:\apachePHP\KWebService\yikuedu\yikuAdmin\index.php(13): CApplication->run()
+#17 {main}
+REQUEST_URI=/yikuedu/yikuAdmin/index.php?r=tuser/create
+HTTP_REFERER=http://127.0.0.1:1013/yikuedu/yikuAdmin/index.php?r=tuser/admin
+---
+2013/06/29 16:01:18 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[HY000]: General error: 1030 Got error 28 from storage engine. The SQL statement executed was: SHOW FULL COLUMNS FROM `t_user`.
+in D:\apachePHP\KWebService\yikuedu\yikuAdmin\protected\controllers\TUSERController.php (136)
+in D:\apachePHP\KWebService\yikuedu\yikuAdmin\index.php (13)
+2013/06/29 16:01:18 [error] [exception.CDbException] exception 'CDbException' with message '数据库中无法找到 active record class "TUser" 对应的 table "t_user".' in D:\apachePHP\KWebService\yikuedu\lib\yii-1.1.13.e9e4a0\framework\db\ar\CActiveRecord.php:2310
+Stack trace:
+#0 D:\apachePHP\KWebService\yikuedu\lib\yii-1.1.13.e9e4a0\framework\db\ar\CActiveRecord.php(387): CActiveRecordMetaData->__construct(Object(TUser))
+#1 D:\apachePHP\KWebService\yikuedu\lib\yii-1.1.13.e9e4a0\framework\db\ar\CActiveRecord.php(402): CActiveRecord::model('TUser')
+#2 D:\apachePHP\KWebService\yikuedu\lib\yii-1.1.13.e9e4a0\framework\db\ar\CActiveRecord.php(77): CActiveRecord->getMetaData()
+#3 D:\apachePHP\KWebService\yikuedu\yikuAdmin\protected\controllers\TUSERController.php(136): CActiveRecord->__construct('search')
+#4 D:\apachePHP\KWebService\yikuedu\lib\yii-1.1.13.e9e4a0\framework\web\actions\CInlineAction.php(49): TUserController->actionAdmin()
+#5 D:\apachePHP\KWebService\yikuedu\lib\yii-1.1.13.e9e4a0\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#6 D:\apachePHP\KWebService\yikuedu\lib\yii-1.1.13.e9e4a0\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#7 D:\apachePHP\KWebService\yikuedu\lib\yii-1.1.13.e9e4a0\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#8 D:\apachePHP\KWebService\yikuedu\lib\yii-1.1.13.e9e4a0\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#9 D:\apachePHP\KWebService\yikuedu\lib\yii-1.1.13.e9e4a0\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#10 D:\apachePHP\KWebService\yikuedu\lib\yii-1.1.13.e9e4a0\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#11 D:\apachePHP\KWebService\yikuedu\lib\yii-1.1.13.e9e4a0\framework\web\CController.php(291): CFilterChain->run()
+#12 D:\apachePHP\KWebService\yikuedu\lib\yii-1.1.13.e9e4a0\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#13 D:\apachePHP\KWebService\yikuedu\lib\yii-1.1.13.e9e4a0\framework\web\CWebApplication.php(282): CController->run('admin')
+#14 D:\apachePHP\KWebService\yikuedu\lib\yii-1.1.13.e9e4a0\framework\web\CWebApplication.php(141): CWebApplication->runController('tuser/admin')
+#15 D:\apachePHP\KWebService\yikuedu\lib\yii-1.1.13.e9e4a0\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#16 D:\apachePHP\KWebService\yikuedu\yikuAdmin\index.php(13): CApplication->run()
+#17 {main}
+REQUEST_URI=/yikuedu/yikuAdmin/index.php?r=tuser/admin
+HTTP_REFERER=http://127.0.0.1:1013/yikuedu/yikuAdmin/index.php?r=tuser/index
+---
+2013/06/29 16:01:21 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[HY000]: General error: 1030 Got error 28 from storage engine. The SQL statement executed was: SHOW FULL COLUMNS FROM `t_user`.
+in D:\apachePHP\KWebService\yikuedu\yikuAdmin\protected\controllers\TUSERController.php (125)
+in D:\apachePHP\KWebService\yikuedu\yikuAdmin\index.php (13)
+2013/06/29 16:01:21 [error] [exception.CDbException] exception 'CDbException' with message '数据库中无法找到 active record class "TUser" 对应的 table "t_user".' in D:\apachePHP\KWebService\yikuedu\lib\yii-1.1.13.e9e4a0\framework\db\ar\CActiveRecord.php:2310
+Stack trace:
+#0 D:\apachePHP\KWebService\yikuedu\lib\yii-1.1.13.e9e4a0\framework\db\ar\CActiveRecord.php(387): CActiveRecordMetaData->__construct(Object(TUser))
+#1 D:\apachePHP\KWebService\yikuedu\lib\yii-1.1.13.e9e4a0\framework\web\CActiveDataProvider.php(74): CActiveRecord::model('TUser')
+#2 D:\apachePHP\KWebService\yikuedu\yikuAdmin\protected\controllers\TUSERController.php(125): CActiveDataProvider->__construct('TUser')
+#3 D:\apachePHP\KWebService\yikuedu\lib\yii-1.1.13.e9e4a0\framework\web\actions\CInlineAction.php(49): TUserController->actionIndex()
+#4 D:\apachePHP\KWebService\yikuedu\lib\yii-1.1.13.e9e4a0\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#5 D:\apachePHP\KWebService\yikuedu\lib\yii-1.1.13.e9e4a0\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#6 D:\apachePHP\KWebService\yikuedu\lib\yii-1.1.13.e9e4a0\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#7 D:\apachePHP\KWebService\yikuedu\lib\yii-1.1.13.e9e4a0\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#8 D:\apachePHP\KWebService\yikuedu\lib\yii-1.1.13.e9e4a0\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#9 D:\apachePHP\KWebService\yikuedu\lib\yii-1.1.13.e9e4a0\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#10 D:\apachePHP\KWebService\yikuedu\lib\yii-1.1.13.e9e4a0\framework\web\CController.php(291): CFilterChain->run()
+#11 D:\apachePHP\KWebService\yikuedu\lib\yii-1.1.13.e9e4a0\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 D:\apachePHP\KWebService\yikuedu\lib\yii-1.1.13.e9e4a0\framework\web\CWebApplication.php(282): CController->run('index')
+#13 D:\apachePHP\KWebService\yikuedu\lib\yii-1.1.13.e9e4a0\framework\web\CWebApplication.php(141): CWebApplication->runController('tuser/index')
+#14 D:\apachePHP\KWebService\yikuedu\lib\yii-1.1.13.e9e4a0\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#15 D:\apachePHP\KWebService\yikuedu\yikuAdmin\index.php(13): CApplication->run()
+#16 {main}
+REQUEST_URI=/yikuedu/yikuAdmin/index.php?r=tuser/index
+HTTP_REFERER=http://127.0.0.1:1013/yikuedu/yikuAdmin/index.php?r=tuser/update&id=10001
+---
+2013/06/29 16:01:23 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[HY000]: General error: 1030 Got error 28 from storage engine. The SQL statement executed was: SHOW FULL COLUMNS FROM `t_user`.
+in D:\apachePHP\KWebService\yikuedu\yikuAdmin\protected\models\TUSER.php (47)
+in D:\apachePHP\KWebService\yikuedu\yikuAdmin\protected\controllers\TUSERController.php (155)
+in D:\apachePHP\KWebService\yikuedu\yikuAdmin\protected\controllers\TUSERController.php (89)
+2013/06/29 16:01:23 [error] [exception.CDbException] exception 'CDbException' with message '数据库中无法找到 active record class "TUser" 对应的 table "t_user".' in D:\apachePHP\KWebService\yikuedu\lib\yii-1.1.13.e9e4a0\framework\db\ar\CActiveRecord.php:2310
+Stack trace:
+#0 D:\apachePHP\KWebService\yikuedu\lib\yii-1.1.13.e9e4a0\framework\db\ar\CActiveRecord.php(387): CActiveRecordMetaData->__construct(Object(TUser))
+#1 D:\apachePHP\KWebService\yikuedu\yikuAdmin\protected\models\TUSER.php(47): CActiveRecord::model('TUser')
+#2 D:\apachePHP\KWebService\yikuedu\yikuAdmin\protected\controllers\TUSERController.php(155): TUser::model()
+#3 D:\apachePHP\KWebService\yikuedu\yikuAdmin\protected\controllers\TUSERController.php(89): TUserController->loadModel('10001')
+#4 [internal function]: TUserController->actionUpdate('10001')
+#5 D:\apachePHP\KWebService\yikuedu\lib\yii-1.1.13.e9e4a0\framework\web\actions\CAction.php(108): ReflectionMethod->invokeArgs(Object(TUserController), Array)
+#6 D:\apachePHP\KWebService\yikuedu\lib\yii-1.1.13.e9e4a0\framework\web\actions\CInlineAction.php(47): CAction->runWithParamsInternal(Object(TUserController), Object(ReflectionMethod), Array)
+#7 D:\apachePHP\KWebService\yikuedu\lib\yii-1.1.13.e9e4a0\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#8 D:\apachePHP\KWebService\yikuedu\lib\yii-1.1.13.e9e4a0\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#9 D:\apachePHP\KWebService\yikuedu\lib\yii-1.1.13.e9e4a0\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#10 D:\apachePHP\KWebService\yikuedu\lib\yii-1.1.13.e9e4a0\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#11 D:\apachePHP\KWebService\yikuedu\lib\yii-1.1.13.e9e4a0\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#12 D:\apachePHP\KWebService\yikuedu\lib\yii-1.1.13.e9e4a0\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#13 D:\apachePHP\KWebService\yikuedu\lib\yii-1.1.13.e9e4a0\framework\web\CController.php(291): CFilterChain->run()
+#14 D:\apachePHP\KWebService\yikuedu\lib\yii-1.1.13.e9e4a0\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#15 D:\apachePHP\KWebService\yikuedu\lib\yii-1.1.13.e9e4a0\framework\web\CWebApplication.php(282): CController->run('update')
+#16 D:\apachePHP\KWebService\yikuedu\lib\yii-1.1.13.e9e4a0\framework\web\CWebApplication.php(141): CWebApplication->runController('tuser/update')
+#17 D:\apachePHP\KWebService\yikuedu\lib\yii-1.1.13.e9e4a0\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#18 D:\apachePHP\KWebService\yikuedu\yikuAdmin\index.php(13): CApplication->run()
+#19 {main}
+REQUEST_URI=/yikuedu/yikuAdmin/index.php?r=tuser/update&id=10001
+HTTP_REFERER=http://127.0.0.1:1013/yikuedu/yikuAdmin/index.php?r=tuser/view&id=10001
+---
+2013/06/29 16:01:26 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[HY000]: General error: 1030 Got error 28 from storage engine. The SQL statement executed was: SHOW FULL COLUMNS FROM `t_user`.
+in D:\apachePHP\KWebService\yikuedu\yikuAdmin\protected\models\TUSER.php (47)
+in D:\apachePHP\KWebService\yikuedu\yikuAdmin\protected\controllers\TUSERController.php (155)
+in D:\apachePHP\KWebService\yikuedu\yikuAdmin\protected\controllers\TUSERController.php (55)
+2013/06/29 16:01:26 [error] [exception.CDbException] exception 'CDbException' with message '数据库中无法找到 active record class "TUser" 对应的 table "t_user".' in D:\apachePHP\KWebService\yikuedu\lib\yii-1.1.13.e9e4a0\framework\db\ar\CActiveRecord.php:2310
+Stack trace:
+#0 D:\apachePHP\KWebService\yikuedu\lib\yii-1.1.13.e9e4a0\framework\db\ar\CActiveRecord.php(387): CActiveRecordMetaData->__construct(Object(TUser))
+#1 D:\apachePHP\KWebService\yikuedu\yikuAdmin\protected\models\TUSER.php(47): CActiveRecord::model('TUser')
+#2 D:\apachePHP\KWebService\yikuedu\yikuAdmin\protected\controllers\TUSERController.php(155): TUser::model()
+#3 D:\apachePHP\KWebService\yikuedu\yikuAdmin\protected\controllers\TUSERController.php(55): TUserController->loadModel('10001')
+#4 [internal function]: TUserController->actionView('10001')
+#5 D:\apachePHP\KWebService\yikuedu\lib\yii-1.1.13.e9e4a0\framework\web\actions\CAction.php(108): ReflectionMethod->invokeArgs(Object(TUserController), Array)
+#6 D:\apachePHP\KWebService\yikuedu\lib\yii-1.1.13.e9e4a0\framework\web\actions\CInlineAction.php(47): CAction->runWithParamsInternal(Object(TUserController), Object(ReflectionMethod), Array)
+#7 D:\apachePHP\KWebService\yikuedu\lib\yii-1.1.13.e9e4a0\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#8 D:\apachePHP\KWebService\yikuedu\lib\yii-1.1.13.e9e4a0\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#9 D:\apachePHP\KWebService\yikuedu\lib\yii-1.1.13.e9e4a0\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#10 D:\apachePHP\KWebService\yikuedu\lib\yii-1.1.13.e9e4a0\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#11 D:\apachePHP\KWebService\yikuedu\lib\yii-1.1.13.e9e4a0\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#12 D:\apachePHP\KWebService\yikuedu\lib\yii-1.1.13.e9e4a0\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#13 D:\apachePHP\KWebService\yikuedu\lib\yii-1.1.13.e9e4a0\framework\web\CController.php(291): CFilterChain->run()
+#14 D:\apachePHP\KWebService\yikuedu\lib\yii-1.1.13.e9e4a0\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#15 D:\apachePHP\KWebService\yikuedu\lib\yii-1.1.13.e9e4a0\framework\web\CWebApplication.php(282): CController->run('view')
+#16 D:\apachePHP\KWebService\yikuedu\lib\yii-1.1.13.e9e4a0\framework\web\CWebApplication.php(141): CWebApplication->runController('tuser/view')
+#17 D:\apachePHP\KWebService\yikuedu\lib\yii-1.1.13.e9e4a0\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#18 D:\apachePHP\KWebService\yikuedu\yikuAdmin\index.php(13): CApplication->run()
+#19 {main}
+REQUEST_URI=/yikuedu/yikuAdmin/index.php?r=tuser/view&id=10001
+HTTP_REFERER=http://127.0.0.1:1013/yikuedu/yikuAdmin/index.php?r=tuser/admin
+---
+2013/06/29 16:01:27 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[HY000]: General error: 1030 Got error 28 from storage engine. The SQL statement executed was: SHOW FULL COLUMNS FROM `t_user`.
+in D:\apachePHP\KWebService\yikuedu\yikuAdmin\protected\controllers\TUSERController.php (136)
+in D:\apachePHP\KWebService\yikuedu\yikuAdmin\index.php (13)
+2013/06/29 16:01:27 [error] [exception.CDbException] exception 'CDbException' with message '数据库中无法找到 active record class "TUser" 对应的 table "t_user".' in D:\apachePHP\KWebService\yikuedu\lib\yii-1.1.13.e9e4a0\framework\db\ar\CActiveRecord.php:2310
+Stack trace:
+#0 D:\apachePHP\KWebService\yikuedu\lib\yii-1.1.13.e9e4a0\framework\db\ar\CActiveRecord.php(387): CActiveRecordMetaData->__construct(Object(TUser))
+#1 D:\apachePHP\KWebService\yikuedu\lib\yii-1.1.13.e9e4a0\framework\db\ar\CActiveRecord.php(402): CActiveRecord::model('TUser')
+#2 D:\apachePHP\KWebService\yikuedu\lib\yii-1.1.13.e9e4a0\framework\db\ar\CActiveRecord.php(77): CActiveRecord->getMetaData()
+#3 D:\apachePHP\KWebService\yikuedu\yikuAdmin\protected\controllers\TUSERController.php(136): CActiveRecord->__construct('search')
+#4 D:\apachePHP\KWebService\yikuedu\lib\yii-1.1.13.e9e4a0\framework\web\actions\CInlineAction.php(49): TUserController->actionAdmin()
+#5 D:\apachePHP\KWebService\yikuedu\lib\yii-1.1.13.e9e4a0\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#6 D:\apachePHP\KWebService\yikuedu\lib\yii-1.1.13.e9e4a0\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#7 D:\apachePHP\KWebService\yikuedu\lib\yii-1.1.13.e9e4a0\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#8 D:\apachePHP\KWebService\yikuedu\lib\yii-1.1.13.e9e4a0\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#9 D:\apachePHP\KWebService\yikuedu\lib\yii-1.1.13.e9e4a0\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#10 D:\apachePHP\KWebService\yikuedu\lib\yii-1.1.13.e9e4a0\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#11 D:\apachePHP\KWebService\yikuedu\lib\yii-1.1.13.e9e4a0\framework\web\CController.php(291): CFilterChain->run()
+#12 D:\apachePHP\KWebService\yikuedu\lib\yii-1.1.13.e9e4a0\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#13 D:\apachePHP\KWebService\yikuedu\lib\yii-1.1.13.e9e4a0\framework\web\CWebApplication.php(282): CController->run('admin')
+#14 D:\apachePHP\KWebService\yikuedu\lib\yii-1.1.13.e9e4a0\framework\web\CWebApplication.php(141): CWebApplication->runController('tuser/admin')
+#15 D:\apachePHP\KWebService\yikuedu\lib\yii-1.1.13.e9e4a0\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#16 D:\apachePHP\KWebService\yikuedu\yikuAdmin\index.php(13): CApplication->run()
+#17 {main}
+REQUEST_URI=/yikuedu/yikuAdmin/index.php?r=tuser/admin
+HTTP_REFERER=http://127.0.0.1:1013/yikuedu/yikuAdmin/index.php?r=tuser/view&id=10001
+---
+2013/06/29 16:01:28 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[HY000]: General error: 1030 Got error 28 from storage engine. The SQL statement executed was: SHOW FULL COLUMNS FROM `t_user`.
+in D:\apachePHP\KWebService\yikuedu\yikuAdmin\protected\models\TUSER.php (47)
+in D:\apachePHP\KWebService\yikuedu\yikuAdmin\protected\controllers\TUSERController.php (155)
+in D:\apachePHP\KWebService\yikuedu\yikuAdmin\protected\controllers\TUSERController.php (55)
+2013/06/29 16:01:28 [error] [exception.CDbException] exception 'CDbException' with message '数据库中无法找到 active record class "TUser" 对应的 table "t_user".' in D:\apachePHP\KWebService\yikuedu\lib\yii-1.1.13.e9e4a0\framework\db\ar\CActiveRecord.php:2310
+Stack trace:
+#0 D:\apachePHP\KWebService\yikuedu\lib\yii-1.1.13.e9e4a0\framework\db\ar\CActiveRecord.php(387): CActiveRecordMetaData->__construct(Object(TUser))
+#1 D:\apachePHP\KWebService\yikuedu\yikuAdmin\protected\models\TUSER.php(47): CActiveRecord::model('TUser')
+#2 D:\apachePHP\KWebService\yikuedu\yikuAdmin\protected\controllers\TUSERController.php(155): TUser::model()
+#3 D:\apachePHP\KWebService\yikuedu\yikuAdmin\protected\controllers\TUSERController.php(55): TUserController->loadModel('10001')
+#4 [internal function]: TUserController->actionView('10001')
+#5 D:\apachePHP\KWebService\yikuedu\lib\yii-1.1.13.e9e4a0\framework\web\actions\CAction.php(108): ReflectionMethod->invokeArgs(Object(TUserController), Array)
+#6 D:\apachePHP\KWebService\yikuedu\lib\yii-1.1.13.e9e4a0\framework\web\actions\CInlineAction.php(47): CAction->runWithParamsInternal(Object(TUserController), Object(ReflectionMethod), Array)
+#7 D:\apachePHP\KWebService\yikuedu\lib\yii-1.1.13.e9e4a0\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#8 D:\apachePHP\KWebService\yikuedu\lib\yii-1.1.13.e9e4a0\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#9 D:\apachePHP\KWebService\yikuedu\lib\yii-1.1.13.e9e4a0\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#10 D:\apachePHP\KWebService\yikuedu\lib\yii-1.1.13.e9e4a0\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#11 D:\apachePHP\KWebService\yikuedu\lib\yii-1.1.13.e9e4a0\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#12 D:\apachePHP\KWebService\yikuedu\lib\yii-1.1.13.e9e4a0\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#13 D:\apachePHP\KWebService\yikuedu\lib\yii-1.1.13.e9e4a0\framework\web\CController.php(291): CFilterChain->run()
+#14 D:\apachePHP\KWebService\yikuedu\lib\yii-1.1.13.e9e4a0\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#15 D:\apachePHP\KWebService\yikuedu\lib\yii-1.1.13.e9e4a0\framework\web\CWebApplication.php(282): CController->run('view')
+#16 D:\apachePHP\KWebService\yikuedu\lib\yii-1.1.13.e9e4a0\framework\web\CWebApplication.php(141): CWebApplication->runController('tuser/view')
+#17 D:\apachePHP\KWebService\yikuedu\lib\yii-1.1.13.e9e4a0\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#18 D:\apachePHP\KWebService\yikuedu\yikuAdmin\index.php(13): CApplication->run()
+#19 {main}
+REQUEST_URI=/yikuedu/yikuAdmin/index.php?r=tuser/view&id=10001
+HTTP_REFERER=http://127.0.0.1:1013/yikuedu/yikuAdmin/index.php?r=tuser/update&id=10001
+---
+2013/06/29 16:01:33 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[HY000]: General error: 1030 Got error 28 from storage engine. The SQL statement executed was: SHOW FULL COLUMNS FROM `t_user`.
+in D:\apachePHP\KWebService\yikuedu\yikuAdmin\protected\controllers\TUSERController.php (125)
+in D:\apachePHP\KWebService\yikuedu\yikuAdmin\index.php (13)
+2013/06/29 16:01:33 [error] [exception.CDbException] exception 'CDbException' with message '数据库中无法找到 active record class "TUser" 对应的 table "t_user".' in D:\apachePHP\KWebService\yikuedu\lib\yii-1.1.13.e9e4a0\framework\db\ar\CActiveRecord.php:2310
+Stack trace:
+#0 D:\apachePHP\KWebService\yikuedu\lib\yii-1.1.13.e9e4a0\framework\db\ar\CActiveRecord.php(387): CActiveRecordMetaData->__construct(Object(TUser))
+#1 D:\apachePHP\KWebService\yikuedu\lib\yii-1.1.13.e9e4a0\framework\web\CActiveDataProvider.php(74): CActiveRecord::model('TUser')
+#2 D:\apachePHP\KWebService\yikuedu\yikuAdmin\protected\controllers\TUSERController.php(125): CActiveDataProvider->__construct('TUser')
+#3 D:\apachePHP\KWebService\yikuedu\lib\yii-1.1.13.e9e4a0\framework\web\actions\CInlineAction.php(49): TUserController->actionIndex()
+#4 D:\apachePHP\KWebService\yikuedu\lib\yii-1.1.13.e9e4a0\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#5 D:\apachePHP\KWebService\yikuedu\lib\yii-1.1.13.e9e4a0\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#6 D:\apachePHP\KWebService\yikuedu\lib\yii-1.1.13.e9e4a0\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#7 D:\apachePHP\KWebService\yikuedu\lib\yii-1.1.13.e9e4a0\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#8 D:\apachePHP\KWebService\yikuedu\lib\yii-1.1.13.e9e4a0\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#9 D:\apachePHP\KWebService\yikuedu\lib\yii-1.1.13.e9e4a0\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#10 D:\apachePHP\KWebService\yikuedu\lib\yii-1.1.13.e9e4a0\framework\web\CController.php(291): CFilterChain->run()
+#11 D:\apachePHP\KWebService\yikuedu\lib\yii-1.1.13.e9e4a0\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 D:\apachePHP\KWebService\yikuedu\lib\yii-1.1.13.e9e4a0\framework\web\CWebApplication.php(282): CController->run('')
+#13 D:\apachePHP\KWebService\yikuedu\lib\yii-1.1.13.e9e4a0\framework\web\CWebApplication.php(141): CWebApplication->runController('tuser')
+#14 D:\apachePHP\KWebService\yikuedu\lib\yii-1.1.13.e9e4a0\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#15 D:\apachePHP\KWebService\yikuedu\yikuAdmin\index.php(13): CApplication->run()
+#16 {main}
+REQUEST_URI=/yikuedu/yikuAdmin/index.php?r=tuser
+---
+2013/06/29 16:01:40 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[HY000]: General error: 1030 Got error 28 from storage engine. The SQL statement executed was: SHOW FULL COLUMNS FROM `t_user`.
+in D:\apachePHP\KWebService\yikuedu\yikuAdmin\protected\controllers\TUSERController.php (136)
+in D:\apachePHP\KWebService\yikuedu\yikuAdmin\index.php (13)
+2013/06/29 16:01:40 [error] [exception.CDbException] exception 'CDbException' with message '数据库中无法找到 active record class "TUser" 对应的 table "t_user".' in D:\apachePHP\KWebService\yikuedu\lib\yii-1.1.13.e9e4a0\framework\db\ar\CActiveRecord.php:2310
+Stack trace:
+#0 D:\apachePHP\KWebService\yikuedu\lib\yii-1.1.13.e9e4a0\framework\db\ar\CActiveRecord.php(387): CActiveRecordMetaData->__construct(Object(TUser))
+#1 D:\apachePHP\KWebService\yikuedu\lib\yii-1.1.13.e9e4a0\framework\db\ar\CActiveRecord.php(402): CActiveRecord::model('TUser')
+#2 D:\apachePHP\KWebService\yikuedu\lib\yii-1.1.13.e9e4a0\framework\db\ar\CActiveRecord.php(77): CActiveRecord->getMetaData()
+#3 D:\apachePHP\KWebService\yikuedu\yikuAdmin\protected\controllers\TUSERController.php(136): CActiveRecord->__construct('search')
+#4 D:\apachePHP\KWebService\yikuedu\lib\yii-1.1.13.e9e4a0\framework\web\actions\CInlineAction.php(49): TUserController->actionAdmin()
+#5 D:\apachePHP\KWebService\yikuedu\lib\yii-1.1.13.e9e4a0\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#6 D:\apachePHP\KWebService\yikuedu\lib\yii-1.1.13.e9e4a0\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#7 D:\apachePHP\KWebService\yikuedu\lib\yii-1.1.13.e9e4a0\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#8 D:\apachePHP\KWebService\yikuedu\lib\yii-1.1.13.e9e4a0\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#9 D:\apachePHP\KWebService\yikuedu\lib\yii-1.1.13.e9e4a0\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#10 D:\apachePHP\KWebService\yikuedu\lib\yii-1.1.13.e9e4a0\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#11 D:\apachePHP\KWebService\yikuedu\lib\yii-1.1.13.e9e4a0\framework\web\CController.php(291): CFilterChain->run()
+#12 D:\apachePHP\KWebService\yikuedu\lib\yii-1.1.13.e9e4a0\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#13 D:\apachePHP\KWebService\yikuedu\lib\yii-1.1.13.e9e4a0\framework\web\CWebApplication.php(282): CController->run('admin')
+#14 D:\apachePHP\KWebService\yikuedu\lib\yii-1.1.13.e9e4a0\framework\web\CWebApplication.php(141): CWebApplication->runController('tuser/admin')
+#15 D:\apachePHP\KWebService\yikuedu\lib\yii-1.1.13.e9e4a0\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#16 D:\apachePHP\KWebService\yikuedu\yikuAdmin\index.php(13): CApplication->run()
+#17 {main}
+REQUEST_URI=/yikuedu/yikuAdmin/index.php?r=tuser/admin
+HTTP_REFERER=http://127.0.0.1:1013/yikuedu/yikuAdmin/index.php
+---
+2013/06/29 16:05:19 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[HY000]: General error: 126 Incorrect key file for table 'C:\Windows\TEMP\#sql7ac_8e_0.MYI'; try to repair it. The SQL statement executed was: SHOW FULL COLUMNS FROM `t_user`.
+in D:\apachePHP\KWebService\yikuedu\yikuAdmin\protected\controllers\TUSERController.php (136)
+in D:\apachePHP\KWebService\yikuedu\yikuAdmin\index.php (13)
+2013/06/29 16:05:19 [error] [exception.CDbException] exception 'CDbException' with message '数据库中无法找到 active record class "TUser" 对应的 table "t_user".' in D:\apachePHP\KWebService\yikuedu\lib\yii-1.1.13.e9e4a0\framework\db\ar\CActiveRecord.php:2310
+Stack trace:
+#0 D:\apachePHP\KWebService\yikuedu\lib\yii-1.1.13.e9e4a0\framework\db\ar\CActiveRecord.php(387): CActiveRecordMetaData->__construct(Object(TUser))
+#1 D:\apachePHP\KWebService\yikuedu\lib\yii-1.1.13.e9e4a0\framework\db\ar\CActiveRecord.php(402): CActiveRecord::model('TUser')
+#2 D:\apachePHP\KWebService\yikuedu\lib\yii-1.1.13.e9e4a0\framework\db\ar\CActiveRecord.php(77): CActiveRecord->getMetaData()
+#3 D:\apachePHP\KWebService\yikuedu\yikuAdmin\protected\controllers\TUSERController.php(136): CActiveRecord->__construct('search')
+#4 D:\apachePHP\KWebService\yikuedu\lib\yii-1.1.13.e9e4a0\framework\web\actions\CInlineAction.php(49): TUserController->actionAdmin()
+#5 D:\apachePHP\KWebService\yikuedu\lib\yii-1.1.13.e9e4a0\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#6 D:\apachePHP\KWebService\yikuedu\lib\yii-1.1.13.e9e4a0\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#7 D:\apachePHP\KWebService\yikuedu\lib\yii-1.1.13.e9e4a0\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#8 D:\apachePHP\KWebService\yikuedu\lib\yii-1.1.13.e9e4a0\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#9 D:\apachePHP\KWebService\yikuedu\lib\yii-1.1.13.e9e4a0\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#10 D:\apachePHP\KWebService\yikuedu\lib\yii-1.1.13.e9e4a0\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#11 D:\apachePHP\KWebService\yikuedu\lib\yii-1.1.13.e9e4a0\framework\web\CController.php(291): CFilterChain->run()
+#12 D:\apachePHP\KWebService\yikuedu\lib\yii-1.1.13.e9e4a0\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#13 D:\apachePHP\KWebService\yikuedu\lib\yii-1.1.13.e9e4a0\framework\web\CWebApplication.php(282): CController->run('admin')
+#14 D:\apachePHP\KWebService\yikuedu\lib\yii-1.1.13.e9e4a0\framework\web\CWebApplication.php(141): CWebApplication->runController('tuser/admin')
+#15 D:\apachePHP\KWebService\yikuedu\lib\yii-1.1.13.e9e4a0\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#16 D:\apachePHP\KWebService\yikuedu\yikuAdmin\index.php(13): CApplication->run()
+#17 {main}
+REQUEST_URI=/yikuedu/yikuAdmin/index.php?r=tuser/admin
+HTTP_REFERER=http://127.0.0.1:1013/yikuedu/yikuAdmin/index.php?r=tuser/view&id=10007
+---
+2013/06/29 16:05:22 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[HY000]: General error: 126 Incorrect key file for table 'C:\Windows\TEMP\#sql7ac_8f_0.MYI'; try to repair it. The SQL statement executed was: SHOW FULL COLUMNS FROM `t_user`.
+in D:\apachePHP\KWebService\yikuedu\yikuAdmin\protected\controllers\TUSERController.php (136)
+in D:\apachePHP\KWebService\yikuedu\yikuAdmin\index.php (13)
+2013/06/29 16:05:22 [error] [exception.CDbException] exception 'CDbException' with message '数据库中无法找到 active record class "TUser" 对应的 table "t_user".' in D:\apachePHP\KWebService\yikuedu\lib\yii-1.1.13.e9e4a0\framework\db\ar\CActiveRecord.php:2310
+Stack trace:
+#0 D:\apachePHP\KWebService\yikuedu\lib\yii-1.1.13.e9e4a0\framework\db\ar\CActiveRecord.php(387): CActiveRecordMetaData->__construct(Object(TUser))
+#1 D:\apachePHP\KWebService\yikuedu\lib\yii-1.1.13.e9e4a0\framework\db\ar\CActiveRecord.php(402): CActiveRecord::model('TUser')
+#2 D:\apachePHP\KWebService\yikuedu\lib\yii-1.1.13.e9e4a0\framework\db\ar\CActiveRecord.php(77): CActiveRecord->getMetaData()
+#3 D:\apachePHP\KWebService\yikuedu\yikuAdmin\protected\controllers\TUSERController.php(136): CActiveRecord->__construct('search')
+#4 D:\apachePHP\KWebService\yikuedu\lib\yii-1.1.13.e9e4a0\framework\web\actions\CInlineAction.php(49): TUserController->actionAdmin()
+#5 D:\apachePHP\KWebService\yikuedu\lib\yii-1.1.13.e9e4a0\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#6 D:\apachePHP\KWebService\yikuedu\lib\yii-1.1.13.e9e4a0\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#7 D:\apachePHP\KWebService\yikuedu\lib\yii-1.1.13.e9e4a0\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#8 D:\apachePHP\KWebService\yikuedu\lib\yii-1.1.13.e9e4a0\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#9 D:\apachePHP\KWebService\yikuedu\lib\yii-1.1.13.e9e4a0\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#10 D:\apachePHP\KWebService\yikuedu\lib\yii-1.1.13.e9e4a0\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#11 D:\apachePHP\KWebService\yikuedu\lib\yii-1.1.13.e9e4a0\framework\web\CController.php(291): CFilterChain->run()
+#12 D:\apachePHP\KWebService\yikuedu\lib\yii-1.1.13.e9e4a0\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#13 D:\apachePHP\KWebService\yikuedu\lib\yii-1.1.13.e9e4a0\framework\web\CWebApplication.php(282): CController->run('admin')
+#14 D:\apachePHP\KWebService\yikuedu\lib\yii-1.1.13.e9e4a0\framework\web\CWebApplication.php(141): CWebApplication->runController('tuser/admin')
+#15 D:\apachePHP\KWebService\yikuedu\lib\yii-1.1.13.e9e4a0\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#16 D:\apachePHP\KWebService\yikuedu\yikuAdmin\index.php(13): CApplication->run()
+#17 {main}
+REQUEST_URI=/yikuedu/yikuAdmin/index.php?r=tuser/admin
+HTTP_REFERER=http://127.0.0.1:1013/yikuedu/yikuAdmin/index.php?r=tuser/view&id=10007
+---
+2013/06/29 16:05:27 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[HY000]: General error: 126 Incorrect key file for table 'C:\Windows\TEMP\#sql7ac_90_0.MYI'; try to repair it. The SQL statement executed was: SHOW FULL COLUMNS FROM `t_user`.
+in D:\apachePHP\KWebService\yikuedu\yikuAdmin\protected\controllers\TUSERController.php (136)
+in D:\apachePHP\KWebService\yikuedu\yikuAdmin\index.php (13)
+2013/06/29 16:05:27 [error] [exception.CDbException] exception 'CDbException' with message '数据库中无法找到 active record class "TUser" 对应的 table "t_user".' in D:\apachePHP\KWebService\yikuedu\lib\yii-1.1.13.e9e4a0\framework\db\ar\CActiveRecord.php:2310
+Stack trace:
+#0 D:\apachePHP\KWebService\yikuedu\lib\yii-1.1.13.e9e4a0\framework\db\ar\CActiveRecord.php(387): CActiveRecordMetaData->__construct(Object(TUser))
+#1 D:\apachePHP\KWebService\yikuedu\lib\yii-1.1.13.e9e4a0\framework\db\ar\CActiveRecord.php(402): CActiveRecord::model('TUser')
+#2 D:\apachePHP\KWebService\yikuedu\lib\yii-1.1.13.e9e4a0\framework\db\ar\CActiveRecord.php(77): CActiveRecord->getMetaData()
+#3 D:\apachePHP\KWebService\yikuedu\yikuAdmin\protected\controllers\TUSERController.php(136): CActiveRecord->__construct('search')
+#4 D:\apachePHP\KWebService\yikuedu\lib\yii-1.1.13.e9e4a0\framework\web\actions\CInlineAction.php(49): TUserController->actionAdmin()
+#5 D:\apachePHP\KWebService\yikuedu\lib\yii-1.1.13.e9e4a0\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#6 D:\apachePHP\KWebService\yikuedu\lib\yii-1.1.13.e9e4a0\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#7 D:\apachePHP\KWebService\yikuedu\lib\yii-1.1.13.e9e4a0\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#8 D:\apachePHP\KWebService\yikuedu\lib\yii-1.1.13.e9e4a0\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#9 D:\apachePHP\KWebService\yikuedu\lib\yii-1.1.13.e9e4a0\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#10 D:\apachePHP\KWebService\yikuedu\lib\yii-1.1.13.e9e4a0\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#11 D:\apachePHP\KWebService\yikuedu\lib\yii-1.1.13.e9e4a0\framework\web\CController.php(291): CFilterChain->run()
+#12 D:\apachePHP\KWebService\yikuedu\lib\yii-1.1.13.e9e4a0\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#13 D:\apachePHP\KWebService\yikuedu\lib\yii-1.1.13.e9e4a0\framework\web\CWebApplication.php(282): CController->run('admin')
+#14 D:\apachePHP\KWebService\yikuedu\lib\yii-1.1.13.e9e4a0\framework\web\CWebApplication.php(141): CWebApplication->runController('tuser/admin')
+#15 D:\apachePHP\KWebService\yikuedu\lib\yii-1.1.13.e9e4a0\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#16 D:\apachePHP\KWebService\yikuedu\yikuAdmin\index.php(13): CApplication->run()
+#17 {main}
+REQUEST_URI=/yikuedu/yikuAdmin/index.php?r=tuser/admin
+HTTP_REFERER=http://127.0.0.1:1013/yikuedu/yikuAdmin/index.php
+---
+2013/06/29 16:05:29 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[HY000]: General error: 126 Incorrect key file for table 'C:\Windows\TEMP\#sql7ac_91_0.MYI'; try to repair it. The SQL statement executed was: SHOW FULL COLUMNS FROM `t_user`.
+in D:\apachePHP\KWebService\yikuedu\yikuAdmin\protected\controllers\TUSERController.php (136)
+in D:\apachePHP\KWebService\yikuedu\yikuAdmin\index.php (13)
+2013/06/29 16:05:29 [error] [exception.CDbException] exception 'CDbException' with message '数据库中无法找到 active record class "TUser" 对应的 table "t_user".' in D:\apachePHP\KWebService\yikuedu\lib\yii-1.1.13.e9e4a0\framework\db\ar\CActiveRecord.php:2310
+Stack trace:
+#0 D:\apachePHP\KWebService\yikuedu\lib\yii-1.1.13.e9e4a0\framework\db\ar\CActiveRecord.php(387): CActiveRecordMetaData->__construct(Object(TUser))
+#1 D:\apachePHP\KWebService\yikuedu\lib\yii-1.1.13.e9e4a0\framework\db\ar\CActiveRecord.php(402): CActiveRecord::model('TUser')
+#2 D:\apachePHP\KWebService\yikuedu\lib\yii-1.1.13.e9e4a0\framework\db\ar\CActiveRecord.php(77): CActiveRecord->getMetaData()
+#3 D:\apachePHP\KWebService\yikuedu\yikuAdmin\protected\controllers\TUSERController.php(136): CActiveRecord->__construct('search')
+#4 D:\apachePHP\KWebService\yikuedu\lib\yii-1.1.13.e9e4a0\framework\web\actions\CInlineAction.php(49): TUserController->actionAdmin()
+#5 D:\apachePHP\KWebService\yikuedu\lib\yii-1.1.13.e9e4a0\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#6 D:\apachePHP\KWebService\yikuedu\lib\yii-1.1.13.e9e4a0\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#7 D:\apachePHP\KWebService\yikuedu\lib\yii-1.1.13.e9e4a0\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#8 D:\apachePHP\KWebService\yikuedu\lib\yii-1.1.13.e9e4a0\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#9 D:\apachePHP\KWebService\yikuedu\lib\yii-1.1.13.e9e4a0\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#10 D:\apachePHP\KWebService\yikuedu\lib\yii-1.1.13.e9e4a0\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#11 D:\apachePHP\KWebService\yikuedu\lib\yii-1.1.13.e9e4a0\framework\web\CController.php(291): CFilterChain->run()
+#12 D:\apachePHP\KWebService\yikuedu\lib\yii-1.1.13.e9e4a0\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#13 D:\apachePHP\KWebService\yikuedu\lib\yii-1.1.13.e9e4a0\framework\web\CWebApplication.php(282): CController->run('admin')
+#14 D:\apachePHP\KWebService\yikuedu\lib\yii-1.1.13.e9e4a0\framework\web\CWebApplication.php(141): CWebApplication->runController('tuser/admin')
+#15 D:\apachePHP\KWebService\yikuedu\lib\yii-1.1.13.e9e4a0\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#16 D:\apachePHP\KWebService\yikuedu\yikuAdmin\index.php(13): CApplication->run()
+#17 {main}
+REQUEST_URI=/yikuedu/yikuAdmin/index.php?r=tuser/admin
+HTTP_REFERER=http://127.0.0.1:1013/yikuedu/yikuAdmin/index.php
+---
+2013/06/29 16:05:36 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[HY000]: General error: 126 Incorrect key file for table 'C:\Windows\TEMP\#sql7ac_92_0.MYI'; try to repair it. The SQL statement executed was: SHOW FULL COLUMNS FROM `t_user`.
+in D:\apachePHP\KWebService\yikuedu\yikuAdmin\protected\controllers\TUSERController.php (136)
+in D:\apachePHP\KWebService\yikuedu\yikuAdmin\index.php (13)
+2013/06/29 16:05:36 [error] [exception.CDbException] exception 'CDbException' with message '数据库中无法找到 active record class "TUser" 对应的 table "t_user".' in D:\apachePHP\KWebService\yikuedu\lib\yii-1.1.13.e9e4a0\framework\db\ar\CActiveRecord.php:2310
+Stack trace:
+#0 D:\apachePHP\KWebService\yikuedu\lib\yii-1.1.13.e9e4a0\framework\db\ar\CActiveRecord.php(387): CActiveRecordMetaData->__construct(Object(TUser))
+#1 D:\apachePHP\KWebService\yikuedu\lib\yii-1.1.13.e9e4a0\framework\db\ar\CActiveRecord.php(402): CActiveRecord::model('TUser')
+#2 D:\apachePHP\KWebService\yikuedu\lib\yii-1.1.13.e9e4a0\framework\db\ar\CActiveRecord.php(77): CActiveRecord->getMetaData()
+#3 D:\apachePHP\KWebService\yikuedu\yikuAdmin\protected\controllers\TUSERController.php(136): CActiveRecord->__construct('search')
+#4 D:\apachePHP\KWebService\yikuedu\lib\yii-1.1.13.e9e4a0\framework\web\actions\CInlineAction.php(49): TUserController->actionAdmin()
+#5 D:\apachePHP\KWebService\yikuedu\lib\yii-1.1.13.e9e4a0\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#6 D:\apachePHP\KWebService\yikuedu\lib\yii-1.1.13.e9e4a0\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#7 D:\apachePHP\KWebService\yikuedu\lib\yii-1.1.13.e9e4a0\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#8 D:\apachePHP\KWebService\yikuedu\lib\yii-1.1.13.e9e4a0\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#9 D:\apachePHP\KWebService\yikuedu\lib\yii-1.1.13.e9e4a0\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#10 D:\apachePHP\KWebService\yikuedu\lib\yii-1.1.13.e9e4a0\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#11 D:\apachePHP\KWebService\yikuedu\lib\yii-1.1.13.e9e4a0\framework\web\CController.php(291): CFilterChain->run()
+#12 D:\apachePHP\KWebService\yikuedu\lib\yii-1.1.13.e9e4a0\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#13 D:\apachePHP\KWebService\yikuedu\lib\yii-1.1.13.e9e4a0\framework\web\CWebApplication.php(282): CController->run('admin')
+#14 D:\apachePHP\KWebService\yikuedu\lib\yii-1.1.13.e9e4a0\framework\web\CWebApplication.php(141): CWebApplication->runController('tuser/admin')
+#15 D:\apachePHP\KWebService\yikuedu\lib\yii-1.1.13.e9e4a0\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#16 D:\apachePHP\KWebService\yikuedu\yikuAdmin\index.php(13): CApplication->run()
+#17 {main}
+REQUEST_URI=/yikuedu/yikuAdmin/index.php?r=tuser/admin
+HTTP_REFERER=http://127.0.0.1:1013/yikuedu/yikuAdmin/index.php
+---
+2013/06/29 16:05:50 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[HY000]: General error: 126 Incorrect key file for table 'C:\Windows\TEMP\#sql7ac_93_0.MYI'; try to repair it. The SQL statement executed was: SHOW FULL COLUMNS FROM `t_user`.
+in D:\apachePHP\KWebService\yikuedu\yikuAdmin\protected\controllers\TUSERController.php (136)
+in D:\apachePHP\KWebService\yikuedu\yikuAdmin\index.php (13)
+2013/06/29 16:05:50 [error] [exception.CDbException] exception 'CDbException' with message '数据库中无法找到 active record class "TUser" 对应的 table "t_user".' in D:\apachePHP\KWebService\yikuedu\lib\yii-1.1.13.e9e4a0\framework\db\ar\CActiveRecord.php:2310
+Stack trace:
+#0 D:\apachePHP\KWebService\yikuedu\lib\yii-1.1.13.e9e4a0\framework\db\ar\CActiveRecord.php(387): CActiveRecordMetaData->__construct(Object(TUser))
+#1 D:\apachePHP\KWebService\yikuedu\lib\yii-1.1.13.e9e4a0\framework\db\ar\CActiveRecord.php(402): CActiveRecord::model('TUser')
+#2 D:\apachePHP\KWebService\yikuedu\lib\yii-1.1.13.e9e4a0\framework\db\ar\CActiveRecord.php(77): CActiveRecord->getMetaData()
+#3 D:\apachePHP\KWebService\yikuedu\yikuAdmin\protected\controllers\TUSERController.php(136): CActiveRecord->__construct('search')
+#4 D:\apachePHP\KWebService\yikuedu\lib\yii-1.1.13.e9e4a0\framework\web\actions\CInlineAction.php(49): TUserController->actionAdmin()
+#5 D:\apachePHP\KWebService\yikuedu\lib\yii-1.1.13.e9e4a0\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#6 D:\apachePHP\KWebService\yikuedu\lib\yii-1.1.13.e9e4a0\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#7 D:\apachePHP\KWebService\yikuedu\lib\yii-1.1.13.e9e4a0\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#8 D:\apachePHP\KWebService\yikuedu\lib\yii-1.1.13.e9e4a0\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#9 D:\apachePHP\KWebService\yikuedu\lib\yii-1.1.13.e9e4a0\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#10 D:\apachePHP\KWebService\yikuedu\lib\yii-1.1.13.e9e4a0\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#11 D:\apachePHP\KWebService\yikuedu\lib\yii-1.1.13.e9e4a0\framework\web\CController.php(291): CFilterChain->run()
+#12 D:\apachePHP\KWebService\yikuedu\lib\yii-1.1.13.e9e4a0\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#13 D:\apachePHP\KWebService\yikuedu\lib\yii-1.1.13.e9e4a0\framework\web\CWebApplication.php(282): CController->run('admin')
+#14 D:\apachePHP\KWebService\yikuedu\lib\yii-1.1.13.e9e4a0\framework\web\CWebApplication.php(141): CWebApplication->runController('tuser/admin')
+#15 D:\apachePHP\KWebService\yikuedu\lib\yii-1.1.13.e9e4a0\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#16 D:\apachePHP\KWebService\yikuedu\yikuAdmin\index.php(13): CApplication->run()
+#17 {main}
+REQUEST_URI=/yikuedu/yikuAdmin/index.php?r=tuser/admin
+HTTP_REFERER=http://127.0.0.1:1013/yikuedu/yikuAdmin/index.php
+---
+2013/06/29 16:05:57 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[HY000]: General error: 126 Incorrect key file for table 'C:\Windows\TEMP\#sql7ac_94_0.MYI'; try to repair it. The SQL statement executed was: SHOW FULL COLUMNS FROM `t_user`.
+in D:\apachePHP\KWebService\yikuedu\yikuAdmin\protected\controllers\TUSERController.php (136)
+in D:\apachePHP\KWebService\yikuedu\yikuAdmin\index.php (13)
+2013/06/29 16:05:57 [error] [exception.CDbException] exception 'CDbException' with message '数据库中无法找到 active record class "TUser" 对应的 table "t_user".' in D:\apachePHP\KWebService\yikuedu\lib\yii-1.1.13.e9e4a0\framework\db\ar\CActiveRecord.php:2310
+Stack trace:
+#0 D:\apachePHP\KWebService\yikuedu\lib\yii-1.1.13.e9e4a0\framework\db\ar\CActiveRecord.php(387): CActiveRecordMetaData->__construct(Object(TUser))
+#1 D:\apachePHP\KWebService\yikuedu\lib\yii-1.1.13.e9e4a0\framework\db\ar\CActiveRecord.php(402): CActiveRecord::model('TUser')
+#2 D:\apachePHP\KWebService\yikuedu\lib\yii-1.1.13.e9e4a0\framework\db\ar\CActiveRecord.php(77): CActiveRecord->getMetaData()
+#3 D:\apachePHP\KWebService\yikuedu\yikuAdmin\protected\controllers\TUSERController.php(136): CActiveRecord->__construct('search')
+#4 D:\apachePHP\KWebService\yikuedu\lib\yii-1.1.13.e9e4a0\framework\web\actions\CInlineAction.php(49): TUserController->actionAdmin()
+#5 D:\apachePHP\KWebService\yikuedu\lib\yii-1.1.13.e9e4a0\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#6 D:\apachePHP\KWebService\yikuedu\lib\yii-1.1.13.e9e4a0\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#7 D:\apachePHP\KWebService\yikuedu\lib\yii-1.1.13.e9e4a0\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#8 D:\apachePHP\KWebService\yikuedu\lib\yii-1.1.13.e9e4a0\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#9 D:\apachePHP\KWebService\yikuedu\lib\yii-1.1.13.e9e4a0\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#10 D:\apachePHP\KWebService\yikuedu\lib\yii-1.1.13.e9e4a0\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#11 D:\apachePHP\KWebService\yikuedu\lib\yii-1.1.13.e9e4a0\framework\web\CController.php(291): CFilterChain->run()
+#12 D:\apachePHP\KWebService\yikuedu\lib\yii-1.1.13.e9e4a0\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#13 D:\apachePHP\KWebService\yikuedu\lib\yii-1.1.13.e9e4a0\framework\web\CWebApplication.php(282): CController->run('admin')
+#14 D:\apachePHP\KWebService\yikuedu\lib\yii-1.1.13.e9e4a0\framework\web\CWebApplication.php(141): CWebApplication->runController('tuser/admin')
+#15 D:\apachePHP\KWebService\yikuedu\lib\yii-1.1.13.e9e4a0\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#16 D:\apachePHP\KWebService\yikuedu\yikuAdmin\index.php(13): CApplication->run()
+#17 {main}
+REQUEST_URI=/yikuedu/yikuAdmin/index.php?r=tuser/admin
+HTTP_REFERER=http://127.0.0.1:1013/yikuedu/yikuAdmin/index.php
+---
+2013/06/29 16:05:59 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[HY000]: General error: 126 Incorrect key file for table 'C:\Windows\TEMP\#sql7ac_95_0.MYI'; try to repair it. The SQL statement executed was: SHOW FULL COLUMNS FROM `t_user`.
+in D:\apachePHP\KWebService\yikuedu\yikuAdmin\protected\controllers\TUSERController.php (136)
+in D:\apachePHP\KWebService\yikuedu\yikuAdmin\index.php (13)
+2013/06/29 16:05:59 [error] [exception.CDbException] exception 'CDbException' with message '数据库中无法找到 active record class "TUser" 对应的 table "t_user".' in D:\apachePHP\KWebService\yikuedu\lib\yii-1.1.13.e9e4a0\framework\db\ar\CActiveRecord.php:2310
+Stack trace:
+#0 D:\apachePHP\KWebService\yikuedu\lib\yii-1.1.13.e9e4a0\framework\db\ar\CActiveRecord.php(387): CActiveRecordMetaData->__construct(Object(TUser))
+#1 D:\apachePHP\KWebService\yikuedu\lib\yii-1.1.13.e9e4a0\framework\db\ar\CActiveRecord.php(402): CActiveRecord::model('TUser')
+#2 D:\apachePHP\KWebService\yikuedu\lib\yii-1.1.13.e9e4a0\framework\db\ar\CActiveRecord.php(77): CActiveRecord->getMetaData()
+#3 D:\apachePHP\KWebService\yikuedu\yikuAdmin\protected\controllers\TUSERController.php(136): CActiveRecord->__construct('search')
+#4 D:\apachePHP\KWebService\yikuedu\lib\yii-1.1.13.e9e4a0\framework\web\actions\CInlineAction.php(49): TUserController->actionAdmin()
+#5 D:\apachePHP\KWebService\yikuedu\lib\yii-1.1.13.e9e4a0\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#6 D:\apachePHP\KWebService\yikuedu\lib\yii-1.1.13.e9e4a0\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#7 D:\apachePHP\KWebService\yikuedu\lib\yii-1.1.13.e9e4a0\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#8 D:\apachePHP\KWebService\yikuedu\lib\yii-1.1.13.e9e4a0\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#9 D:\apachePHP\KWebService\yikuedu\lib\yii-1.1.13.e9e4a0\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#10 D:\apachePHP\KWebService\yikuedu\lib\yii-1.1.13.e9e4a0\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#11 D:\apachePHP\KWebService\yikuedu\lib\yii-1.1.13.e9e4a0\framework\web\CController.php(291): CFilterChain->run()
+#12 D:\apachePHP\KWebService\yikuedu\lib\yii-1.1.13.e9e4a0\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#13 D:\apachePHP\KWebService\yikuedu\lib\yii-1.1.13.e9e4a0\framework\web\CWebApplication.php(282): CController->run('admin')
+#14 D:\apachePHP\KWebService\yikuedu\lib\yii-1.1.13.e9e4a0\framework\web\CWebApplication.php(141): CWebApplication->runController('tuser/admin')
+#15 D:\apachePHP\KWebService\yikuedu\lib\yii-1.1.13.e9e4a0\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#16 D:\apachePHP\KWebService\yikuedu\yikuAdmin\index.php(13): CApplication->run()
+#17 {main}
+REQUEST_URI=/yikuedu/yikuAdmin/index.php?r=tuser/admin
+HTTP_REFERER=http://127.0.0.1:1013/yikuedu/yikuAdmin/index.php
+---
+2013/06/29 16:06:18 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[HY000]: General error: 126 Incorrect key file for table 'C:\Windows\TEMP\#sql7ac_96_0.MYI'; try to repair it. The SQL statement executed was: SHOW FULL COLUMNS FROM `t_user`.
+in D:\apachePHP\KWebService\yikuedu\yikuAdmin\protected\controllers\TUSERController.php (136)
+in D:\apachePHP\KWebService\yikuedu\yikuAdmin\index.php (13)
+2013/06/29 16:06:18 [error] [exception.CDbException] exception 'CDbException' with message '数据库中无法找到 active record class "TUser" 对应的 table "t_user".' in D:\apachePHP\KWebService\yikuedu\lib\yii-1.1.13.e9e4a0\framework\db\ar\CActiveRecord.php:2310
+Stack trace:
+#0 D:\apachePHP\KWebService\yikuedu\lib\yii-1.1.13.e9e4a0\framework\db\ar\CActiveRecord.php(387): CActiveRecordMetaData->__construct(Object(TUser))
+#1 D:\apachePHP\KWebService\yikuedu\lib\yii-1.1.13.e9e4a0\framework\db\ar\CActiveRecord.php(402): CActiveRecord::model('TUser')
+#2 D:\apachePHP\KWebService\yikuedu\lib\yii-1.1.13.e9e4a0\framework\db\ar\CActiveRecord.php(77): CActiveRecord->getMetaData()
+#3 D:\apachePHP\KWebService\yikuedu\yikuAdmin\protected\controllers\TUSERController.php(136): CActiveRecord->__construct('search')
+#4 D:\apachePHP\KWebService\yikuedu\lib\yii-1.1.13.e9e4a0\framework\web\actions\CInlineAction.php(49): TUserController->actionAdmin()
+#5 D:\apachePHP\KWebService\yikuedu\lib\yii-1.1.13.e9e4a0\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#6 D:\apachePHP\KWebService\yikuedu\lib\yii-1.1.13.e9e4a0\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#7 D:\apachePHP\KWebService\yikuedu\lib\yii-1.1.13.e9e4a0\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#8 D:\apachePHP\KWebService\yikuedu\lib\yii-1.1.13.e9e4a0\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#9 D:\apachePHP\KWebService\yikuedu\lib\yii-1.1.13.e9e4a0\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#10 D:\apachePHP\KWebService\yikuedu\lib\yii-1.1.13.e9e4a0\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#11 D:\apachePHP\KWebService\yikuedu\lib\yii-1.1.13.e9e4a0\framework\web\CController.php(291): CFilterChain->run()
+#12 D:\apachePHP\KWebService\yikuedu\lib\yii-1.1.13.e9e4a0\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#13 D:\apachePHP\KWebService\yikuedu\lib\yii-1.1.13.e9e4a0\framework\web\CWebApplication.php(282): CController->run('admin')
+#14 D:\apachePHP\KWebService\yikuedu\lib\yii-1.1.13.e9e4a0\framework\web\CWebApplication.php(141): CWebApplication->runController('tuser/admin')
+#15 D:\apachePHP\KWebService\yikuedu\lib\yii-1.1.13.e9e4a0\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#16 D:\apachePHP\KWebService\yikuedu\yikuAdmin\index.php(13): CApplication->run()
+#17 {main}
+REQUEST_URI=/yikuedu/yikuAdmin/index.php?r=tuser/admin
+HTTP_REFERER=http://127.0.0.1:1013/yikuedu/yikuAdmin/index.php
+---
+2013/06/29 16:06:32 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[HY000]: General error: 126 Incorrect key file for table 'C:\Windows\TEMP\#sql7ac_97_0.MYI'; try to repair it. The SQL statement executed was: SHOW FULL COLUMNS FROM `t_user`.
+in D:\apachePHP\KWebService\yikuedu\yikuAdmin\protected\controllers\TUSERController.php (136)
+in D:\apachePHP\KWebService\yikuedu\yikuAdmin\index.php (13)
+2013/06/29 16:06:32 [error] [exception.CDbException] exception 'CDbException' with message '数据库中无法找到 active record class "TUser" 对应的 table "t_user".' in D:\apachePHP\KWebService\yikuedu\lib\yii-1.1.13.e9e4a0\framework\db\ar\CActiveRecord.php:2310
+Stack trace:
+#0 D:\apachePHP\KWebService\yikuedu\lib\yii-1.1.13.e9e4a0\framework\db\ar\CActiveRecord.php(387): CActiveRecordMetaData->__construct(Object(TUser))
+#1 D:\apachePHP\KWebService\yikuedu\lib\yii-1.1.13.e9e4a0\framework\db\ar\CActiveRecord.php(402): CActiveRecord::model('TUser')
+#2 D:\apachePHP\KWebService\yikuedu\lib\yii-1.1.13.e9e4a0\framework\db\ar\CActiveRecord.php(77): CActiveRecord->getMetaData()
+#3 D:\apachePHP\KWebService\yikuedu\yikuAdmin\protected\controllers\TUSERController.php(136): CActiveRecord->__construct('search')
+#4 D:\apachePHP\KWebService\yikuedu\lib\yii-1.1.13.e9e4a0\framework\web\actions\CInlineAction.php(49): TUserController->actionAdmin()
+#5 D:\apachePHP\KWebService\yikuedu\lib\yii-1.1.13.e9e4a0\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#6 D:\apachePHP\KWebService\yikuedu\lib\yii-1.1.13.e9e4a0\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#7 D:\apachePHP\KWebService\yikuedu\lib\yii-1.1.13.e9e4a0\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#8 D:\apachePHP\KWebService\yikuedu\lib\yii-1.1.13.e9e4a0\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#9 D:\apachePHP\KWebService\yikuedu\lib\yii-1.1.13.e9e4a0\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#10 D:\apachePHP\KWebService\yikuedu\lib\yii-1.1.13.e9e4a0\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#11 D:\apachePHP\KWebService\yikuedu\lib\yii-1.1.13.e9e4a0\framework\web\CController.php(291): CFilterChain->run()
+#12 D:\apachePHP\KWebService\yikuedu\lib\yii-1.1.13.e9e4a0\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#13 D:\apachePHP\KWebService\yikuedu\lib\yii-1.1.13.e9e4a0\framework\web\CWebApplication.php(282): CController->run('admin')
+#14 D:\apachePHP\KWebService\yikuedu\lib\yii-1.1.13.e9e4a0\framework\web\CWebApplication.php(141): CWebApplication->runController('tuser/admin')
+#15 D:\apachePHP\KWebService\yikuedu\lib\yii-1.1.13.e9e4a0\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#16 D:\apachePHP\KWebService\yikuedu\yikuAdmin\index.php(13): CApplication->run()
+#17 {main}
+REQUEST_URI=/yikuedu/yikuAdmin/index.php?r=tuser/admin
+HTTP_REFERER=http://127.0.0.1:1013/yikuedu/yikuAdmin/index.php
+---
+2013/06/29 16:07:03 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[HY000]: General error: 126 Incorrect key file for table 'C:\Windows\TEMP\#sql7ac_98_0.MYI'; try to repair it. The SQL statement executed was: SHOW FULL COLUMNS FROM `t_user`.
+in D:\apachePHP\KWebService\yikuedu\yikuAdmin\protected\controllers\TUSERController.php (136)
+in D:\apachePHP\KWebService\yikuedu\yikuAdmin\index.php (13)
+2013/06/29 16:07:03 [error] [exception.CDbException] exception 'CDbException' with message '数据库中无法找到 active record class "TUser" 对应的 table "t_user".' in D:\apachePHP\KWebService\yikuedu\lib\yii-1.1.13.e9e4a0\framework\db\ar\CActiveRecord.php:2310
+Stack trace:
+#0 D:\apachePHP\KWebService\yikuedu\lib\yii-1.1.13.e9e4a0\framework\db\ar\CActiveRecord.php(387): CActiveRecordMetaData->__construct(Object(TUser))
+#1 D:\apachePHP\KWebService\yikuedu\lib\yii-1.1.13.e9e4a0\framework\db\ar\CActiveRecord.php(402): CActiveRecord::model('TUser')
+#2 D:\apachePHP\KWebService\yikuedu\lib\yii-1.1.13.e9e4a0\framework\db\ar\CActiveRecord.php(77): CActiveRecord->getMetaData()
+#3 D:\apachePHP\KWebService\yikuedu\yikuAdmin\protected\controllers\TUSERController.php(136): CActiveRecord->__construct('search')
+#4 D:\apachePHP\KWebService\yikuedu\lib\yii-1.1.13.e9e4a0\framework\web\actions\CInlineAction.php(49): TUserController->actionAdmin()
+#5 D:\apachePHP\KWebService\yikuedu\lib\yii-1.1.13.e9e4a0\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#6 D:\apachePHP\KWebService\yikuedu\lib\yii-1.1.13.e9e4a0\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#7 D:\apachePHP\KWebService\yikuedu\lib\yii-1.1.13.e9e4a0\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#8 D:\apachePHP\KWebService\yikuedu\lib\yii-1.1.13.e9e4a0\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#9 D:\apachePHP\KWebService\yikuedu\lib\yii-1.1.13.e9e4a0\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#10 D:\apachePHP\KWebService\yikuedu\lib\yii-1.1.13.e9e4a0\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#11 D:\apachePHP\KWebService\yikuedu\lib\yii-1.1.13.e9e4a0\framework\web\CController.php(291): CFilterChain->run()
+#12 D:\apachePHP\KWebService\yikuedu\lib\yii-1.1.13.e9e4a0\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#13 D:\apachePHP\KWebService\yikuedu\lib\yii-1.1.13.e9e4a0\framework\web\CWebApplication.php(282): CController->run('admin')
+#14 D:\apachePHP\KWebService\yikuedu\lib\yii-1.1.13.e9e4a0\framework\web\CWebApplication.php(141): CWebApplication->runController('tuser/admin')
+#15 D:\apachePHP\KWebService\yikuedu\lib\yii-1.1.13.e9e4a0\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#16 D:\apachePHP\KWebService\yikuedu\yikuAdmin\index.php(13): CApplication->run()
+#17 {main}
+REQUEST_URI=/yikuedu/yikuAdmin/index.php?r=tuser/admin
+HTTP_REFERER=http://127.0.0.1:1013/yikuedu/yikuAdmin/index.php
+---
+2013/06/29 16:07:06 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[HY000]: General error: 126 Incorrect key file for table 'C:\Windows\TEMP\#sql7ac_99_0.MYI'; try to repair it. The SQL statement executed was: SHOW FULL COLUMNS FROM `t_user`.
+in D:\apachePHP\KWebService\yikuedu\yikuAdmin\protected\controllers\TUSERController.php (136)
+in D:\apachePHP\KWebService\yikuedu\yikuAdmin\index.php (13)
+2013/06/29 16:07:06 [error] [exception.CDbException] exception 'CDbException' with message '数据库中无法找到 active record class "TUser" 对应的 table "t_user".' in D:\apachePHP\KWebService\yikuedu\lib\yii-1.1.13.e9e4a0\framework\db\ar\CActiveRecord.php:2310
+Stack trace:
+#0 D:\apachePHP\KWebService\yikuedu\lib\yii-1.1.13.e9e4a0\framework\db\ar\CActiveRecord.php(387): CActiveRecordMetaData->__construct(Object(TUser))
+#1 D:\apachePHP\KWebService\yikuedu\lib\yii-1.1.13.e9e4a0\framework\db\ar\CActiveRecord.php(402): CActiveRecord::model('TUser')
+#2 D:\apachePHP\KWebService\yikuedu\lib\yii-1.1.13.e9e4a0\framework\db\ar\CActiveRecord.php(77): CActiveRecord->getMetaData()
+#3 D:\apachePHP\KWebService\yikuedu\yikuAdmin\protected\controllers\TUSERController.php(136): CActiveRecord->__construct('search')
+#4 D:\apachePHP\KWebService\yikuedu\lib\yii-1.1.13.e9e4a0\framework\web\actions\CInlineAction.php(49): TUserController->actionAdmin()
+#5 D:\apachePHP\KWebService\yikuedu\lib\yii-1.1.13.e9e4a0\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#6 D:\apachePHP\KWebService\yikuedu\lib\yii-1.1.13.e9e4a0\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#7 D:\apachePHP\KWebService\yikuedu\lib\yii-1.1.13.e9e4a0\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#8 D:\apachePHP\KWebService\yikuedu\lib\yii-1.1.13.e9e4a0\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#9 D:\apachePHP\KWebService\yikuedu\lib\yii-1.1.13.e9e4a0\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#10 D:\apachePHP\KWebService\yikuedu\lib\yii-1.1.13.e9e4a0\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#11 D:\apachePHP\KWebService\yikuedu\lib\yii-1.1.13.e9e4a0\framework\web\CController.php(291): CFilterChain->run()
+#12 D:\apachePHP\KWebService\yikuedu\lib\yii-1.1.13.e9e4a0\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#13 D:\apachePHP\KWebService\yikuedu\lib\yii-1.1.13.e9e4a0\framework\web\CWebApplication.php(282): CController->run('admin')
+#14 D:\apachePHP\KWebService\yikuedu\lib\yii-1.1.13.e9e4a0\framework\web\CWebApplication.php(141): CWebApplication->runController('tuser/admin')
+#15 D:\apachePHP\KWebService\yikuedu\lib\yii-1.1.13.e9e4a0\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#16 D:\apachePHP\KWebService\yikuedu\yikuAdmin\index.php(13): CApplication->run()
+#17 {main}
+REQUEST_URI=/yikuedu/yikuAdmin/index.php?r=tuser/admin
+HTTP_REFERER=http://127.0.0.1:1013/yikuedu/yikuAdmin/index.php
+---
+2013/06/29 16:07:13 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[HY000]: General error: 126 Incorrect key file for table 'C:\Windows\TEMP\#sql7ac_9a_0.MYI'; try to repair it. The SQL statement executed was: SHOW FULL COLUMNS FROM `t_user`.
+in D:\apachePHP\KWebService\yikuedu\yikuAdmin\protected\controllers\TUSERController.php (125)
+in D:\apachePHP\KWebService\yikuedu\yikuAdmin\index.php (13)
+2013/06/29 16:07:13 [error] [exception.CDbException] exception 'CDbException' with message '数据库中无法找到 active record class "TUser" 对应的 table "t_user".' in D:\apachePHP\KWebService\yikuedu\lib\yii-1.1.13.e9e4a0\framework\db\ar\CActiveRecord.php:2310
+Stack trace:
+#0 D:\apachePHP\KWebService\yikuedu\lib\yii-1.1.13.e9e4a0\framework\db\ar\CActiveRecord.php(387): CActiveRecordMetaData->__construct(Object(TUser))
+#1 D:\apachePHP\KWebService\yikuedu\lib\yii-1.1.13.e9e4a0\framework\web\CActiveDataProvider.php(74): CActiveRecord::model('TUser')
+#2 D:\apachePHP\KWebService\yikuedu\yikuAdmin\protected\controllers\TUSERController.php(125): CActiveDataProvider->__construct('TUser')
+#3 D:\apachePHP\KWebService\yikuedu\lib\yii-1.1.13.e9e4a0\framework\web\actions\CInlineAction.php(49): TUserController->actionIndex()
+#4 D:\apachePHP\KWebService\yikuedu\lib\yii-1.1.13.e9e4a0\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#5 D:\apachePHP\KWebService\yikuedu\lib\yii-1.1.13.e9e4a0\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#6 D:\apachePHP\KWebService\yikuedu\lib\yii-1.1.13.e9e4a0\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#7 D:\apachePHP\KWebService\yikuedu\lib\yii-1.1.13.e9e4a0\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#8 D:\apachePHP\KWebService\yikuedu\lib\yii-1.1.13.e9e4a0\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#9 D:\apachePHP\KWebService\yikuedu\lib\yii-1.1.13.e9e4a0\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#10 D:\apachePHP\KWebService\yikuedu\lib\yii-1.1.13.e9e4a0\framework\web\CController.php(291): CFilterChain->run()
+#11 D:\apachePHP\KWebService\yikuedu\lib\yii-1.1.13.e9e4a0\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 D:\apachePHP\KWebService\yikuedu\lib\yii-1.1.13.e9e4a0\framework\web\CWebApplication.php(282): CController->run('index')
+#13 D:\apachePHP\KWebService\yikuedu\lib\yii-1.1.13.e9e4a0\framework\web\CWebApplication.php(141): CWebApplication->runController('tuser/index')
+#14 D:\apachePHP\KWebService\yikuedu\lib\yii-1.1.13.e9e4a0\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#15 D:\apachePHP\KWebService\yikuedu\yikuAdmin\index.php(13): CApplication->run()
+#16 {main}
+REQUEST_URI=/yikuedu/yikuAdmin/index.php?r=tuser/index
+HTTP_REFERER=http://127.0.0.1:1013/yikuedu/yikuAdmin/index.php?r=tuser/admin
+---
+2013/06/29 16:08:14 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[HY000]: General error: 126 Incorrect key file for table 'C:\Windows\TEMP\#sql7ac_9b_0.MYI'; try to repair it. The SQL statement executed was: SHOW FULL COLUMNS FROM `t_user`.
+in D:\apachePHP\KWebService\yikuedu\yikuAdmin\protected\controllers\TUSERController.php (125)
+in D:\apachePHP\KWebService\yikuedu\yikuAdmin\index.php (13)
+2013/06/29 16:08:14 [error] [exception.CDbException] exception 'CDbException' with message '数据库中无法找到 active record class "TUser" 对应的 table "t_user".' in D:\apachePHP\KWebService\yikuedu\lib\yii-1.1.13.e9e4a0\framework\db\ar\CActiveRecord.php:2310
+Stack trace:
+#0 D:\apachePHP\KWebService\yikuedu\lib\yii-1.1.13.e9e4a0\framework\db\ar\CActiveRecord.php(387): CActiveRecordMetaData->__construct(Object(TUser))
+#1 D:\apachePHP\KWebService\yikuedu\lib\yii-1.1.13.e9e4a0\framework\web\CActiveDataProvider.php(74): CActiveRecord::model('TUser')
+#2 D:\apachePHP\KWebService\yikuedu\yikuAdmin\protected\controllers\TUSERController.php(125): CActiveDataProvider->__construct('TUser')
+#3 D:\apachePHP\KWebService\yikuedu\lib\yii-1.1.13.e9e4a0\framework\web\actions\CInlineAction.php(49): TUserController->actionIndex()
+#4 D:\apachePHP\KWebService\yikuedu\lib\yii-1.1.13.e9e4a0\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#5 D:\apachePHP\KWebService\yikuedu\lib\yii-1.1.13.e9e4a0\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#6 D:\apachePHP\KWebService\yikuedu\lib\yii-1.1.13.e9e4a0\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#7 D:\apachePHP\KWebService\yikuedu\lib\yii-1.1.13.e9e4a0\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#8 D:\apachePHP\KWebService\yikuedu\lib\yii-1.1.13.e9e4a0\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#9 D:\apachePHP\KWebService\yikuedu\lib\yii-1.1.13.e9e4a0\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#10 D:\apachePHP\KWebService\yikuedu\lib\yii-1.1.13.e9e4a0\framework\web\CController.php(291): CFilterChain->run()
+#11 D:\apachePHP\KWebService\yikuedu\lib\yii-1.1.13.e9e4a0\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 D:\apachePHP\KWebService\yikuedu\lib\yii-1.1.13.e9e4a0\framework\web\CWebApplication.php(282): CController->run('index')
+#13 D:\apachePHP\KWebService\yikuedu\lib\yii-1.1.13.e9e4a0\framework\web\CWebApplication.php(141): CWebApplication->runController('tuser/index')
+#14 D:\apachePHP\KWebService\yikuedu\lib\yii-1.1.13.e9e4a0\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#15 D:\apachePHP\KWebService\yikuedu\yikuAdmin\index.php(13): CApplication->run()
+#16 {main}
+REQUEST_URI=/yikuedu/yikuAdmin/index.php?r=tuser/index
+HTTP_REFERER=http://127.0.0.1:1013/yikuedu/yikuAdmin/index.php?r=tuser/admin
+---
+2013/06/29 16:08:17 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[HY000]: General error: 126 Incorrect key file for table 'C:\Windows\TEMP\#sql7ac_9c_0.MYI'; try to repair it. The SQL statement executed was: SHOW FULL COLUMNS FROM `t_user`.
+in D:\apachePHP\KWebService\yikuedu\yikuAdmin\protected\controllers\TUSERController.php (125)
+in D:\apachePHP\KWebService\yikuedu\yikuAdmin\index.php (13)
+2013/06/29 16:08:17 [error] [exception.CDbException] exception 'CDbException' with message '数据库中无法找到 active record class "TUser" 对应的 table "t_user".' in D:\apachePHP\KWebService\yikuedu\lib\yii-1.1.13.e9e4a0\framework\db\ar\CActiveRecord.php:2310
+Stack trace:
+#0 D:\apachePHP\KWebService\yikuedu\lib\yii-1.1.13.e9e4a0\framework\db\ar\CActiveRecord.php(387): CActiveRecordMetaData->__construct(Object(TUser))
+#1 D:\apachePHP\KWebService\yikuedu\lib\yii-1.1.13.e9e4a0\framework\web\CActiveDataProvider.php(74): CActiveRecord::model('TUser')
+#2 D:\apachePHP\KWebService\yikuedu\yikuAdmin\protected\controllers\TUSERController.php(125): CActiveDataProvider->__construct('TUser')
+#3 D:\apachePHP\KWebService\yikuedu\lib\yii-1.1.13.e9e4a0\framework\web\actions\CInlineAction.php(49): TUserController->actionIndex()
+#4 D:\apachePHP\KWebService\yikuedu\lib\yii-1.1.13.e9e4a0\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#5 D:\apachePHP\KWebService\yikuedu\lib\yii-1.1.13.e9e4a0\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#6 D:\apachePHP\KWebService\yikuedu\lib\yii-1.1.13.e9e4a0\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#7 D:\apachePHP\KWebService\yikuedu\lib\yii-1.1.13.e9e4a0\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#8 D:\apachePHP\KWebService\yikuedu\lib\yii-1.1.13.e9e4a0\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#9 D:\apachePHP\KWebService\yikuedu\lib\yii-1.1.13.e9e4a0\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#10 D:\apachePHP\KWebService\yikuedu\lib\yii-1.1.13.e9e4a0\framework\web\CController.php(291): CFilterChain->run()
+#11 D:\apachePHP\KWebService\yikuedu\lib\yii-1.1.13.e9e4a0\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 D:\apachePHP\KWebService\yikuedu\lib\yii-1.1.13.e9e4a0\framework\web\CWebApplication.php(282): CController->run('index')
+#13 D:\apachePHP\KWebService\yikuedu\lib\yii-1.1.13.e9e4a0\framework\web\CWebApplication.php(141): CWebApplication->runController('tuser/index')
+#14 D:\apachePHP\KWebService\yikuedu\lib\yii-1.1.13.e9e4a0\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#15 D:\apachePHP\KWebService\yikuedu\yikuAdmin\index.php(13): CApplication->run()
+#16 {main}
+REQUEST_URI=/yikuedu/yikuAdmin/index.php?r=tuser/index
+HTTP_REFERER=http://127.0.0.1:1013/yikuedu/yikuAdmin/index.php?r=tuser/admin
+---

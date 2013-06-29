@@ -1,6 +1,6 @@
 <?php
-/* @var $this TUSERController */
-/* @var $model TUSER */
+/* @var $this TUserController */
+/* @var $model TUser */
 /* @var $form CActiveForm */
 ?>
 
@@ -10,55 +10,99 @@
 	'action'=>Yii::app()->createUrl($this->route),
 	'method'=>'get',
 )); ?>
-<!---->
-<!--	<div class="row">-->
-<!--		--><?php //echo $form->label($model,'ADD3'); ?>
-<!--		--><?php //echo $form->textField($model,'ADD3',array('size'=>60,'maxlength'=>255)); ?>
-<!--	</div>-->
-<!---->
-<!--	<div class="row">-->
-<!--		--><?php //echo $form->label($model,'ADD2'); ?>
-<!--		--><?php //echo $form->textField($model,'ADD2',array('size'=>60,'maxlength'=>255)); ?>
-<!--	</div>-->
-<!---->
-<!--	<div class="row">-->
-<!--		--><?php //echo $form->label($model,'ADD1'); ?>
-<!--		--><?php //echo $form->textField($model,'ADD1',array('size'=>60,'maxlength'=>255)); ?>
-<!--	</div>-->
+
 
     <div class="row">
-        <?php echo $form->label($model,'SEX'); ?>
-        <?php echo $form->textField($model,'SEX',array('size'=>20,'maxlength'=>20)); ?>
-    </div>
-
-    <div class="row">
-        <?php echo $form->label($model,'PASSWORD'); ?>
-        <?php echo $form->passwordField($model,'PASSWORD',array('size'=>60,'maxlength'=>255)); ?>
-    </div>
-
-    <div class="row">
-        <?php echo $form->label($model,'NICKNAME'); ?>
-        <?php echo $form->textField($model,'NICKNAME',array('size'=>60,'maxlength'=>255)); ?>
+        <?php echo $form->label($model,'ID'); ?>
+        <?php echo $form->textField($model,'ID'); ?>
     </div>
 
     <div class="row">
         <?php echo $form->label($model,'USERNAME'); ?>
         <?php echo $form->textField($model,'USERNAME',array('size'=>60,'maxlength'=>255)); ?>
     </div>
-<!--    -->
-<!--	<div class="row">-->
-<!--		--><?php //echo $form->label($model,'PHOTO'); ?>
-<!--		--><?php //echo $form->textField($model,'PHOTO',array('size'=>60,'maxlength'=>255)); ?>
-<!--	</div>-->
-<!---->
-<!--	<div class="row">-->
-<!--		--><?php //echo $form->label($model,'EVALUATE'); ?>
-<!--		--><?php //echo $form->textField($model,'EVALUATE',array('size'=>60,'maxlength'=>2000)); ?>
-<!--	</div>-->
+
+    <div class="row">
+        <?php echo $form->label($model,'SEX'); ?>
+        <?php echo $form->textField($model,'SEX',array('size'=>20,'maxlength'=>20)); ?>
+    </div>
+
+
+    <div class="row">
+        <?php echo $form->label($model,'PHONE'); ?>
+        <?php echo $form->textField($model,'PHONE',array('size'=>60,'maxlength'=>255)); ?>
+    </div>
+
+    <div class="row">
+        <?php echo $form->label($model,'IDCARD'); ?>
+        <?php echo $form->textField($model,'IDCARD',array('size'=>60,'maxlength'=>255)); ?>
+    </div>
+
+    <div class="row">
+        <?php echo $form->label($model,'BIRTHDAY'); ?>
+        <?php echo $form->textField($model,'BIRTHDAY',array('size'=>60,'maxlength'=>255)); ?>
+    </div>
+
+
+
+
+
+
+    <div class="row">
+		<?php echo $form->label($model,'FEE'); ?>
+		<?php echo $form->textField($model,'FEE',array('size'=>60,'maxlength'=>255)); ?>
+	</div>
+
+	<div class="row">
+		<?php echo $form->label($model,'ACCOMODATION'); ?>
+		<?php echo $form->textField($model,'ACCOMODATION',array('size'=>60,'maxlength'=>255)); ?>
+	</div>
+
+	<div class="row">
+		<?php echo $form->label($model,'SINGUP_PART'); ?>
+		<?php echo $form->textField($model,'SINGUP_PART',array('size'=>60,'maxlength'=>255)); ?>
+	</div>
+
+	<div class="row">
+		<?php echo $form->label($model,'SIGNUP_CLASS'); ?>
+		<?php echo $form->textField($model,'SIGNUP_CLASS',array('size'=>60,'maxlength'=>255)); ?>
+	</div>
+
+	<div class="row">
+		<?php echo $form->label($model,'SIGNUP_TIME'); ?>
+		<?php echo $form->textField($model,'SIGNUP_TIME',array('size'=>60,'maxlength'=>255)); ?>
+	</div>
+
+
+
+	<div class="row">
+		<?php echo $form->label($model,'REMARK'); ?>
+		<?php echo $form->textField($model,'REMARK',array('size'=>60,'maxlength'=>2000)); ?>
+	</div>
+
+	<div class="row">
+		<?php echo $form->label($model,'PHOTO'); ?>
+		<?php echo $form->textField($model,'PHOTO',array('size'=>60,'maxlength'=>255)); ?>
+	</div>
+
+	<div class="row">
+		<?php echo $form->label($model,'EVALUATE'); ?>
+		<?php echo $form->textField($model,'EVALUATE',array('size'=>60,'maxlength'=>2000)); ?>
+	</div>
 
 	<div class="row">
 		<?php echo $form->label($model,'HOME_ADDRESS'); ?>
 		<?php echo $form->textField($model,'HOME_ADDRESS',array('size'=>60,'maxlength'=>255)); ?>
+	</div>
+
+	<div class="row">
+		<?php echo $form->label($model,'PARENT_REL'); ?>
+		<?php echo $form->textField($model,'PARENT_REL',array('size'=>60,'maxlength'=>255)); ?>
+	</div>
+
+	<div class="row">
+		<?php echo $form->label($model,'PARENT_QQ'); ?>
+		<?php echo $form->textField($model,'PARENT_QQ',array('size'=>60,'maxlength'=>255)); ?>
 	</div>
 
 	<div class="row">
@@ -82,6 +126,11 @@
 	</div>
 
 	<div class="row">
+		<?php echo $form->label($model,'GRADE'); ?>
+		<?php echo $form->textField($model,'GRADE',array('size'=>60,'maxlength'=>255)); ?>
+	</div>
+
+	<div class="row">
 		<?php echo $form->label($model,'CURRENT_SCHOOL'); ?>
 		<?php echo $form->textField($model,'CURRENT_SCHOOL',array('size'=>60,'maxlength'=>255)); ?>
 	</div>
@@ -96,29 +145,15 @@
 		<?php echo $form->textField($model,'WEIBO',array('size'=>60,'maxlength'=>255)); ?>
 	</div>
 
-	<div class="row">
-		<?php echo $form->label($model,'PHONE'); ?>
-		<?php echo $form->textField($model,'PHONE',array('size'=>60,'maxlength'=>255)); ?>
-	</div>
-
-	<div class="row">
-		<?php echo $form->label($model,'IDCARD'); ?>
-		<?php echo $form->textField($model,'IDCARD',array('size'=>60,'maxlength'=>255)); ?>
-	</div>
-
-<!--	<div class="row">-->
-<!--		--><?php //echo $form->label($model,'BIRTHDAY'); ?>
-<!--		--><?php //echo $form->textField($model,'BIRTHDAY',array('size'=>60,'maxlength'=>255)); ?>
-<!--	</div>-->
 
 
-<!--	<div class="row">-->
-<!--		--><?php //echo $form->label($model,'ID'); ?>
-<!--		--><?php //echo $form->textField($model,'ID'); ?>
-<!--	</div>-->
+
+
+
+
 
 	<div class="row buttons">
-		<?php echo CHtml::submitButton('搜索'); ?>
+		<?php echo CHtml::submitButton('Search'); ?>
 	</div>
 
 <?php $this->endWidget(); ?>

@@ -30,7 +30,7 @@ return array (
   'The column must be specified in the format of "Name:Type:Label", where "Type" and "Label" are optional.' => '栏位格式 "Name:Type:Label", "Type" 和 "Label" 为可选项.',
   'The property "itemView" cannot be empty.' => '必须指定 "itemView" 属性.',
   'Total 1 result.|Total {count} results.' => '共 {count} 条.',
-  'Update' => '更新',
+  'Update' => '修改',
   'View' => '查看',
   '{class} must specify "model" and "attribute" or "name" property values.' => '{class} 必须给定 "model" 与 "attribute" 或 "name" 属性值.',
 );

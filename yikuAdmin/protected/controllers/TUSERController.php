@@ -1,6 +1,6 @@
 <?php
 
-class TUSERController extends Controller
+class TUserController extends Controller
 {
 	/**
 	 * @var string the default layout for the views. Defaults to '//layouts/column2', meaning
@@ -62,14 +62,14 @@ class TUSERController extends Controller
 	 */
 	public function actionCreate()
 	{
-		$model=new TUSER;
+		$model=new TUser;
 
 		// Uncomment the following line if AJAX validation is needed
 		// $this->performAjaxValidation($model);
 
-		if(isset($_POST['TUSER']))
+		if(isset($_POST['TUser']))
 		{
-			$model->attributes=$_POST['TUSER'];
+			$model->attributes=$_POST['TUser'];
 			if($model->save())
 				$this->redirect(array('view','id'=>$model->ID));
 		}
@@ -91,9 +91,9 @@ class TUSERController extends Controller
 		// Uncomment the following line if AJAX validation is needed
 		// $this->performAjaxValidation($model);
 
-		if(isset($_POST['TUSER']))
+		if(isset($_POST['TUser']))
 		{
-			$model->attributes=$_POST['TUSER'];
+			$model->attributes=$_POST['TUser'];
 			if($model->save())
 				$this->redirect(array('view','id'=>$model->ID));
 		}
@@ -122,7 +122,7 @@ class TUSERController extends Controller
 	 */
 	public function actionIndex()
 	{
-		$dataProvider=new CActiveDataProvider('TUSER');
+		$dataProvider=new CActiveDataProvider('TUser');
 		$this->render('index',array(
 			'dataProvider'=>$dataProvider,
 		));
@@ -133,10 +133,10 @@ class TUSERController extends Controller
 	 */
 	public function actionAdmin()
 	{
-		$model=new TUSER('search');
+		$model=new TUser('search');
 		$model->unsetAttributes();  // clear any default values
-		if(isset($_GET['TUSER']))
-			$model->attributes=$_GET['TUSER'];
+		if(isset($_GET['TUser']))
+			$model->attributes=$_GET['TUser'];
 
 		$this->render('admin',array(
 			'model'=>$model,
@@ -147,12 +147,12 @@ class TUSERController extends Controller
 	 * Returns the data model based on the primary key given in the GET variable.
 	 * If the data model is not found, an HTTP exception will be raised.
 	 * @param integer $id the ID of the model to be loaded
-	 * @return TUSER the loaded model
+	 * @return TUser the loaded model
 	 * @throws CHttpException
 	 */
 	public function loadModel($id)
 	{
-		$model=TUSER::model()->findByPk($id);
+		$model=TUser::model()->findByPk($id);
 		if($model===null)
 			throw new CHttpException(404,'The requested page does not exist.');
 		return $model;
@@ -160,7 +160,7 @@ class TUSERController extends Controller
 
 	/**
 	 * Performs the AJAX validation.
-	 * @param TUSER $model the model to be validated
+	 * @param TUser $model the model to be validated
 	 */
 	protected function performAjaxValidation($model)
 	{

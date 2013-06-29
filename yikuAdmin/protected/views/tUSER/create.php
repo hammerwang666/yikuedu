@@ -1,9 +1,9 @@
 <?php
-/* @var $this TUSERController */
-/* @var $model TUSER */
+/* @var $this TUserController */
+/* @var $model TUser */
 
 $this->breadcrumbs=array(
-	'Tusers'=>array('index'),
+	'用户'=>array('index'),
 	'添加用户',
 );
 
